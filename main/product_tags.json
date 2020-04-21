@@ -1,0 +1,74 @@
+[
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "premium",
+    "slug": "premium",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "sparkling",
+    "slug": "sparkling",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "junmai",
+    "slug": "junmai",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "junmai daigingo",
+    "slug": "junmai-daigingo",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "junmai ginjo",
+    "slug": "junmai-ginjo",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "ginjo",
+    "slug": "ginjo",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "daiginjo",
+    "slug": "daiginjo",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "honjozo",
+    "slug": "honjozo",
+    "description": "",
+    "active": true
+  }
+}
+]
