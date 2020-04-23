@@ -1,19 +1,24 @@
 {% extends 'base.html' %}
-
+{% load thumbnail %}
 {% block content %}
-    <h1>products</h1>
+    <h1>Products</h1>
     <table class="table">
         <tr>
             <th>Name</th>
             <td>{{ object.name }}</td>
         </tr>
         <tr>
-            <th>Cover images</th>
+            <th>Image</th>
+
             <td>
-                {% for image in object.productimage_set.all %}
-                    <img src="{{ image.thumbnail.url }}" alt="cover"/>
-                {% endfor %}
+
+ {% thumbnail object.first_image.image "150x150"  as im %}
+     <img  id="image" src="{{ object.first_image.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
+{% endthumbnail %}
+
+
             </td>
+
         </tr>
         <tr>
             <th>Price</th>
@@ -36,5 +41,7 @@
             <td>{{ object.date_updated|date:"F Y" }}</td>
         </tr>
     </table>
-    <a href="{% url "add_to_basket" %}?product_id={{ object.id }}"> Add to basket</a>
+    <a href="{% url "add-to-cart" %}?product_id={{ object.id }}"> Add to basket
+</a>
+
 {% endblock %}

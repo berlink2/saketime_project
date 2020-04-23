@@ -1,3 +1,4 @@
+{% load static %}
 {% block extra_head %}
     <link rel="stylesheet" href="{% static 'css/login.css'  %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
@@ -13,26 +14,54 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
+            <img class="ml-5" src="{% static 'images/sakecups.jpeg' %}">
+            <div class="col-md-9 col-lg-8 mx-auto">
+
               <h3 class="login-heading mb-4">Welcome back!</h3>
-              <form>
-                <div class="form-label-group">
-                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                  <label for="inputEmail">Email address</label>
-                </div>
+            </div>
 
-                <div class="form-label-group">
-                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                  <label for="inputPassword">Password</label>
-                </div>
+              <form method="post">
+                  {% csrf_token %}
+                  {{ form.non_field_errors }}
 
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1">Remember password</label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
-                <div class="text-center">
-                  <a class="small" href="#">Forgot password?</a></div>
+            <div class="form-label-group">
+
+                <input id="id_email" value="{{ form.email.value|default:"" }}" type="email"
+                       class="form-control  {% if form.email.errors %} is-invalid{% endif %}"
+                       aria-describedby="emailHelp"
+                       placeholder="Enter email" name="email">
+            <label for="id_email">Email address</label>
+                {% if form.email.errors %}
+                    <div class="invalid-feedback">
+                        {{ form.email.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="form-label-group">
+
+                <input type="password" class="form-control {% if form.password.errors %} is-invalid{% endif %}"
+                       id="id_password" name="password" placeholder="Password"
+                       value="{{ form.password.value|default:"" }}">
+            <label for="id_password">Password</label>
+                {% if form.password.errors %}
+                    <div class="invalid-feedback">
+                        {{ form.password.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+
+
+{#                <div class="custom-control custom-checkbox mb-3">#}
+{#                  <input type="checkbox" class="custom-control-input" id="customCheck1">#}
+{#                  <label class="custom-control-label" for="customCheck1">Remember password</label>#}
+{#                </div>#}
+                <button class="btn btn-lg btn-danger btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+{#                <div class="text-center">#}
+{#                  <a class="small" href="#">Forgot password?</a></div>#}
               </form>
+
             </div>
           </div>
         </div>

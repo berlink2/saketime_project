@@ -1,17 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="" />
+    <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/static/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data/groups.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/data/groups.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0002_productimage_producttag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0003_productimage_thumbnail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0004_remove_productimage_thumbnail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0005_auto_20200421_1148.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0006_productimage_product_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0007_remove_productimage_product_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0008_productimage_associated_product_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0009_remove_productimage_associated_product_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0010_auto_20200421_1442.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/login3.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/login3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/add_to_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/add_to_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_select.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/order_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/order_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/order_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/order_filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/register2.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/register2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/widgets/plusminus.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/widgets/plusminus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/test_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/test_signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/saketime.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -19,17 +94,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aq46kadVczEwVcCl51D5aoL22K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/static/css" />
+      <recent name="$PROJECT_DIR$/main/static/images" />
+      <recent name="$PROJECT_DIR$/main/test_images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/data" />
+      <recent name="$PROJECT_DIR$/main/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +169,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587449616786</updated>
-      <workItem from="1587449618834" duration="2217000" />
+      <workItem from="1587449618834" duration="3915000" />
+      <workItem from="1587453823548" duration="36745000" />
+      <workItem from="1587496966732" duration="1143000" />
+      <workItem from="1587552748902" duration="24243000" />
+      <workItem from="1587590378883" duration="22515000" />
     </task>
     <servers />
   </component>
@@ -90,10 +185,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

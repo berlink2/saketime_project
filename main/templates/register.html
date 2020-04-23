@@ -1,10 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% load static %}
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'css/register.css'  %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+{% endblock extra_head %}
+
+<div class="container-fluid">
+  <div class="row no-gutter">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="login d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+                <h2 class="text-center mr-4">Register</h2>
+            <img class="ml-5" src="{% static 'images/masu.jpeg' %}">
+              <form method="post">
+                  {% csrf_token %}
+                  {{ form.non_field_errors }}
+               <div class="form-label-group">
+
+                <input id="id_username" value="{{ form.username.value|default:"" }}" type="text"
+                       class="form-control"
+
+                       placeholder="Enter username" name="username">
+            <label for="id_username">Username</label>
+
+            </div>
+            <div class="form-label-group">
+
+                <input id="id_email" value="{{ form.email.value|default:"" }}" type="email"
+                       class="form-control  {% if form.email.errors %} is-invalid{% endif %}"
+                       aria-describedby="emailHelp"
+                       placeholder="Enter email" name="email">
+            <label for="id_email">Email address</label>
+                {% if form.email.errors %}
+                    <div class="invalid-feedback">
+                        {{ form.email.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+              <hr/>
+
+            <div class="form-label-group">
+
+                <input type="password" class="form-control {% if form.password1.errors %} is-invalid{% endif %}"
+                       id="id_password1" name="password1" placeholder="Password"
+                       value="{{ form.password1.value|default:"" }}">
+            <label for="id_password1">Password</label>
+                {% if form.password.errors %}
+                    <div class="invalid-feedback">
+                        {{ form.password1.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+               <div class="form-label-group">
+                <input type="password" class="form-control {% if form.password2.errors %} is-invalid{% endif %}"
+                       id="id_password2" name="password2" placeholder="Password"
+                       value="{{ form.password2.value|default:"" }}">
+            <label for="id_password2">Confirm Password</label>
+            </div>
+
+                <button class="btn btn-lg btn-danger btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+              <a class="d-block text-center mt-2 small" href="{% url 'login' %}">Already have an account? Click here to sign in.</a>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
