@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/static/images/emptycart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/images/header.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/contact_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +110,10 @@
       <workItem from="1587590378883" duration="22856000" />
       <workItem from="1587657669005" duration="116000" />
       <workItem from="1587666901235" duration="29000" />
-      <workItem from="1587723162612" duration="11307000" />
+      <workItem from="1587723162612" duration="11606000" />
+      <workItem from="1587749603743" duration="40000" />
+      <workItem from="1587750407523" duration="32000" />
+      <workItem from="1587750593762" duration="117000" />
     </task>
     <servers />
   </component>
