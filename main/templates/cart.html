@@ -1,8 +1,10 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-    <h2>Cart</h2>
+
 
     {% if formset %}
+        <h2 class="text-center">Cart</h2>
     <p>You can adjust the quantities below.</p>
     <form method="POST">
         {% csrf_token %}
@@ -25,7 +27,16 @@ class="btn btn-primary">Login</a> {% endif %}
     </form>
 
 {% else %}
-    <p>You have no items in the cart.</p>
+        <div class="text-center">
+        <img src="{% static 'images/emptycart.jpg' %}" width="200" height="200"/>
+        </div>
+        <div class="container mt-3">
+        <div class="text-center">
+    <h4>Your cart is empty</h4>
+            <h6>We can help with that!</h6>
+            <button class="btn btn-danger" href="#">Start Shopping</button>
+        </div>
+        </div>
 {% endif %}
 {% endblock content %}
 

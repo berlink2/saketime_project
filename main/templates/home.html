@@ -1,5 +1,31 @@
 {% extends 'base.html' %}
+
+{% block extra_head %}
+    <style>
+    .jumbotron-fluid {
+        background-image: url("../static/images/header.jpg");
+        height: 65vh;
+        min-height: 350px;
+        -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+
+    }
+
+
+    </style>
+{% endblock extra_head %}
+
 {% block content %}
-<h2>Home</h2>
-<p>this will be the content of home</p>
+   <div class="jumbotron-fluid text-center pt-5 text-white bg-image">
+        <div class="pt-5 mt-5">
+        <h1 class="display-4">Your one stop shop for Sake!</h1>
+        <a href="#" class="btn btn-danger mt-3">Start Shopping</a>
+      </div>
+   </div>
+
+
+
 {% endblock content %}
