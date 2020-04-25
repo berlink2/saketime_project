@@ -1,0 +1,122 @@
+[
+{
+  "model": "main.productimage",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "product-images/ishikawa_daiginjo_shizuku.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 2,
+    "image": "product-images/ishikawa_tamajiman_daiginjo.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 3,
+    "image": "product-images/ishikawa_tama_no_yorokobi_jg.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "image": "product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 5,
+    "image": "product-images/dassai23.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 5,
+    "image": "product-images/dassai23-2.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 6,
+    "image": "product-images/dassai39.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 6,
+    "image": "product-images/dassai39-box.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 7,
+    "image": "product-images/dassai45.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 10,
+  "fields": {
+    "product": 7,
+    "image": "product-images/dassai45_6SS6kr8.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 11,
+  "fields": {
+    "product": 8,
+    "image": "product-images/dassai45sparkling.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 12,
+  "fields": {
+    "product": 9,
+    "image": "product-images/tedorigawa_mangekyo.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 13,
+  "fields": {
+    "product": 10,
+    "image": "product-images/tedorigawa_yamahai_junmai.webp"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 14,
+  "fields": {
+    "product": 11,
+    "image": "product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 15,
+  "fields": {
+    "product": 12,
+    "image": "product-images/tedorigawa_dg_yamahai.jpg"
+  }
+}
+]

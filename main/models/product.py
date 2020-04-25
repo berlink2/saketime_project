@@ -12,6 +12,7 @@ SAKE_TYPES = (
 ('j','Junmai'),
 ('h','Honjozo'),
     ('f','Futsu'),
+    ('o','Other'),
 )
 
 
@@ -42,23 +43,30 @@ class ProductManager(models.Manager):
     def in_stock(self):
         return self.filter(in_stock=True)
 
+    def get_by_natural_key(self, slug):
+        return (self.get(slug=slug),)
+
 
 class Product(models.Model):
     name = models.CharField(max_length=50)
-    description = models.TextField(blank=True)
-    short_description = models.TextField(blank=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    slug = models.SlugField(max_length=100)
-    active = models.BooleanField(default=True)
-    in_stock = models.BooleanField(default=True)
-    date_updated = models.DateTimeField(auto_now=True)
+    description = models.TextField(blank=True,null=True)
+    short_description = models.TextField(blank=True,null=True)
+    price = models.DecimalField(max_digits=10, decimal_places=2,blank=True,null=True)
+    slug = models.SlugField(max_length=100,null=True, unique=True)
+    active = models.BooleanField(default=True,blank=True,null=True)
+    in_stock = models.BooleanField(default=True,blank=True,null=True)
+    date_updated = models.DateTimeField(auto_now=True,null=True)
     average_rating = models.FloatField(default=0, null=True,blank=True)
-    abv = models.FloatField(default=0)
+    abv = models.FloatField(default=0,blank=True,null=True)
     tags = models.ManyToManyField(ProductTag, blank=True)
     sake_type = models.CharField(max_length=3, choices=SAKE_TYPES)
     brewery = models.ForeignKey(Brewery, null=True, blank=True, on_delete=models.CASCADE)
+    volume = models.PositiveIntegerField(blank=True, null=True)
 
     objects = ProductManager()
+
+    def natural_key(self):
+        return (self.slug,)
 
     def first_image(self):
         return self.images.first()

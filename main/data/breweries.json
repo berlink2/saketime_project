@@ -1,7 +1,36 @@
-{
-  "name": "$name$",
-  "version": "$version$",
-  "dependencies": {
-    $END$
-  }
-}
+[{
+   "name": "Tedorigawa",
+   "address": "41, Hakusan, Ishikawa 924-0843, Japan",
+   "phone": "+81 76-276-3311",
+   "email": "info@tedorigawa.com",
+   "description": "We inherit the hand-brewed sake cultivated in the local culture and traditional culture, and aim to satisfy customers and happiness of employees and their families through sake brewing of high quality and high quality.",
+   "image": "breweries/tedorigawa.jpg",
+   "lat": 36.487694,
+   "long": 136.565557,
+   "website": "https://tedorigawa.com/"
+ },
+   {
+   "name": "Asahi Shuzo",
+   "address": "2167-4, Shutomachi Osogoe, Iwakuni-shi, Yamaguchi, 742-0422, Japan",
+   "phone": "(0827)86-0120",
+   "email": "info@asahishuzo.ne.jp",
+   "description": "In the face of this, we have followed a natural flow of change, making our company, Asahi Shuzo, one of the most unique breweries in Japan. We have slowly, gently, and carefully changed much about the way we exist and brew, change that has been inspired partly by our own crises and difficult times.And we have emerged with more focus and resolve to create sake like no other. At Asahi Shuzo, we brew only premium Junmai Daiginjo sake. There are but a few breweries in all of Japan that focus all effort on making only top grade sake. Our commitment to this defines every aspect of our brewery's existence.",
+   "image": "breweries/asahishuzo.jpg",
+   "lat": 34.126262,
+   "long": 132.004178,
+   "website": "https://www.asahishuzo.ne.jp/en/"
+
+ },
+  {
+   "name": "Ishikawa Brewery",
+   "address": "1 Kumagawa, Fussa City, Tokyo 197－8623, Japan",
+   "phone": "＋81-42-553-0100",
+   "email": " liveinfo@tamajiman.co.jp",
+   "description": "The history of Ishikawa Brewery started on September 1, 1863 (under the old calendar). The original location of the brewery was in Ogawa Village, on the opposite bank of the Tama River. In 1881, Ishikawa Brewery built a new kura (storehouse) in the present Kumagawa area and, in 1883, the whole business finished moving to this location. Ishikawa Brewery earlier used 'Yae-zakura' (double-flowered cherry) as a brand name at first after the establishment of the business. This brand name showed the sister-company relationship with Morita Shuzo in Ogawa Village, who brewed 'Yae-giku' (double-flowered chrysanthemum). In 1919, the brand was renamed 'Yae-ume', (double-flowered plum), and in 1933, the present brand name, 'Tamajiman', came to be used.",
+   "image": "breweries/ishikawa.png",
+   "lat": 35.720210,
+   "long": 139.332554,
+   "website": "https://www.tamajiman.co.jp/en/"
+
+ }
+]

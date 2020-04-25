@@ -1,0 +1,128 @@
+[
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "premium",
+    "slug": "premium",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "sparkling",
+    "slug": "sparkling",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "fruity",
+    "slug": "fruity",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "sweet",
+    "slug": "sweet",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "dry",
+    "slug": "dry",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "savory",
+    "slug": "savory",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "citrus",
+    "slug": "citrus",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "buttery",
+    "slug": "buttery",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "mint",
+    "slug": "mint",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "acidic",
+    "slug": "acidic",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "smooth",
+    "slug": "smooth",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "flowery",
+    "slug": "flowery",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "herbal",
+    "slug": "herbal",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "honey",
+    "slug": "honey",
+    "description": "",
+    "active": true
+  }
+}
+]

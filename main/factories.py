@@ -23,3 +23,13 @@ class ProductFactory(factory.django.DjangoModelFactory):
 class AddressFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = models.Address
+
+
+class BreweryFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = models.Brewery
+
+
+class ReviewFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = models.Review
