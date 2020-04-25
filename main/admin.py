@@ -163,5 +163,10 @@ class OrderAdmin(admin.ModelAdmin):
     )
 
 
+admin.site.register(Brewery)
+admin.site.register(UserProfile)
+admin.site.register(Review)
+
+
 
 

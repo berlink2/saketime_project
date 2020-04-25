@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_1211.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models/userprofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/masu_profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_images/masu_profile.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0002_address_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0003_cart_cartline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0004_cart_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0005_order_orderline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +45,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,7 +62,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/profile_images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -46,14 +73,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/main/static/css" />
-      <recent name="$PROJECT_DIR$/main/static/images" />
-      <recent name="$PROJECT_DIR$/main/test_images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main/data" />
       <recent name="$PROJECT_DIR$/main/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/profile_images" />
+      <recent name="$PROJECT_DIR$/main/static/css" />
+      <recent name="$PROJECT_DIR$/main/static/images" />
+      <recent name="$PROJECT_DIR$/main/test_images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +141,11 @@
       <workItem from="1587723162612" duration="11606000" />
       <workItem from="1587749603743" duration="40000" />
       <workItem from="1587750407523" duration="32000" />
-      <workItem from="1587750593762" duration="117000" />
+      <workItem from="1587750593762" duration="146000" />
+      <workItem from="1587756694778" duration="101000" />
+      <workItem from="1587756797716" duration="6875000" />
+      <workItem from="1587766391037" duration="1197000" />
+      <workItem from="1587810571245" duration="5101000" />
     </task>
     <servers />
   </component>

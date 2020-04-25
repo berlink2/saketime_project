@@ -11,8 +11,10 @@ urlpatterns = [
     path("about-us/",TemplateView.as_view(template_name="about_us.html"),name='about-us'),
     path('contact-us/', ContactUsView.as_view(),name='contact-us'),
     path('', TemplateView.as_view(template_name='home.html'),name='home'),
-    path('products/<slug:tag>/', ProductListView.as_view(), name='product-list'),
     path('product/<slug:slug>/', DetailView.as_view(model=Product), name='product'),
+    path('products/<slug:tag>/', ProductListView.as_view(), name='product-list'),
+    #path('products/all', TemplateView.as_view(template_name='main/product_list.html'),name='all'),
+
     path('register/', RegisterView.as_view(), name='register'),
     path("login/", auth_views.LoginView.as_view(redirect_authenticated_user=True, template_name="login.html", form_class=forms.AuthenticationForm), name="login",),
     path('logout/', logout_user, name='logout'),

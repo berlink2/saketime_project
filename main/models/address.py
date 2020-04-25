@@ -24,6 +24,9 @@ class Address(models.Model):
         max_length=3, choices=SUPPORTED_COUNTRIES
     )
 
+    class Meta:
+        verbose_name_plural = "Addresses"
+
     def __str__(self):
         return ", ".join(
         [

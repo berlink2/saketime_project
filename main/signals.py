@@ -1,8 +1,11 @@
 from django.contrib.auth.signals import user_logged_in
+from django.db.models.signals import post_save
 from django.dispatch import receiver
-from main.models import Cart
+from main.models import Cart, UserProfile
+from django.contrib.auth import get_user_model
 
 from main.models import Cart
+
 
 @receiver(user_logged_in)
 def merge_carts_if_found(sender, user, request, **kwargs):
@@ -20,5 +23,15 @@ def merge_carts_if_found(sender, user, request, **kwargs):
         except Cart.DoesNotExist:
             anon_cart.user = user
             anon_cart.save()
+
+
+@receiver(post_save, sender=get_user_model())
+def create_user_profile(sender, instance, created, **kwargs):
+    if created:
+        UserProfile.objects.create(user=instance)
+        instance.save()
+
+
+
 
 
