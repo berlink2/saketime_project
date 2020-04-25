@@ -5,6 +5,7 @@
     height: 60px;
     border-radius: 30px;
     padding: 10px;
+
     }
 
     .search_input{
@@ -16,6 +17,7 @@
     caret-color:transparent;
     line-height: 40px;
     transition: width 0.4s linear;
+        -webkit-transition: color ;
     }
 
     #disappear{
@@ -29,12 +31,14 @@
     color: transparent;
 
 
+
     }
     .searchbar:hover > .search_input{
     padding: 0 10px;
     width: 450px;
     caret-color:red;
     transition: width 0.4s linear;
+
     }
 
     .searchbar:hover > .search_icon{
