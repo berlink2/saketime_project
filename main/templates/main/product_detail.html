@@ -1,40 +1,72 @@
 {% extends 'base.html' %}
 {% load thumbnail %}
 {% block content %}
-    <h1>Products</h1>
-    <table class="table">
-        <tr>
-            <th>Name</th>
-            <td>{{ object.name }}</td>
-        </tr>
-        <tr>
-            <th>Image</th>
-            <td>
-
-                <div  class="row " id="imagebox">
+    <div class="container">
+    <div class="row">
+    <div class="col-3">
+ <div  id="imagebox">
                     Loading image...
 
-                </div>
+        </div>
 
-            <div  class="row">
+    </div>
+     <div class="col-9">
+         <div class="row">
+         <h1>{{ product.name }}</h1>
+             </div>
+         <div class="row">
+         <p>Rating:</p>
+             </div>
+         <div class="row">
+         <p>{{ product.description }}</p>
+             </div>
+         <div class="row">
+         <h4> ${{ product.price }}</h4>
+             </div>
+         <div class="row">
+         <p> Quantity: </p>
+             </div>
+         <a class="btn btn-outline-danger btn-lg" href="{% url "add-to-cart" %}?product_id={{ object.id }}"> Add to Cart
+    </a>
 
-            </div>
 
 
-            </td>
+    </div>
+    </div>
+
+
+    </div>
+
+<div class="container mt-5">
+    <h3>Product Information</h3>
+    <table class="table">
+        <tr>
+            <th>Brewer</th>
+            <a href=""> <td><a href="#">{{ product.brewery }}</a></td>
+        </tr>
+        <tr>
+            <th>Prefecture</th>
+            <td>{{ product.brewery.prefecture }}</td>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <td>{{ product.get_sake_type_display }}</td>
+        </tr>
+        <tr>
+
 
         </tr>
         <tr>
-            <th>Price</th>
-            <td>{{ object.price }}</td>
+            <th>Volume</th>
+            <td>{{ product.volume }} ml</td>
         </tr>
         <tr>
             <th>Description</th>
-            <td>{{ object.description|linebreaks }}</td>
+            <td>% {{ product.abv }}</td>
         </tr>
         <tr>
-            <th>Tags</th>
-            <td>{{ object.tags.all|join:","|default:"No tags available" }}</td>
+            <th>Notes</th>
+            <td>{{ object.tags.all|join:","|default:"" }}</td>
         </tr>
         <tr>
             <th>In stock</th>
@@ -42,8 +74,8 @@
         </tr>
 
     </table>
-    <a href="{% url "add-to-cart" %}?product_id={{ object.id }}"> Add to basket
-    </a>
+    </div>
+
 
 {% endblock %}
 
@@ -56,6 +88,7 @@
     <style type="text/css" media="screen"> .image {
 
         margin: 0px;
+        justify-content: center;
         display: inline-block;
     }
     </style>

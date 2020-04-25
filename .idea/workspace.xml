@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/migrations/0003_brewery_prefecture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/48/95/4895e9dc8951dd5b462a10f7892966b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/6a/08/6a089941ef40d5ef9f0969a3586d9e08.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/endpoints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_1654.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_2015.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saketime_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +26,9 @@
       <list>
         <option value="Python Unit Test" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="package.json" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>

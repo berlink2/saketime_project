@@ -1,4 +1,6 @@
 {% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/navbar.css'  %}">
+
 
 <div class="container">
 <nav  class="navbar py-0 navbar-expand-lg navbar-light bg-white">
@@ -50,6 +52,9 @@
     </div>
 </button>
 
+
+
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
@@ -61,6 +66,19 @@
                 <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
             </li>
         </ul>
+
+{#    <form class="form-inline text-center my-2 my-lg-0">#}
+{#      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">#}
+{#      <a href="#" class=" my-2 my-sm-0" type="submit"><i class="fas fa-search text-danger"></i></a>#}
+{#    </form>#}
+
+    <div class="d-flex justify-content-center inli text-center">
+        <div class="searchbar"><p id="disappear">Search...</p>
+          <input class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+    </div>
+
 
         <ul class="navbar-nav ml-auto">
             {% if request.user.is_authenticated %}

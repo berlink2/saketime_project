@@ -10,6 +10,7 @@ class BreweryManager(models.Manager):
 class Brewery(models.Model):
     name = models.CharField(max_length=250, unique=True, blank=True)
     address = models.CharField(max_length=200, blank=True)
+    prefecture = models.CharField(max_length=20, blank=True, null=True)
     phone = models.CharField(max_length=50, blank=True)
     email = models.EmailField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
