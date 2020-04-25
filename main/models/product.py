@@ -44,7 +44,7 @@ class ProductManager(models.Manager):
         return self.filter(in_stock=True)
 
     def get_by_natural_key(self, slug):
-        return (self.get(slug=slug),)
+        return self.get(slug=slug),
 
 
 class Product(models.Model):
@@ -52,7 +52,7 @@ class Product(models.Model):
     description = models.TextField(blank=True,null=True)
     short_description = models.TextField(blank=True,null=True)
     price = models.DecimalField(max_digits=10, decimal_places=2,blank=True,null=True)
-    slug = models.SlugField(max_length=100,null=True, unique=True)
+    slug = models.SlugField(max_length=100,null=True)
     active = models.BooleanField(default=True,blank=True,null=True)
     in_stock = models.BooleanField(default=True,blank=True,null=True)
     date_updated = models.DateTimeField(auto_now=True,null=True)
@@ -67,6 +67,9 @@ class Product(models.Model):
 
     def natural_key(self):
         return (self.slug,)
+
+    def image_all(self):
+        return self.images.all()
 
     def first_image(self):
         return self.images.first()

@@ -2,71 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/data/breweries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/breweries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/productimages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/fixtures/producttags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/asahishuzo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/ishikawa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/tedorigawa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai23-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai23.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai39-box.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai39.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai45.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai45_6SS6kr8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai45sparkling.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_dg_yamahai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_iki_na_onna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_mangekyo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_yamahai_junmai.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai23-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai23.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai39-box.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai39.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai45-box.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai45.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/dassai45sparkling.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/tedorigawa_dg_yamahai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/tedorigawa_iki_na_onna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/tedorigawa_mangekyo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sakes/tedorigawa_yamahai_junmai.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/populate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/endpoints.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_1217.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_1654.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_1654.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_2015.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/userprofile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +136,7 @@
       <workItem from="1587756694778" duration="101000" />
       <workItem from="1587756797716" duration="6875000" />
       <workItem from="1587766391037" duration="1197000" />
-      <workItem from="1587810571245" duration="20283000" />
+      <workItem from="1587810571245" duration="31318000" />
     </task>
     <servers />
   </component>

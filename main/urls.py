@@ -1,10 +1,18 @@
-from django.urls import include,path
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
 from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, order
 from .models.product import Product
-from main import forms, views
+from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
 from django.conf.urls import url
+from rest_framework import routers
+
+router = routers.DefaultRouter()
+router.register(r'orderlines', endpoints.PaidOrderLineViewSet)
+router.register(r'orders', endpoints.PaidOrderViewSet)
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 urlpatterns = [
@@ -40,5 +48,10 @@ urlpatterns = [
     path("order/done/", TemplateView.as_view(template_name="main/order_done.html"), name="checkout_done",),
     path("order/address_select/",views.AddressSelectionView.as_view(),name="address_select",),
     path('order-dashboard', views.OrderView.as_view(), name='order_dashboard'),
+    path('api/', include(router.urls)),
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

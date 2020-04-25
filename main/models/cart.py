@@ -11,23 +11,23 @@ class Cart(models.Model):
     OPEN = 10
     SUBMITTED = 20
     STATUSES = ((OPEN, "Open"), (SUBMITTED, "Submitted"))
-
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, blank=True,null=True)
+    user = models.ForeignKey(
+        get_user_model(), on_delete=models.CASCADE, blank=True, null=True
+    )
     status = models.IntegerField(choices=STATUSES, default=OPEN)
 
     def is_empty(self):
-        return self.cartline_set.all().count() ==0
+        return self.cartline_set.all().count() == 0
 
     def count(self):
         return sum(i.quantity for i in self.cartline_set.all())
 
-
-
     def create_order(self, billing_address, shipping_address):
         if not self.user:
             raise exceptions.CartException(
-                "You must be logged in to submit an order."
+                "Cannot create order without user"
             )
+
         logger.info(
             "Creating order for basket_id=%d"
             ", shipping_address_id=%d, billing_address_id=%d",
@@ -35,6 +35,7 @@ class Cart(models.Model):
             shipping_address.id,
             billing_address.id,
         )
+
         order_data = {
             "user": self.user,
             "billing_name": billing_address.name,
@@ -51,20 +52,24 @@ class Cart(models.Model):
             "shipping_country": shipping_address.country,
         }
         order = Order.objects.create(**order_data)
-        c=0
+        c = 0
         for line in self.cartline_set.all():
             for item in range(line.quantity):
                 order_line_data = {
-                    'order':order,
-                    'product': line.product
+                    "order": order,
+                    "product": line.product,
                 }
-                order_line = OrderLine.objects.create(**order_line_data)
-                c +=1
-                logger.info(
-                    "Created order with id=%d and lines_count=%d",
-                    order.id,
-                    c,
+                order_line = OrderLine.objects.create(
+                    **order_line_data
                 )
+                c += 1
+
+        logger.info(
+            "Created order with id=%d and lines_count=%d",
+            order.id,
+            c,
+        )
+
         self.status = Cart.SUBMITTED
         self.save()
         return order

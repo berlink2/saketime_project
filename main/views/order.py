@@ -1,10 +1,11 @@
-from django.contrib.auth.mixins import UserPassesTestMixin
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django import forms as django_forms
 from django.db import models as django_models
 import django_filters
 from django_filters.views import FilterView
 from django.urls import reverse_lazy
 from main.models import Order
+
 
 
 class DateInput(django_forms.DateInput):

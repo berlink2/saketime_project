@@ -1,28 +1,29 @@
 from django.contrib import admin
 from .models import *
-from django.utils.html import format_html
-from django.db.models.functions import TruncDay
-from django.db.models import Avg, Count, Min, Sum
 from django.urls import path
-from django.template.response import TemplateResponse
-from django.contrib.auth.admin import UserAdmin as DjangoUserAdmin
-
+from django.shortcuts import get_object_or_404, render
+from django.http import HttpResponse
+from django.template.loader import render_to_string
+from weasyprint import HTML
+import tempfile
 
 # Register your models here.
+
 
 def make_active(self, request, queryset):
     queryset.update(active=True)
 
 
-make_active_description = 'Mark selected items as active'
+make_active.short_description = 'Mark selected items as active'
 
 
 def make_inactive(self,request, queryset):
     queryset.update(active=False)
 
 
-make_active_description = 'Mark selected items as inactive'
-
+make_inactive.short_description = (
+    "Mark selected items as inactive"
+)
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'slug', 'in_stock', 'price')
@@ -31,7 +32,7 @@ class ProductAdmin(admin.ModelAdmin):
     autocomplete_fields = ('tags',)
     search_fields = ('name',)
     prepopulated_fields = {"slug": ("name",)}
-    actions =  [make_active, make_inactive]
+    actions = [make_active, make_inactive]
 
     def get_readonly_fields(self, request, obj=None):
         if request.user.is_superuser:
@@ -166,6 +167,8 @@ class OrderAdmin(admin.ModelAdmin):
 admin.site.register(Brewery)
 admin.site.register(UserProfile)
 admin.site.register(Review)
+
+
 
 
 
