@@ -1,7 +1,7 @@
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
-from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, show_brewery
+from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, show_brewery, UserProfileView
 from .models.product import Product
 from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
@@ -27,6 +27,7 @@ urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
     path("login/", auth_views.LoginView.as_view(redirect_authenticated_user=True, template_name="login.html", form_class=forms.AuthenticationForm), name="login",),
     path('logout/', logout_user, name='logout'),
+    path('user/<int:pk>/', UserProfileView.as_view(), name='user_profile'),
     path(
             "address/",
             views.AddressListView.as_view(),

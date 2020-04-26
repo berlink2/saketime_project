@@ -6,6 +6,9 @@ from .logout import *
 from .cart import *
 from .order import *
 from .brewery import *
+from .userprofile import *
+
+
 
 
 

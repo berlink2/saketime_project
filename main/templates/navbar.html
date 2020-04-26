@@ -1,7 +1,6 @@
 {% load staticfiles %}
 {% load thumbnail %}
 
-
 <div class="container">
     <nav class="navbar py-0 navbar-expand-lg navbar-light bg-white">
 
@@ -78,7 +77,6 @@
             {#        </div>#}
             {#    </div>#}
 
-
             <ul class="navbar-nav ml-auto">
                 {% if request.user.is_authenticated %}
                     <li class="nav-item col-auto pr-0">
@@ -95,6 +93,12 @@
                             Logout
                         </a>
                     </li>
+                     <li >
+                        <a  class="text-dark"  href="{% url 'user_profile' pk=request.user.id %}">
+                            Profile
+                        </a>
+                    </li>
+
 
                 </ul>
 

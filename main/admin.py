@@ -165,7 +165,13 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Brewery)
-admin.site.register(UserProfile)
+
+
+@admin.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    list_display = ('id', )
+
+
 admin.site.register(Review)
 
 

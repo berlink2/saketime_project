@@ -2,63 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0004_brewery_header.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/migrations/0005_auto_20200426_0445.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/brewery_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/views/brewery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/asahishuzo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/dassai_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/ishikawabanner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/tedorigawa_0GmddB1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/breweries/tedorigawabanner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/03/cb/03cb04b438062eb33eeede906b9fb9d6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/0a/73/0a7365d82ddb486004897755a093f458.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/1e/de/1ede9f9f7815623826e6f5b03a75d2b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/24/80/24804cbffd8b242d2cbdf32dcd1a106f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/28/38/2838f8097ab8236a2bbfe6e0c28d0be4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/2d/34/2d34a3df9b1762f20f96b2632b08ad71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/2f/62/2f6215d0fb22f14346f0ade6e9b8f15a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/34/a6/34a67417ee3da592415d42109abe6c6f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/37/18/37180dd5839f8434e74a7de03e8b5a7e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/37/3e/373e7095916b437d284aef9210ebd151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/37/d3/37d310e41f9d9049734110fa5d926c74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/39/91/3991d685dc120c97627d4d4a99bd150c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/3f/0e/3f0ee0c9a9090ac0270f9e2bf43454dd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/43/8a/438a4ebe4160dd40a628dbcc0e0b4ba2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/4a/59/4a594756162327248343917109db4289.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/51/7c/517c42c10c1dd2030a1e7596b66384d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/65/fd/65fd8333cab8e7cbffb37d5d656d7465.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/6f/2a/6f2adc6ed7322cd60d74f05fda701cd9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/77/8a/778abdbc87451fc29cb768e33f87adc1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/82/3e/823e5283b1d7a6bcfce3755b8ac6b651.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/83/29/832994f755d9441333a0b84471c7371b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/85/56/8556aa13160045238955197b02b489f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/88/2a/882a6c5e7d56caef735d035ab70a2636.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/89/de/89de3e17172516aac7e912931bcfc42a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/91/51/9151cfb1009bcf4db5fbeb8322b2e03d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/93/0b/930ba75a201ef2232482fea4566012c0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/94/70/94707ac3cdc8b9b4be7aac9b0e9aa444.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/97/54/9754c12144b503b1c6b0f985106c1c81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/9d/8a/9d8a801c418a506ec886cf0b19ba727f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/b1/7b/b17bf958c2e0289f18d7f23d8c092f04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/c1/12/c1121fc4f18edbcb80229f166a3d9422.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/c9/06/c906999387ca6abbff32cf07d7c1c495.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/cc/77/cc77d9d37f2043f634e4e77449c0d312.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/d6/5d/d65dbb322985b74c7de66fc533a3330f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/dd/b1/ddb1f1ceeeb6bf402d658883969508e0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/e6/88/e68805b973e4293f0538e7f42ced607c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/f0/cc/f0cc9067c7d6adc652085142cf7336ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/f1/b1/f1b1995b2291cc7e8aabd5a5c739a4b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templatetags/get_user_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views/userprofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/42/2c/422cf3de16084b398e1fd8655f3e96c5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/breweries/asahishuzo.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +27,9 @@
       <list>
         <option value="Python Unit Test" />
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
