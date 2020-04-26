@@ -19,6 +19,7 @@ class Brewery(models.Model):
     lat = models.FloatField(blank=True, null=True)
     long = models.FloatField(blank=True, null=True)
     website = models.CharField(max_length=100, blank=True)
+    header = models.ImageField(upload_to='breweries',blank=True, null=True)
 
     objects = BreweryManager()
 

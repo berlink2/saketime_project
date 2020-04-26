@@ -89,11 +89,14 @@
                             {% endthumbnail %}
 
                         </a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
-                            <li role="presentation"><a role="menuitem" class="text-dark" tabindex="-1"
-                                                       href="{% url 'logout' %}">Logout</a></li>
+                <ul class="dropdown-menu">
+                    <li >
+                        <a  class="text-dark"  href="{% url 'logout' %}">
+                            Logout
+                        </a>
+                    </li>
 
-                        </ul>
+                </ul>
 
                     </li>
 

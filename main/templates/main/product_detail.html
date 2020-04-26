@@ -26,7 +26,7 @@
          <div class="row">
          <p> Quantity: </p>
              </div>
-         <a class="btn btn-outline-danger btn-lg" href="{% url "add-to-cart" %}?product_id={{ object.id }}"> Add to Cart
+         <a class="btn btn-outline-danger btn-lg" href="{% url "add-to-cart" %}?product={{ object.id }}"> Add to Cart
     </a>
 
 
@@ -131,7 +131,7 @@
                 {% for image in object.image_all %}
                 {% thumbnail image.image "300x300" as im %}
                     {
-                        "image": "{{ image.image.url |safe }}",
+                        "image": "{{ im.url |safe }}",
                         "thumbnail": "{{ im.url|safe }}"
                     },
                     {% endthumbnail %}

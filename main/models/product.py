@@ -47,6 +47,7 @@ class ProductManager(models.Manager):
         return self.get(slug=slug),
 
 
+
 class Product(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(blank=True,null=True)
@@ -60,7 +61,7 @@ class Product(models.Model):
     abv = models.FloatField(default=0,blank=True,null=True)
     tags = models.ManyToManyField(ProductTag, blank=True)
     sake_type = models.CharField(max_length=3, choices=SAKE_TYPES)
-    brewery = models.ForeignKey(Brewery, null=True, blank=True, on_delete=models.CASCADE)
+    brewery = models.ForeignKey(Brewery, null=True, blank=True, on_delete=models.CASCADE, related_name='products')
     volume = models.PositiveIntegerField(blank=True, null=True)
 
     objects = ProductManager()

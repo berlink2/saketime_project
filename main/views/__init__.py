@@ -5,5 +5,8 @@ from .contact import *
 from .logout import *
 from .cart import *
 from .order import *
+from .brewery import *
+
+
 
 

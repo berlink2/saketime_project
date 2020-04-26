@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .card {
+    }
+</style>
+
+    {% load thumbnail %}
+<div class="container">
+<div class="row">
+    <div class="col-4 pl-5">
+        <div class="mt-5">
+            {% thumbnail brewery.image "250x250" as im %}
+    <img src="{{ im.url }} "/>
+    {% endthumbnail %}
+            </div>
+    </div>
+    <div class="col-8 ">
+
+        <div class="row text-center mt-5">
+            <h6>"{{ brewery.description }}"</h6>
+        </div>
+
+    </div>
+
+    </div>
+
+<div class="row mt-5 ml-5">
+    <div class="col-6">
+    <p>Brewery Name: {{ brewery.name }}</p>
+
+    <p>Prefecture: {{ brewery.prefecture }}</p>
+
+        <p>Address: {{ brewery.address }}</p>
+        <p>Phone: {{ brewery.phone }}</p>
+        <p>Email: {{ brewery.email }}</p>
+        <p>Website: <a href="{{ brewery.website }}">{{ brewery.website }}</a> </p>
+        </div>
+<div class="col-6">
+    {% thumbnail brewery.header "400x300" as im %}
+    <img src="{{ im.url }} "/>
+    {% endthumbnail %}
+</div>
+
+
+</div>
+
+</div>
+
+    <div class="container mt-5 text-center">
+<h4>Products</h4>
+    <div class="row mt-5 justify-content-center">
+    {% for product in products %}
+    <div class="card" style="width: 20rem;">
+    <div class="card-header text-center">
+        {% thumbnail product.first_image.image "250x250" as im %}
+    <img src="{{ im.url }} "/>
+    {% endthumbnail %}
+    </div>
+    <div class="card-body text-center">
+        <div class="row justify-content-center"><small>{{ product.name }}</small></div>
+        <div class="row justify-content-center"><small>{{ product.volume }} ml</small></div>
+        <div class="row justify-content-center">
+            <a href="{% url 'product' slug=product.slug %}" class="btn btn-outline-danger mb-0">More info</a>
+        </div>
+    </div>
+    </div>
+    {% endfor %}
+    </div>
+    </div>
+
+
+{% endblock content %}

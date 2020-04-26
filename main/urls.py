@@ -1,7 +1,7 @@
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
-from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, order
+from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, show_brewery
 from .models.product import Product
 from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
@@ -19,6 +19,7 @@ urlpatterns = [
     path("about-us/",TemplateView.as_view(template_name="about_us.html"),name='about-us'),
     path('contact-us/', ContactUsView.as_view(),name='contact-us'),
     path('', TemplateView.as_view(template_name='home.html'),name='home'),
+    path('brewery/<slug:brewery_slug>/', show_brewery, name='brewery'),
     path('product/<slug:slug>/', DetailView.as_view(model=Product), name='product'),
     path('products/<slug:tag>/', ProductListView.as_view(), name='product-list'),
     #path('products/all', TemplateView.as_view(template_name='main/product_list.html'),name='all'),
