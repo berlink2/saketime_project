@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/cache/11/19/111995469c67f0724e7c3728cc7e1c5b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/15/c6/15c638964be531b46dd2e4ff9ddea570.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/56/27/562717c549e1d8cd0294909cd1626032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/5a/65/5a657db00a49d19dd05bb77f88958f1f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/71/b0/71b0849936f12c403110cac0e9affbdc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/78/16/7816e85a47f0894c435c4af3b1339758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/9a/8b/9a8bbf98bc79612fc8c0826c7f5086cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/9c/f2/9cf2781e1a907e2c888e5f6b31cb6ce6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/a8/32/a8322564aa1b1e609b4a25ee0a16b9c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/ce/29/ce295e14bbf387483b7e32d88011f787.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/de/10/de10a701d8b2f8b7b59be8c983089caf.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

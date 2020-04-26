@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 class ProductListView(ListView):
     template_name = "main/product_list.html"
-    paginate_by = 4
+    paginate_by = 5
 
     def get_queryset(self):
         tag = self.kwargs["tag"]

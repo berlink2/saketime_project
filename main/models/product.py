@@ -65,6 +65,7 @@ class Product(models.Model):
 
     objects = ProductManager()
 
+
     def natural_key(self):
         return (self.slug,)
 
@@ -97,6 +98,8 @@ class ProductImage(models.Model):
 
     def __str__(self):
         return self.product.name
+
+
 
 
 
