@@ -8,7 +8,9 @@
 
     }
 
+
     .search_input{
+        padding-right: 50px;
     color: black;
     border: 0;
     outline: 0;
@@ -20,12 +22,7 @@
         -webkit-transition: color ;
     }
 
-    #disappear{
-    position: absolute;
-        top: 40%;
-        left: 50%;
-        color: gray;
-    }
+
 
     .searchbar:hover > #disappear{
     color: transparent;
@@ -56,4 +53,11 @@
     border-radius: 50%;
     color:red;
     text-decoration:none;
+    }
+
+
+ #disappear{
+    position: absolute;
+        top: 40%;
+        left: 45%;
     }

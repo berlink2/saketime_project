@@ -22,6 +22,7 @@ Including another URLconf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",include('rest_framework.urls')),
+
     path('', include('main.urls')),
+path("",include('rest_framework.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

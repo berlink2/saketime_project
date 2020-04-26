@@ -1,110 +1,133 @@
 {% load staticfiles %}
-<link rel="stylesheet" href="{% static 'css/navbar.css'  %}">
+{% load thumbnail %}
 
 
 <div class="container">
-<nav  class="navbar py-0 navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar py-0 navbar-expand-lg navbar-light bg-white">
 
-    <a class="navbar-brand" href="{% url 'home' %}">
-   <img src="{% static 'images/masu.jpeg' %}" width="90" height="90" alt="logo"> SakeTime
-    </a>
+        <a class="navbar-brand" href="{% url 'home' %}">
+            <img src="{% static 'images/masu.jpeg' %}" width="90" height="90" alt="logo"> SakeTime
+        </a>
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2">
-    <span class="navbar-toggler-icon"></span>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2">
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
 
-        <!-- Navbar content if browser shrunk -->
-        <ul class="navbar-nav mr-auto">
+                <!-- Navbar content if browser shrunk -->
+                <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item">
-                <a  class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
-            </li>
-        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
+                    </li>
+                </ul>
 
-        <ul class="navbar-nav ml-auto">
-            {% if request.user.is_authenticated %}
-            <li class="nav-item">
-                <a class="nav-link text-dark " href="{% url 'logout' %}">Logout</a>
-            </li>
-            {% else %}
-             <li class="nav-item">
-                <a class="nav-link text-dark " href="{% url 'login' %}">Login</a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link text-dark" href="{% url 'register' %}">Sign Up</a>
-            </li>
-            {% endif %}
+                <ul class="navbar-nav ml-auto">
+                    {% if request.user.is_authenticated %}
 
-        <li class="nav-item">
-            <a class="nav-link" href="{% url 'cart' %}">
-                <i class="fas fa-shopping-cart fa-lg"></i>
-            </a>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="{% url 'logout' %}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="{% url 'login' %}">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="{% url 'register' %}">Sign Up</a>
+                        </li>
+                    {% endif %}
 
-
-            </li>
-
-        </ul>
-
-        <!-- Right -->
-    </div>
-</button>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="{% url 'cart' %}">
+                            Cart
+                        </a>
 
 
+                    </li>
+
+                </ul>
+
+                <!-- Right -->
+            </div>
+        </button>
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
-            </li>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
+                </li>
+            </ul>
 
-{#    <form class="form-inline text-center my-2 my-lg-0">#}
-{#      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">#}
-{#      <a href="#" class=" my-2 my-sm-0" type="submit"><i class="fas fa-search text-danger"></i></a>#}
-{#    </form>#}
+            {#    <form class="form-inline text-center my-2 my-lg-0">#}
+            {#      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">#}
+            {#      <a href="#" class=" my-2 my-sm-0" type="submit"><i class="fas fa-search text-danger"></i></a>#}
+            {#    </form>#}
 
-    <div class="d-flex justify-content-center inli text-center">
-        <div class="searchbar"><p id="disappear">Search...</p>
-          <input class="search_input" type="text" name="" placeholder="Search...">
-          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            {#    <div class="d-flex justify-content-center inli text-center">#}
+            {#        <div class="searchbar"><p id="disappear">Search...</p>#}
+            {#          <input class="search_input" type="text" name="" placeholder="Search...">#}
+            {#          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>#}
+            {#        </div>#}
+            {#    </div>#}
+
+
+            <ul class="navbar-nav ml-auto">
+                {% if request.user.is_authenticated %}
+                    <li class="nav-item col-auto pr-0">
+                        <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            {% thumbnail request.user.userprofile.profile_image "75x75" as im %}
+                                <img class="rounded-circle border border-dark z-depth-2" src="{{ im.url }}"/>
+
+                            {% endthumbnail %}
+
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
+                            <li role="presentation"><a role="menuitem" class="text-dark" tabindex="-1"
+                                                       href="{% url 'logout' %}">Logout</a></li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <li class="nav-item col-auto pr-0 mr-0">
+                        <a class="nav-link mt-2" href="{% url 'cart' %}">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </a>
+
+
+                    </li>
+
+                {% else %}
+                    <li class="nav-item col-auto ml-5 pr-0 mt-2">
+                        <a class="btn nav-link btn-sm text-white btn-danger" href="{% url 'login' %}">Login</a>
+                    </li>
+                    <li class="nav-item col-auto pr-0 mt-2">
+                        <a class="btn btn-sm nav-link text-white btn-danger" href="{% url 'register' %}">Sign Up</a>
+                    </li>
+
+                    <li class="nav-item col-auto pr-0 mr-0 mt-0">
+                        <a class="nav-link mt-2" href="{% url 'cart' %}">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </a>
+
+
+                    </li>
+                {% endif %}
+
+
+            </ul>
+
+            <!-- Right -->
         </div>
-    </div>
-
-
-        <ul class="navbar-nav ml-auto">
-            {% if request.user.is_authenticated %}
-            <li class="nav-item col-auto pr-0">
-                <a class="nav-link text-white btn-danger" href="{% url 'logout' %}">Logout</a>
-            </li>
-            {% else %}
-             <li class="nav-item col-auto ml-5 pr-0">
-                <a class="btn nav-link text-white btn-danger" href="{% url 'login' %}">Login</a>
-            </li>
-             <li class="nav-item col-auto pr-0">
-                <a class="btn nav-link text-white btn-danger" href="{% url 'register' %}">Sign Up</a>
-            </li>
-            {% endif %}
-
-        <li class="nav-item col-auto pr-0">
-            <a class="nav-link" href="{% url 'cart' %}">
-                <i class="fas fa-shopping-cart fa-lg"></i>
-            </a>
-
-
-            </li>
-
-        </ul>
-
-        <!-- Right -->
-    </div>
-</nav>
+    </nav>
 </div>
