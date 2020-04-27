@@ -1,0 +1,2716 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "address"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "brewery"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "cartline"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "orderline"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "productimage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "producttag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "thumbnail",
+    "model": "kvstore"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3euc18nlxtbtr90zea18gmr54pn606vu",
+  "fields": {
+    "session_data": "OGNiYzZhMDc0NGZiNTQ5ZjVmZTgwZTlhNmZiZDg2YmJiYTViOWQwMDp7ImNhcnRfaWQiOjEwfQ==",
+    "expire_date": "2020-05-11T09:20:18.134Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ky54jg92e1xjcfw7q93w0ex6dttwh29p",
+  "fields": {
+    "session_data": "MDFmMDM2YzJmMzJmMzY2MzQxMzAwNDhiMDdiNzQxMDg5ZjlhOTM5MDp7ImNhcnRfaWQiOjZ9",
+    "expire_date": "2020-05-11T06:19:12.200Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r4mvjab319f5l802yfq8b9ty950ae7pa",
+  "fields": {
+    "session_data": "MDVhMjhlMTRmNmE1YTY4MGQ0NDNmNDEyY2U1ZTFkNWZlMGUzMjQ1Njp7ImNhcnRfaWQiOjgsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmOGJkYzhjMTY4MWVmZGU1N2VjNjgzNzkxMWNmMGRiMDJlZmVhZDBjIn0=",
+    "expire_date": "2020-05-11T06:23:47.655Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xng4jg3ij4gf0qw0zqydcz81ledxxufy",
+  "fields": {
+    "session_data": "MWMzMzQ5N2YyNWQyYTEzYjE4ZjE5MzFlOGM5ODE1ZmEwYzE5MGYzZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmOGJkYzhjMTY4MWVmZGU1N2VjNjgzNzkxMWNmMGRiMDJlZmVhZDBjIiwiY2FydF9pZCI6M30=",
+    "expire_date": "2020-05-11T04:35:42.508Z"
+  }
+},
+{
+  "model": "main.brewery",
+  "fields": {
+    "name": "Tedorigawa",
+    "address": "41, Hakusan, Ishikawa 924-0843, Japan",
+    "prefecture": "Ishikawa",
+    "phone": "+81 76-276-3311",
+    "email": "info@tedorigawa.com",
+    "description": "We inherit the hand-brewed sake cultivated in the local culture and traditional culture, and aim to satisfy customers and happiness of employees and their families through sake brewing of high quality.We challenge ourselves to see just how much passion can go into one bottle of sake, so that our customers can enjoy the most delicious sake. We offer sake that makes a meal in a quiet place, and good times spent with friends, even better.",
+    "slug": "tedorigawa",
+    "image": "breweries/tedorigawa_0GmddB1.jpg",
+    "lat": 36.487694,
+    "long": 136.565557,
+    "website": "https://tedorigawa.com/",
+    "header": "breweries/tedorigawabanner2.jpg"
+  }
+},
+{
+  "model": "main.brewery",
+  "fields": {
+    "name": "Asahi Shuzo",
+    "address": "2167-4, Shutomachi Osogoe, Iwakuni-shi, Yamaguchi, 742-0422, Japan",
+    "prefecture": "Yamaguchi",
+    "phone": "+81 82-786-0120",
+    "email": "info@asahishuzo.ne.jp",
+    "description": "In the face of this, we have followed a natural flow of change, making our company, Asahi Shuzo, one of the most unique breweries in Japan. We have slowly, gently, and carefully changed much about the way we exist and brew, change that has been inspired partly by our own crises and difficult times.And we have emerged with more focus and resolve to create sake like no other. At Asahi Shuzo, we brew only premium Junmai Daiginjo sake. There are but a few breweries in all of Japan that focus all effort on making only top grade sake. Our commitment to this defines every aspect of our brewery's existence.",
+    "slug": "asahi-shuzo",
+    "image": "breweries/asahishuzo.jpg",
+    "lat": 34.126262,
+    "long": 132.004178,
+    "website": "https://www.asahishuzo.ne.jp/en/",
+    "header": "breweries/dassai_banner.jpg"
+  }
+},
+{
+  "model": "main.brewery",
+  "fields": {
+    "name": "Ishikawa Brewery",
+    "address": "1 Kumagawa, Fussa City, Tokyo 197\uff0d8623, Japan",
+    "prefecture": "Tokyo",
+    "phone": "\uff0b81-42-553-0100",
+    "email": "liveinfo@tamajiman.co.jp",
+    "description": "The history of Ishikawa Brewery started on September 1, 1863 (under the old calendar). The original location of the brewery was in Ogawa Village, on the opposite bank of the Tama River. In 1881, Ishikawa Brewery built a new kura (storehouse) in the present Kumagawa area and, in 1883, the whole business finished moving to this location. Ishikawa Brewery earlier used 'Yae-zakura' (double-flowered cherry) as a brand name at first after the establishment of the business. This brand name showed the sister-company relationship with Morita Shuzo in Ogawa Village, who brewed 'Yae-giku' (double-flowered chrysanthemum). In 1919, the brand was renamed 'Yae-ume', (double-flowered plum), and in 1933, the present brand name, 'Tamajiman', came to be used.",
+    "slug": "ishikawa-brewery",
+    "image": "breweries/ishikawa.png",
+    "lat": 35.72021,
+    "long": 139.332554,
+    "website": "https://www.tamajiman.co.jp/en/",
+    "header": "breweries/ishikawabanner1.jpg"
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "premium",
+    "slug": "premium",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "sparkling",
+    "slug": "sparkling",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "fruity",
+    "slug": "fruity",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "sweet",
+    "slug": "sweet",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "dry",
+    "slug": "dry",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "savory",
+    "slug": "savory",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "citrus",
+    "slug": "citrus",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "buttery",
+    "slug": "buttery",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "mint",
+    "slug": "mint",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "acidic",
+    "slug": "acidic",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "smooth",
+    "slug": "smooth",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "flowery",
+    "slug": "flowery",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "herbal",
+    "slug": "herbal",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "honey",
+    "slug": "honey",
+    "description": "",
+    "active": true
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Daiginjo Shizuku",
+    "description": "Our high-grade sake.We mill our selected high qualitied \u2018Yamada Nishiki\u2019rice of 65% of the weight.Sake mush is dripped from hanged cloth bags and we collect the drops of sake.",
+    "short_description": "",
+    "price": "132.00",
+    "slug": "daiginjo-shizuku",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:57:58.110Z",
+    "average_rating": 0.0,
+    "abv": 17.0,
+    "sake_type": "d",
+    "brewery": 3,
+    "volume": 720,
+    "tags": [
+      4,
+      8,
+      13
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tamajiman Daiginjo",
+    "description": "The Tamajiman Daiginjo line differs from the Junmai line due to the adding of neutral alcohol, thus giving it a rich taste and a strong ginjo-aroma.We mill 65% of the rice's weight.",
+    "short_description": "",
+    "price": "33.00",
+    "slug": "tamajiman-daiginjo",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:57:53.989Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "d",
+    "brewery": 3,
+    "volume": 720,
+    "tags": [
+      11,
+      14
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tama no Yotokobi Junmai Daiginjo",
+    "description": "We mill 50% of the rice's weight. Although we normally pasteurize our sake twice, for this line we conduct pasteurization only once.We do this in order to retain its strong fruity aroma.",
+    "short_description": "",
+    "price": "20.00",
+    "slug": "tama-no-yotokobi-junmai-daiginjo",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:58:19.827Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "jg",
+    "brewery": 3,
+    "volume": 720,
+    "tags": [
+      1,
+      3,
+      11
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Junmai Kumagawa Ichibanchi",
+    "description": "We mill 40% of the rice\u2019s weight. Defined by its full bodied character, you will find that this line has a subtle sweetness and is the ideal choice for those new to sake.",
+    "short_description": "",
+    "price": "33.75",
+    "slug": "junmai-kumagawa-ichibanchi",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:58:35.007Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "j",
+    "brewery": 3,
+    "volume": 720,
+    "tags": [
+      7,
+      10,
+      14
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "DASSAI 23",
+    "description": "To craft the ultimate Junmai-Daiginjo sake, we polished down Yamada-Nishiki rice to 23%. Delivering delicate floral aromas with a palate reminiscent of honey and an elegant lasting finish.",
+    "short_description": "",
+    "price": "90.00",
+    "slug": "dassai-23",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:56:55.350Z",
+    "average_rating": 0.0,
+    "abv": 16.0,
+    "sake_type": "jd",
+    "brewery": 2,
+    "volume": 720,
+    "tags": [
+      1,
+      11
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "DASSAI 39",
+    "description": "Showing a luscious and juicy character with a nectar like sweetness on the palate, followed by a long bright finale. This is Junmai-Daiginjo.",
+    "short_description": "",
+    "price": "43.00",
+    "slug": "dassai-39",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:57:35.219Z",
+    "average_rating": 0.0,
+    "abv": 16.0,
+    "sake_type": "jd",
+    "brewery": 2,
+    "volume": 720,
+    "tags": [
+      5,
+      6,
+      13
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "DASSAI 45",
+    "description": "\u201cThere is no reason for us to craft sake unless it\u2019s super delicious.\u201d, this is the Dassai way. Using Yamada-Nishiki rice polished down to 45%, we deliver fruit aromatics and delicate sweetness.",
+    "short_description": "",
+    "price": "30.00",
+    "slug": "dassai-45",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:57:24.004Z",
+    "average_rating": 0.0,
+    "abv": 16.0,
+    "sake_type": "jd",
+    "brewery": 2,
+    "volume": 720,
+    "tags": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "DASSAI Sparkling 45",
+    "description": "Unpasteurized, and naturally carbonated, this sake is slightly fruity and has a refreshing taste.",
+    "short_description": "",
+    "price": "22.00",
+    "slug": "dassai-sparkling-45",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:57:09.164Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "jd",
+    "brewery": 2,
+    "volume": 360,
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tedorigawa Mangekyo Junmai Daiginjo 'Kaleidoscope'",
+    "description": "Truly a connoisseur\u2019s experience this one of a kind Daiginjo has an aroma profile filled with cherries, white grapes, ginger and aloe vera. For those who know their wines behold a sake that transcends layers of grape flavors and achieves a personality that one can never find in a fruit juice. Fat, silky, beefy, and solid do not do justice to this brew that drinks crisp, bright and dry. There are hints of mint, white grape, and tangerine elements with a finish that speaks to those who like a hint of clean twang.",
+    "short_description": "",
+    "price": "280.00",
+    "slug": "tedorigawa-mangekyo-junmai-daiginjo-kaleidoscope",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:56:44.665Z",
+    "average_rating": 0.0,
+    "abv": 18.0,
+    "sake_type": "jd",
+    "brewery": 1,
+    "volume": 720,
+    "tags": [
+      1,
+      8,
+      11
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tedorigawa Yamahai Junmai",
+    "description": "This brewery has become famous for appearing in the movie called \u201cThe Birth of Sake,\u201d but it was already famous for making some of the best sake in Ishikawa prefecture. The nose on this stalwart sake is made up of honey tea, sweet rice, maple syrup, and nutty aromas. Typically Yamahai style sake is big and bold with lots of acidity and tons of flavors. This brew is no exception, except for the high acidity! It drinks rich and bold with lots of action that wakes the palate with a bright and cutting sharpness that is addictive with each sip. There are hints of honey, cashews, yogurt, and a vein of citrus that drinks dry and fun. If you want to explore the Yamahai category then it\u2019s very important to taste this sake that is as good room temperature and warmed as it is chilled. This is a food pairing masterpiece",
+    "short_description": "",
+    "price": "34.00",
+    "slug": "tedorigawa-yamahai-junmai",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T01:29:22.069Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "j",
+    "brewery": 1,
+    "volume": 720,
+    "tags": [
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tedorigawa Iki na Onna Daiginjo",
+    "description": "This unique sake was made specifically to celebrate women sake store-owners in Japan. Cool! It has a nose filled with green apple, sweet nuts, honeydew, and bubblegum aromas. Talk about a drinkable adventure in a glass. Lady Luck drinks lively, sprightly, and with a confident smoothness that excels in a mid-sized glass. Look for hints of honey tea, persimmon, young pear, and sweet rice flavors that are paired with a round & smooth fluidity that has a quick finish and a peek-a-boo tail. If you are looking for approachable complexity, then this Lady brings you Luck.",
+    "short_description": "",
+    "price": "55.00",
+    "slug": "tedorigawa-iki-na-onna-daiginjo",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:56:30.796Z",
+    "average_rating": 0.0,
+    "abv": 17.0,
+    "sake_type": "d",
+    "brewery": 1,
+    "volume": 720,
+    "tags": [
+      9,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "main.product",
+  "fields": {
+    "name": "Tedorigawa Yamahai Daiginjo",
+    "description": "There are not a lot of Yamahai Daiginjos out there so it\u2019s always fun to take note of amazing efforts such as this brew. The nose is nice collection of buttery corn, butterscotch, cream, and a hint of mint aromas. If you ever wanted to taste the term \u201ccreamy\u201d in a sake then this sake is for you. It is a calm, even, soft and velvety sake that has a creamy side that moves on the silky flow. Not your typical Daiginjo with lots of fruity impact. Look for a roundness and richness that has a milkshake quality in flavor with hints of sweet nuts and whip cream. A larger glass brings forth more creaminess.",
+    "short_description": "",
+    "price": "48.00",
+    "slug": "tedorigawa-yamahai-daiginjo",
+    "active": true,
+    "in_stock": true,
+    "date_updated": "2020-04-26T00:56:17.212Z",
+    "average_rating": 0.0,
+    "abv": 15.0,
+    "sake_type": "d",
+    "brewery": 1,
+    "volume": 720,
+    "tags": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "product-images/ishikawa_daiginjo_shizuku.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 2,
+    "image": "product-images/ishikawa_tamajiman_daiginjo.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 3,
+    "image": "product-images/ishikawa_tama_no_yorokobi_jg.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "image": "product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 5,
+    "image": "product-images/dassai23.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 5,
+    "image": "product-images/dassai23-2.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 6,
+    "image": "product-images/dassai39.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 6,
+    "image": "product-images/dassai39-box.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 7,
+    "image": "product-images/dassai45.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 10,
+  "fields": {
+    "product": 7,
+    "image": "product-images/dassai45_6SS6kr8.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 11,
+  "fields": {
+    "product": 8,
+    "image": "product-images/dassai45sparkling.jpeg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 12,
+  "fields": {
+    "product": 9,
+    "image": "product-images/tedorigawa_mangekyo.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 13,
+  "fields": {
+    "product": 10,
+    "image": "product-images/tedorigawa_yamahai_junmai.webp"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 14,
+  "fields": {
+    "product": 11,
+    "image": "product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg"
+  }
+},
+{
+  "model": "main.productimage",
+  "pk": 15,
+  "fields": {
+    "product": 12,
+    "image": "product-images/tedorigawa_dg_yamahai.jpg"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||008467232d615808bd177de8e9c33604",
+  "fields": {
+    "value": "{\"name\": \"cache/39/91/3991d685dc120c97627d4d4a99bd150c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||049fdfce371d6ef8f5fb4eb6e9496290",
+  "fields": {
+    "value": "{\"name\": \"product-images/ishikawa_daiginjo_shizuku.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 280]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||147bd6ab5eb7cf1f7a13e619355495f0",
+  "fields": {
+    "value": "{\"name\": \"cache/24/80/24804cbffd8b242d2cbdf32dcd1a106f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [600, 361]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||156f709707c5751dc0dabc5014f1570e",
+  "fields": {
+    "value": "{\"name\": \"cache/9c/f2/9cf2781e1a907e2c888e5f6b31cb6ce6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [179, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||15e2b29ed0096134b9b3b75bda1adffb",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai45sparkling.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1b7d5ec1384980b30e3847f0f52ccb1c",
+  "fields": {
+    "value": "{\"name\": \"cache/ce/29/ce295e14bbf387483b7e32d88011f787.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [196, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1d574adc7d825f75d85e9d317fc43fe2",
+  "fields": {
+    "value": "{\"name\": \"breweries/dassai_banner.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [600, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1d918aa3c6f750231b4100b839b20849",
+  "fields": {
+    "value": "{\"name\": \"cache/3f/0e/3f0ee0c9a9090ac0270f9e2bf43454dd.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [118, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||21e9e428f5b86074962bd78e0b79d056",
+  "fields": {
+    "value": "{\"name\": \"product-images/tedorigawa_dg_yamahai.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [355, 600]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2292557eca3f60d62709131a926af7f5",
+  "fields": {
+    "value": "{\"name\": \"cache/83/29/832994f755d9441333a0b84471c7371b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [350, 350]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||233d7d4464d4ebce4956da430a6cd67b",
+  "fields": {
+    "value": "{\"name\": \"cache/c9/06/c906999387ca6abbff32cf07d7c1c495.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [350, 350]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||234565018c2cfb9d2f169430ed7233c6",
+  "fields": {
+    "value": "{\"name\": \"cache/43/8a/438a4ebe4160dd40a628dbcc0e0b4ba2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||234e41a21bc99269b8d608cdef353203",
+  "fields": {
+    "value": "{\"name\": \"product-images/ishikawa_tamajiman_daiginjo.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 280]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2606fd3ddeff2c68cf714c39328625fb",
+  "fields": {
+    "value": "{\"name\": \"cache/dd/b1/ddb1f1ceeeb6bf402d658883969508e0.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [257, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2962eeb457598f3b0a1260958cd703dd",
+  "fields": {
+    "value": "{\"name\": \"cache/6a/08/6a089941ef40d5ef9f0969a3586d9e08.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||29f8e23721d976fd4b12b49466bcab9a",
+  "fields": {
+    "value": "{\"name\": \"cache/48/95/4895e9dc8951dd5b462a10f7892966b0.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2a4c39c4dd9b68262e1b5682addb84b2",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai45.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||34549cef6a7dd1a45e1506c34a3b6159",
+  "fields": {
+    "value": "{\"name\": \"cache/f1/b1/f1b1995b2291cc7e8aabd5a5c739a4b2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3669ceac61268329873eb0d9174f34d9",
+  "fields": {
+    "value": "{\"name\": \"cache/42/2c/422cf3de16084b398e1fd8655f3e96c5.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3c862de0d77862bce8032acc585aa160",
+  "fields": {
+    "value": "{\"name\": \"breweries/tedorigawa_0GmddB1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [140, 218]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3e9aa0fbb6bb650d9c527141bb00c543",
+  "fields": {
+    "value": "{\"name\": \"cache/4a/59/4a594756162327248343917109db4289.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [172, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||453d4d733d587e88ec244133ec6c8b76",
+  "fields": {
+    "value": "{\"name\": \"breweries/tedorigawabanner2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [700, 421]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||46acfb43abb35efa5ac79b625b04977b",
+  "fields": {
+    "value": "{\"name\": \"cache/c1/12/c1121fc4f18edbcb80229f166a3d9422.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [118, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4aa8d03172b496022d0071eb69568b22",
+  "fields": {
+    "value": "{\"name\": \"cache/79/ec/79ecb8c8d078ee8c9e47c9f6e192689d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [71, 90]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4ff35af2e37f3a7699ec2945133b9338",
+  "fields": {
+    "value": "{\"name\": \"cache/94/70/94707ac3cdc8b9b4be7aac9b0e9aa444.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [499, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||54f4be0ac41034340a5a3000a7c9169a",
+  "fields": {
+    "value": "{\"name\": \"cache/77/8a/778abdbc87451fc29cb768e33f87adc1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||56b0f6b6b11ea97e642b5e4dabb0c5dc",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai39.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5ab24127ccc0ca1492f83d90a5fcc0e2",
+  "fields": {
+    "value": "{\"name\": \"cache/00/53/00539344163c751bf87691c092b0afa0.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [79, 100]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5d9555819fa2da3616eee80c9f082357",
+  "fields": {
+    "value": "{\"name\": \"cache/5a/65/5a657db00a49d19dd05bb77f88958f1f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [178, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5e92a6a0d107af2e24e38f11cc3e2e02",
+  "fields": {
+    "value": "{\"name\": \"cache/8c/5c/8c5cb5bd4fd59281c79fdade3e3f5e45.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [50, 33]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||60ca09af515f0117fb143bc3ad9e60e2",
+  "fields": {
+    "value": "{\"name\": \"cache/a8/e7/a8e772f4963a2fe22314f07b14363f22.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||61bb8ea1983cf17272b8c12557421f78",
+  "fields": {
+    "value": "{\"name\": \"cache/37/d3/37d310e41f9d9049734110fa5d926c74.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||61ede55b36b9732fed5bddccfe85e7f0",
+  "fields": {
+    "value": "{\"name\": \"product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [321, 537]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6221c2d3d28e442c28414fa66dbda4cc",
+  "fields": {
+    "value": "{\"name\": \"breweries/ishikawabanner1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [630, 472]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||67e8fb63a7ee5669e877a93b043b9bab",
+  "fields": {
+    "value": "{\"name\": \"profile_images/masu_profile.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [1500, 1000]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6ac7c7051fd8ac0c7152da81fc41fcac",
+  "fields": {
+    "value": "{\"name\": \"cache/e6/88/e68805b973e4293f0538e7f42ced607c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [350, 350]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6c2ad7a880cb3d7dd0abe347e03e30a5",
+  "fields": {
+    "value": "{\"name\": \"cache/d6/5d/d65dbb322985b74c7de66fc533a3330f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 241]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||72006a47ee2d76357d42d17d5b5b5f31",
+  "fields": {
+    "value": "{\"name\": \"cache/6f/2a/6f2adc6ed7322cd60d74f05fda701cd9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [500, 301]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||726a0bb58616f8123ee3191645c1a66f",
+  "fields": {
+    "value": "{\"name\": \"cache/0d/92/0d92eca716a5af6789d324e0902d45a3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [90, 90]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7a0383e4c32b4420b502b9846bc4c5ec",
+  "fields": {
+    "value": "{\"name\": \"cache/37/3e/373e7095916b437d284aef9210ebd151.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [120, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||832c7a2051669de5d5dc34d86b03d6b1",
+  "fields": {
+    "value": "{\"name\": \"cache/b1/7b/b17bf958c2e0289f18d7f23d8c092f04.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [161, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||8fba92042298286949b0288c3420013d",
+  "fields": {
+    "value": "{\"name\": \"cache/91/51/9151cfb1009bcf4db5fbeb8322b2e03d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [350, 210]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||900965c96d110e5dab165893ded16780",
+  "fields": {
+    "value": "{\"name\": \"cache/56/27/562717c549e1d8cd0294909cd1626032.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||91f7d3e876c1c141cd229d3aa73d9807",
+  "fields": {
+    "value": "{\"name\": \"cache/93/c5/93c591b20b0dfbd6d75880116a16ccb7.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [60, 40]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9204c80f058b94c977737de8aeeaeda3",
+  "fields": {
+    "value": "{\"name\": \"cache/0a/73/0a7365d82ddb486004897755a093f458.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [157, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||92ccaa7b28fd94ec57e617aba2ac3a78",
+  "fields": {
+    "value": "{\"name\": \"cache/f0/cc/f0cc9067c7d6adc652085142cf7336ad.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||92fec2260115120a1ab0f950bb37ef25",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai39-box.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [224, 224]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||93e5f8725cc512ad5fdcaefc7366d0d7",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai23.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||95286d2ed5d2421dbe43081a884f80c7",
+  "fields": {
+    "value": "{\"name\": \"cache/9a/8b/9a8bbf98bc79612fc8c0826c7f5086cf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||95d0482d4263bd88f6ff3b0aff5c51da",
+  "fields": {
+    "value": "{\"name\": \"cache/28/38/2838f8097ab8236a2bbfe6e0c28d0be4.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 180]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||98256372693a32eb98bc81014e5c7793",
+  "fields": {
+    "value": "{\"name\": \"cache/2d/34/2d34a3df9b1762f20f96b2632b08ad71.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [182, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9cf4f791d1af8593da603d5b73c40c71",
+  "fields": {
+    "value": "{\"name\": \"cache/1b/5e/1b5e9679c6f6475e6c2a6e143078fee9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 67]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9de0450c8368609fce2405b2f93207ca",
+  "fields": {
+    "value": "{\"name\": \"cache/71/b0/71b0849936f12c403110cac0e9affbdc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [236, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a1063425d7b94c2ac4747cd069f73fc8",
+  "fields": {
+    "value": "{\"name\": \"product-images/dassai23-2.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a2820cf28bd12485ce9b2c647329b564",
+  "fields": {
+    "value": "{\"name\": \"product-images/tedorigawa_mangekyo.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [355, 600]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a2b3ef9bc1f3a2489d4bb743f5cc5fbc",
+  "fields": {
+    "value": "{\"name\": \"cache/ee/6a/ee6a7c8c198b3c2d2da1dac1f46d9edc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [59, 75]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a3be9ce6e0286d1739f4556f481a76bc",
+  "fields": {
+    "value": "{\"name\": \"cache/82/3e/823e5283b1d7a6bcfce3755b8ac6b651.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [215, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a66e726b5b2d6caa279ae7ea9d79f362",
+  "fields": {
+    "value": "{\"name\": \"cache/97/54/9754c12144b503b1c6b0f985106c1c81.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [131, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a68d1488bba7cf7ae055805ad9a8f92b",
+  "fields": {
+    "value": "{\"name\": \"cache/85/56/8556aa13160045238955197b02b489f2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [157, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a775b2c10b146099657e14f36260a437",
+  "fields": {
+    "value": "{\"name\": \"cache/91/0a/910a4c9d73b0fe48b40cef69679a0ae8.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ac23717c05e16cb285279ff73ca3cca8",
+  "fields": {
+    "value": "{\"name\": \"cache/cb/97/cb973a9351ebc744e6f65c0f2943852f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [90, 90]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ad0601cc1f4298f91fbfeb93770abb24",
+  "fields": {
+    "value": "{\"name\": \"cache/11/19/111995469c67f0724e7c3728cc7e1c5b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [236, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||adf9f7f4e8f22e31a50fba393221444f",
+  "fields": {
+    "value": "{\"name\": \"cache/f4/c1/f4c1b7782d36c0e8e44d9f038f49c995.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [75, 75]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b1978af944ebe55cbb2002d57656a8ba",
+  "fields": {
+    "value": "{\"name\": \"cache/65/fd/65fd8333cab8e7cbffb37d5d656d7465.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [157, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ba45cd83c50b8eb496645356e1a407c4",
+  "fields": {
+    "value": "{\"name\": \"cache/9d/8a/9d8a801c418a506ec886cf0b19ba727f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 180]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||be0f414195f7e41715893bc11f66e813",
+  "fields": {
+    "value": "{\"name\": \"cache/69/95/69951c0217959ca321fed54071235bf8.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [75, 50]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||bfc5fe937f8ace2cbc5fd76d099921b2",
+  "fields": {
+    "value": "{\"name\": \"cache/e4/07/e407c1ba43172afa63931419ee8a39fa.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c144638086c0ab3fa16ff21a07fb81bd",
+  "fields": {
+    "value": "{\"name\": \"product-images/ishikawa_tama_no_yorokobi_jg.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 280]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c1bdf3130e46be5be0bee15c240aa7db",
+  "fields": {
+    "value": "{\"name\": \"cache/88/2a/882a6c5e7d56caef735d035ab70a2636.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c1e592ea8208fd550668eb714e723ecb",
+  "fields": {
+    "value": "{\"name\": \"cache/bf/78/bf78cdc10ff4e55a9375f30f855c4d92.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ca06a7697d5a05bbf4058ed376b62674",
+  "fields": {
+    "value": "{\"name\": \"cache/4f/ff/4fff30b5976061d500896da64b70a08b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||cdc64b4f7dccddcb80184b3d0c4e5c57",
+  "fields": {
+    "value": "{\"name\": \"cache/37/18/37180dd5839f8434e74a7de03e8b5a7e.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||cffd22caf3aaa6b6d8695a5401c689b2",
+  "fields": {
+    "value": "{\"name\": \"cache/1e/de/1ede9f9f7815623826e6f5b03a75d2b1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 400]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d04f3ab6ed72e647b0369330f9d44adc",
+  "fields": {
+    "value": "{\"name\": \"product-images/tedorigawa_yamahai_junmai.webp\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [392, 600]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d2105e46a53391a8b89a6a264637dfe2",
+  "fields": {
+    "value": "{\"name\": \"cache/93/0b/930ba75a201ef2232482fea4566012c0.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [157, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d3463cae04a92c48050ecfce3a3b15ee",
+  "fields": {
+    "value": "{\"name\": \"cache/51/7c/517c42c10c1dd2030a1e7596b66384d8.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [700, 421]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d46251b61ade15f8bb3a621fd84f7c4d",
+  "fields": {
+    "value": "{\"name\": \"cache/25/99/2599f84a7b04d023d957cc68a14c66d5.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [500, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d8b9cd9114eaf558107d7fad236fc493",
+  "fields": {
+    "value": "{\"name\": \"cache/cc/77/cc77d9d37f2043f634e4e77449c0d312.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [500, 301]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d9f9e18dcd1ced87f501661144caad4b",
+  "fields": {
+    "value": "{\"name\": \"product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 280]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||da96777fac16dd71b42f75ab3923cd55",
+  "fields": {
+    "value": "{\"name\": \"cache/34/a6/34a67417ee3da592415d42109abe6c6f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||db7e07277c98613ac6700d09ca3a3c8b",
+  "fields": {
+    "value": "{\"name\": \"cache/03/cb/03cb04b438062eb33eeede906b9fb9d6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||de9f992d71836e6a32a9e411a3666f3c",
+  "fields": {
+    "value": "{\"name\": \"cache/a8/32/a8322564aa1b1e609b4a25ee0a16b9c3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||dec5e225e8f7a6a10e22c2c757a770bb",
+  "fields": {
+    "value": "{\"name\": \"cache/2f/62/2f6215d0fb22f14346f0ade6e9b8f15a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [400, 267]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e3d419c0fb12f72e1b897ad073dd9417",
+  "fields": {
+    "value": "{\"name\": \"breweries/asahishuzo.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [508, 592]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f3d27bd95dea589ebee2db1775ce8d46",
+  "fields": {
+    "value": "{\"name\": \"cache/0f/a5/0fa56c05ca7689c7c97cb1b450ee9d55.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f61992d1d49056aaea46148d33ba54b9",
+  "fields": {
+    "value": "{\"name\": \"cache/15/c6/15c638964be531b46dd2e4ff9ddea570.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [178, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f65a8343526b48570da0fe8672e1019e",
+  "fields": {
+    "value": "{\"name\": \"breweries/ishikawa.png\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [176, 242]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||fbb9a63f32dc96a17395be17b19dd74c",
+  "fields": {
+    "value": "{\"name\": \"cache/de/10/de10a701d8b2f8b7b59be8c983089caf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [236, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||fc1ca0516535bb463fba819f8c48cac1",
+  "fields": {
+    "value": "{\"name\": \"cache/89/de/89de3e17172516aac7e912931bcfc42a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [350, 350]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||fc59a8b5bc2a0ec8c8ecb601c62753d7",
+  "fields": {
+    "value": "{\"name\": \"cache/78/16/7816e85a47f0894c435c4af3b1339758.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [236, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||049fdfce371d6ef8f5fb4eb6e9496290",
+  "fields": {
+    "value": "[\"4aa8d03172b496022d0071eb69568b22\", \"a2b3ef9bc1f3a2489d4bb743f5cc5fbc\", \"5ab24127ccc0ca1492f83d90a5fcc0e2\", \"fc59a8b5bc2a0ec8c8ecb601c62753d7\", \"d2105e46a53391a8b89a6a264637dfe2\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||15e2b29ed0096134b9b3b75bda1adffb",
+  "fields": {
+    "value": "[\"234565018c2cfb9d2f169430ed7233c6\", \"92ccaa7b28fd94ec57e617aba2ac3a78\", \"95286d2ed5d2421dbe43081a884f80c7\", \"db7e07277c98613ac6700d09ca3a3c8b\", \"ac23717c05e16cb285279ff73ca3cca8\", \"6ac7c7051fd8ac0c7152da81fc41fcac\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||1d574adc7d825f75d85e9d317fc43fe2",
+  "fields": {
+    "value": "[\"dec5e225e8f7a6a10e22c2c757a770bb\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||21e9e428f5b86074962bd78e0b79d056",
+  "fields": {
+    "value": "[\"1d918aa3c6f750231b4100b839b20849\", \"f61992d1d49056aaea46148d33ba54b9\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||234e41a21bc99269b8d608cdef353203",
+  "fields": {
+    "value": "[\"a68d1488bba7cf7ae055805ad9a8f92b\", \"9de0450c8368609fce2405b2f93207ca\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||2a4c39c4dd9b68262e1b5682addb84b2",
+  "fields": {
+    "value": "[\"54f4be0ac41034340a5a3000a7c9169a\", \"900965c96d110e5dab165893ded16780\", \"cffd22caf3aaa6b6d8695a5401c689b2\", \"233d7d4464d4ebce4956da430a6cd67b\", \"008467232d615808bd177de8e9c33604\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||3c862de0d77862bce8032acc585aa160",
+  "fields": {
+    "value": "[\"832c7a2051669de5d5dc34d86b03d6b1\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||453d4d733d587e88ec244133ec6c8b76",
+  "fields": {
+    "value": "[\"8fba92042298286949b0288c3420013d\", \"4ff35af2e37f3a7699ec2945133b9338\", \"72006a47ee2d76357d42d17d5b5b5f31\", \"95d0482d4263bd88f6ff3b0aff5c51da\", \"d8b9cd9114eaf558107d7fad236fc493\", \"ba45cd83c50b8eb496645356e1a407c4\", \"d3463cae04a92c48050ecfce3a3b15ee\", \"6c2ad7a880cb3d7dd0abe347e03e30a5\", \"147bd6ab5eb7cf1f7a13e619355495f0\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||56b0f6b6b11ea97e642b5e4dabb0c5dc",
+  "fields": {
+    "value": "[\"de9f992d71836e6a32a9e411a3666f3c\", \"da96777fac16dd71b42f75ab3923cd55\", \"cdc64b4f7dccddcb80184b3d0c4e5c57\", \"34549cef6a7dd1a45e1506c34a3b6159\", \"2292557eca3f60d62709131a926af7f5\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||61ede55b36b9732fed5bddccfe85e7f0",
+  "fields": {
+    "value": "[\"7a0383e4c32b4420b502b9846bc4c5ec\", \"156f709707c5751dc0dabc5014f1570e\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||6221c2d3d28e442c28414fa66dbda4cc",
+  "fields": {
+    "value": "[\"c1bdf3130e46be5be0bee15c240aa7db\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||67e8fb63a7ee5669e877a93b043b9bab",
+  "fields": {
+    "value": "[\"be0f414195f7e41715893bc11f66e813\", \"5e92a6a0d107af2e24e38f11cc3e2e02\", \"91f7d3e876c1c141cd229d3aa73d9807\", \"3669ceac61268329873eb0d9174f34d9\", \"9cf4f791d1af8593da603d5b73c40c71\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||92fec2260115120a1ab0f950bb37ef25",
+  "fields": {
+    "value": "[\"a775b2c10b146099657e14f36260a437\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||93e5f8725cc512ad5fdcaefc7366d0d7",
+  "fields": {
+    "value": "[\"60ca09af515f0117fb143bc3ad9e60e2\", \"29f8e23721d976fd4b12b49466bcab9a\", \"726a0bb58616f8123ee3191645c1a66f\", \"f3d27bd95dea589ebee2db1775ce8d46\", \"61bb8ea1983cf17272b8c12557421f78\", \"adf9f7f4e8f22e31a50fba393221444f\", \"ca06a7697d5a05bbf4058ed376b62674\", \"c1e592ea8208fd550668eb714e723ecb\", \"fc1ca0516535bb463fba819f8c48cac1\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||a1063425d7b94c2ac4747cd069f73fc8",
+  "fields": {
+    "value": "[\"d46251b61ade15f8bb3a621fd84f7c4d\", \"2962eeb457598f3b0a1260958cd703dd\", \"bfc5fe937f8ace2cbc5fd76d099921b2\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||a2820cf28bd12485ce9b2c647329b564",
+  "fields": {
+    "value": "[\"5d9555819fa2da3616eee80c9f082357\", \"46acfb43abb35efa5ac79b625b04977b\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||c144638086c0ab3fa16ff21a07fb81bd",
+  "fields": {
+    "value": "[\"9204c80f058b94c977737de8aeeaeda3\", \"ad0601cc1f4298f91fbfeb93770abb24\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||d04f3ab6ed72e647b0369330f9d44adc",
+  "fields": {
+    "value": "[\"1b7d5ec1384980b30e3847f0f52ccb1c\", \"a66e726b5b2d6caa279ae7ea9d79f362\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||d9f9e18dcd1ced87f501661144caad4b",
+  "fields": {
+    "value": "[\"b1978af944ebe55cbb2002d57656a8ba\", \"fbb9a63f32dc96a17395be17b19dd74c\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||e3d419c0fb12f72e1b897ad073dd9417",
+  "fields": {
+    "value": "[\"3e9aa0fbb6bb650d9c527141bb00c543\", \"a3be9ce6e0286d1739f4556f481a76bc\", \"2606fd3ddeff2c68cf714c39328625fb\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||f65a8343526b48570da0fe8672e1019e",
+  "fields": {
+    "value": "[\"98256372693a32eb98bc81014e5c7793\"]"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add address",
+    "content_type": 6,
+    "codename": "add_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change address",
+    "content_type": 6,
+    "codename": "change_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete address",
+    "content_type": 6,
+    "codename": "delete_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view address",
+    "content_type": 6,
+    "codename": "view_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add brewery",
+    "content_type": 7,
+    "codename": "add_brewery"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change brewery",
+    "content_type": 7,
+    "codename": "change_brewery"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete brewery",
+    "content_type": 7,
+    "codename": "delete_brewery"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view brewery",
+    "content_type": 7,
+    "codename": "view_brewery"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart",
+    "content_type": 8,
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart",
+    "content_type": 8,
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart",
+    "content_type": 8,
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart",
+    "content_type": 8,
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart line",
+    "content_type": 9,
+    "codename": "add_cartline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart line",
+    "content_type": 9,
+    "codename": "change_cartline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart line",
+    "content_type": 9,
+    "codename": "delete_cartline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart line",
+    "content_type": 9,
+    "codename": "view_cartline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order",
+    "content_type": 10,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order",
+    "content_type": 10,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 10,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order",
+    "content_type": 10,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order line",
+    "content_type": 11,
+    "codename": "add_orderline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order line",
+    "content_type": 11,
+    "codename": "change_orderline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order line",
+    "content_type": 11,
+    "codename": "delete_orderline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order line",
+    "content_type": 11,
+    "codename": "view_orderline"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product",
+    "content_type": 12,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product",
+    "content_type": 12,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 12,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product",
+    "content_type": 12,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product image",
+    "content_type": 13,
+    "codename": "add_productimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product image",
+    "content_type": 13,
+    "codename": "change_productimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product image",
+    "content_type": 13,
+    "codename": "delete_productimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product image",
+    "content_type": 13,
+    "codename": "view_productimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product tag",
+    "content_type": 14,
+    "codename": "add_producttag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product tag",
+    "content_type": 14,
+    "codename": "change_producttag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product tag",
+    "content_type": 14,
+    "codename": "delete_producttag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product tag",
+    "content_type": 14,
+    "codename": "view_producttag"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add review",
+    "content_type": 15,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change review",
+    "content_type": 15,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 15,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view review",
+    "content_type": 15,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user profile",
+    "content_type": 16,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user profile",
+    "content_type": 16,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user profile",
+    "content_type": 16,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user profile",
+    "content_type": 16,
+    "codename": "view_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add kv store",
+    "content_type": 17,
+    "codename": "add_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change kv store",
+    "content_type": 17,
+    "codename": "change_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete kv store",
+    "content_type": 17,
+    "codename": "delete_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view kv store",
+    "content_type": 17,
+    "codename": "view_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": 18,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": 18,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 18,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": 18,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$150000$lYMkPODWPiXM$eJJZRSUa6mBQvZ6AbqFxeJo3IeYTsn18fJbpfQST/OE=",
+    "last_login": "2020-04-27T10:01:38.724Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-25T20:15:57Z",
+    "username": "berlink",
+    "email": "b@b.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "main.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "profile_image": "profile_images/masu_profile.jpg"
+  }
+},
+{
+  "model": "main.address",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "name": "Berlian Khatulistiwa",
+    "address1": "0/1, 4",
+    "address2": "WEST PRINCES STREET",
+    "zip_code": "G49BP",
+    "city": "Glasgow",
+    "country": "uk"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-04-25T22:26:30.980Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Ishikawa Brewery",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"prefecture\", \"email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-04-25T22:26:39.692Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Asahi Shuzo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"prefecture\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-04-25T22:26:46.239Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Tedorigawa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"prefecture\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-04-26T00:25:42.019Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Cart object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-04-26T00:43:22.137Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Cart object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-04-26T00:56:08.016Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Daiginjo Shizuku",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-04-26T00:56:17.215Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Tedorigawa Yamahai Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\", \"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-04-26T00:56:30.800Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Tedorigawa Iki na Onna Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-04-26T00:56:44.669Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Tedorigawa Mangekyo Junmai Daiginjo 'Kaleidoscope'",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\", \"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-04-26T00:56:55.353Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "DASSAI 23",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-04-26T00:57:09.169Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "DASSAI Sparkling 45",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-04-26T00:57:19.738Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "DASSAI 45",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-04-26T00:57:24.006Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "DASSAI 45",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-04-26T00:57:35.224Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "DASSAI 39",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-04-26T00:57:49.558Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Tamajiman Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-04-26T00:57:53.991Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Tamajiman Daiginjo",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-04-26T00:57:58.112Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Daiginjo Shizuku",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-04-26T00:58:19.832Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Tama no Yotokobi Junmai Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-04-26T00:58:35.010Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Junmai Kumagawa Ichibanchi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-04-26T01:28:47.883Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Tedorigawa Yamahai Junmai",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_description\", \"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-04-26T01:29:22.074Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Tedorigawa Yamahai Junmai",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-04-26T04:42:54.039Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Ishikawa Brewery",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"header\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-04-26T04:43:08.137Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Asahi Shuzo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"header\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-04-26T04:43:28.274Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Tedorigawa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"header\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-04-26T04:44:22.695Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Ishikawa Brewery",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-04-26T05:42:41.923Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Tedorigawa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\", \"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-04-26T05:42:50.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Tedorigawa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-04-26T05:53:40.059Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Tedorigawa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-04-26T06:10:10.077Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Ishikawa Brewery",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-04-26T08:01:49.651Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "b@b.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-04-27T09:21:58.246Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Cart object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-04-27T09:21:58.247Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Cart object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-04-27T09:21:58.248Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Cart object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-04-27T09:21:58.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Cart object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-04-27T09:21:58.251Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Cart object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.601Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Cart object (16)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.604Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Cart object (15)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.606Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Cart object (14)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.608Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Cart object (13)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.610Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Cart object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2020-04-27T12:45:48.611Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Cart object (11)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2020-04-27T12:45:57.304Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Order object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2020-04-27T12:45:57.306Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Order object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2020-04-27T12:45:57.308Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Order object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2020-04-27T12:45:57.309Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Order object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-04-27T12:45:57.310Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Order object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

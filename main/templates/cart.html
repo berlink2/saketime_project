@@ -47,9 +47,9 @@
                     </div>
                 </td>
         <td>$ {{ form.instance.product.price }}</td>
-        <td id="quantity">{{ form.instance.quantity }}</td>
+            <td id="quantity"><a href="{% url 'remove-one-from-cart' slug=form.instance.product.slug  %}"><i class="fas fa-minus-circle mr-2"></i></a>{{ form.instance.quantity }}<a href="{% url 'add-one-to-cart' slug=form.instance.product.slug  %}"><i class="fas fa-plus-circle ml-2"></i></a></td>
         <td id="price">$ {{ form.instance.get_total_price }}</td>
-        <td><i class="fas fa-trash float-right"></i></td>
+        <td><a href="{% url 'remove-product-from-cart' slug=form.instance.product.slug %}"><i class="fas fa-trash float-right" style="color: Red;"></i></a></td>
         </tr>
         {% endfor %}
     <tr>

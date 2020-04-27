@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/static/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/00/53/00539344163c751bf87691c092b0afa0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/01/cd/01cdaa43256a48e5e49efdf9d2540f1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/0d/92/0d92eca716a5af6789d324e0902d45a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/0e/f5/0ef55f6af729b5ce14925b1bbc6d571e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/10/bb/10bb520e5f3daefa907d01bc67f6c862.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/4a/fd/4afd14f1cbca3112d14edd21be546b49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/4b/1c/4b1ca9c9d3054d8956bf39887a9af2a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/51/8a/518a2f9dabf41acc614cfe926a607ca6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/79/ec/79ecb8c8d078ee8c9e47c9f6e192689d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/8a/a8/8aa8d1c6c282fb66686a9c3fc07e90eb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/91/0a/910a4c9d73b0fe48b40cef69679a0ae8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/a3/42/a3429a43f4cfe131c44889ce1837b947.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/bc/ed/bced85a66853ea2b7f1e741fb5221842.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/cb/97/cb973a9351ebc744e6f65c0f2943852f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/cb/ef/cbef612830617eebff80bddc73eb9216.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/eb/da/ebdacef80257ec65f0c6ce83e2f385e3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/ee/3e/ee3ea175fbae1da7beb865b21734548d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/ee/6a/ee6a7c8c198b3c2d2da1dac1f46d9edc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/f4/c1/f4c1b7782d36c0e8e44d9f038f49c995.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_0o15G2f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_1ICL2UK.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_HOA1Tpb.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_TusfXkG.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_eMJ4UjT.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test1_eQP3ryP.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_WvDLm8S.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_XbTB64Z.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_hovHk1t.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_ne00Rdj.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_v1CE5zN.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/test2_wWUuS5t.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/js/plusminusnumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/js/plusminusnumber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/userprofile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +122,7 @@
       <workItem from="1587810571245" duration="31318000" />
       <workItem from="1587893397557" duration="25000" />
       <workItem from="1587959344057" duration="138000" />
-      <workItem from="1587959838568" duration="19993000" />
+      <workItem from="1587959838568" duration="27698000" />
     </task>
     <servers />
   </component>

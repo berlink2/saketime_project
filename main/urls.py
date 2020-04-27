@@ -1,7 +1,10 @@
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
-from .views import ContactUsView, ProductListView, RegisterView, logout_user, add_to_cart, manage_cart, show_brewery, UserProfileView
+from .views import (ContactUsView, ProductListView, RegisterView,
+    logout_user, add_to_cart,
+                    manage_cart, remove_one_from_cart, add_one_to_cart,
+                    show_brewery, UserProfileView,remove_product_from_cart)
 from .models.product import Product
 from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
@@ -20,7 +23,10 @@ urlpatterns = [
     path('contact-us/', ContactUsView.as_view(),name='contact-us'),
     path('', TemplateView.as_view(template_name='home.html'),name='home'),
     path('add_to_cart/', add_to_cart, name='add-to-cart'),
-    path('cart/', manage_cart, name='cart' ),
+    path('cart/', manage_cart, name='cart'),
+    path('remove/<slug:slug>', remove_product_from_cart, name='remove-product-from-cart' ),
+    path('add_one_to_cart/<slug:slug>', add_one_to_cart, name='add-one-to-cart' ),
+    path('remove_one_from_cart/<slug:slug>', remove_one_from_cart, name='remove-one-from-cart' ),
     path('brewery/<slug:brewery_slug>/', show_brewery, name='brewery'),
     path('product/<slug:slug>/', DetailView.as_view(model=Product), name='product'),
     path('products/<slug:tag>/', ProductListView.as_view(), name='product-list'),

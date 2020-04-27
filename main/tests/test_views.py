@@ -96,6 +96,12 @@ class TestPage(TestCase):
             price=Decimal("12.00"),
         )
 
+        test_product3 = models.Product.objects.create(
+            name="nice",
+            slug="nice",
+            price=Decimal("12.00"),
+        )
+
         self.client.force_login(user1)
 
         response = self.client.get(reverse("add-to-cart"), {"product": test_product.id})
@@ -106,3 +112,5 @@ class TestPage(TestCase):
         response = self.client.get(reverse("add-to-cart"), {"product": test_product2.id})
 
         self.assertEquals(models.CartLine.objects.filter(cart__user=user1).count(),2)
+
+
