@@ -22,9 +22,17 @@ class Cart(models.Model):
     def count(self):
         return sum(i.quantity for i in self.cartline_set.all())
 
+    def get_total(self):
+        # total = 0
+        # for i in self.cartline_set.all():
+        #     total +=i.get_total_price()
+        # return total
+        return sum(i.get_total_price() for i in self.cartline_set.all())
+
+
     def create_order(self, billing_address, shipping_address):
         if not self.user:
-            raise exceptions.CartException(
+            raise exceptions.Cart.DoesNotExist(
                 "Cannot create order without user"
             )
 
@@ -79,5 +87,10 @@ class CartLine(models.Model):
     cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1, validators=[MinValueValidator(1)])
+
+    def get_total_price(self):
+        return self.quantity * self.product.price
+
+
 
 

@@ -20,3 +20,4 @@ class UserProfileView(DetailView, LoginRequiredMixin):
 
 
 
+

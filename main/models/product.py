@@ -66,6 +66,8 @@ class Product(models.Model):
 
     objects = ProductManager()
 
+    def get_absolute_url(self):
+        return reverse('product', kwargs={'slug':self.slug})
 
     def natural_key(self):
         return (self.slug,)

@@ -93,10 +93,13 @@ class AuthenticationForm(forms.Form):
 CartLineFormSet = inlineformset_factory(
     Cart,
     CartLine,
+
     fields=('quantity',),
     extra=0,
     widgets={'quantity': widgets.PlusMinusInput()}
+
 )
+
 
 
 class AddressSelectionForm(forms.Form):

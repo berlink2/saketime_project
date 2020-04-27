@@ -1,32 +1,97 @@
 {% extends "base.html" %}
 {% load static %}
+{% load thumbnail %}
+<style>
+    img {
+        margin-right: 100vh;
+    }
+
+
+    </style>
+
 {% block content %}
-
-
     {% if formset %}
-        <h2 class="text-center">Cart</h2>
-    <p>You can adjust the quantities below.</p>
+
+        <div class="container">
+
     <form method="POST">
         {% csrf_token %}
-        {{ formset.management_form }}
-        {% for form in formset %}
-            <p>
-                {{ form.instance.product.name }}
-                {{ form }}
-            </p>
+    <div class="table-responsive">
+    <h2 class="mb-3">Your Cart</h2>
+    <table class="table">
+        <thead>
+        <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Total Price</th>
+        <th scope="col" class="text-right"></th>
+        </tr>
+        </thead>
+    <tbody>
+    {{ cartline.management_form }}
+    {% for form in formset %}
+        <tr>
+                <td>
+                    <div class="row">
+                    <div class="col-2 mr-auto">
+                    {% thumbnail form.instance.product.first_image.image '100x90' as im %}
+                    <img class="img-sm img-responsive" src="{{ im.url }}"/>
+                    {% endthumbnail %}
+                    </div>
+
+                    <div class="col-10">
+                    <h6><a href="{{ form.instance.product.get_absolute_url }}">{{ form.instance.product.name }}</a> </h6>
+                        <p><small>{{ form.instance.product.volume }} ml</small></p>
+                        </div>
+                    </div>
+                </td>
+        <td>$ {{ form.instance.product.price }}</td>
+        <td id="quantity">{{ form.instance.quantity }}</td>
+        <td id="price">$ {{ form.instance.get_total_price }}</td>
+        <td><i class="fas fa-trash float-right"></i></td>
+        </tr>
         {% endfor %}
-        <button type="submit" class="btn btn-default">Update cart</button>
-     {% if user.is_authenticated %}
-<a href="{% url "address_select" %}" class="btn btn-primary">Place order</a>
-{% else %}
-<a
-href="{% url "signup" %}?next={% url "address_select" %}"
-class="btn btn-primary">Signup</a> <a
-href="{% url "login" %}?next={% url "address_select" %}"
-class="btn btn-primary">Login</a> {% endif %}
+    <tr>
+        <td>Order Total</td>
+        <td></td>
+        <td>{{ request.cart.count }}</td>
+        <td colspan="2">$ {{ request.cart.get_total }}</td>
+    </tr>
+
+        </tbody>
+
+
+
+         </table>
+
+        <!-- table-responsive-->
+         </div>
     </form>
+        </div>
+        <div class="container">
+
+            {% if user.is_authenticated %}
+
+            <div class="text-right">
+            <a href="{% url "product-list" 'all' %}" class="btn btn-lg btn-danger">Continue Shopping</a>
+         <a href="{% url "address_select" %}" class="btn btn-lg btn-danger">Place order</a>
+                </div>
 
 {% else %}
+                <div class="text-right">
+
+         <a href="{% url "login" %}?next={% url "address_select" %}"
+class="btn btn-danger btn-lg">Login</a>
+                <a href="{% url "register" %}?next={% url "address_select" %}" class="btn btn-lg btn-danger">Signup</a>
+                </div>
+
+     {% endif %}
+        <!-- container-->
+        </div>
+
+{% else  %}
+        <div class="container mt-5">
         <div class="text-center">
         <img src="{% static 'images/emptycart.jpg' %}" width="200" height="200"/>
         </div>
@@ -34,9 +99,11 @@ class="btn btn-primary">Login</a> {% endif %}
         <div class="text-center">
     <h4>Your cart is empty</h4>
             <h6>We can help with that!</h6>
-            <button class="btn btn-danger" href="#">Start Shopping</button>
+            <a class="btn btn-lg btn-danger" href="{% url "product-list" 'all' %}">Start Shopping</a>
         </div>
         </div>
+</div>
+
 {% endif %}
 {% endblock content %}
 
@@ -44,4 +111,9 @@ class="btn btn-primary">Login</a> {% endif %}
     {% if formset %}
     {{ formset.media }}
     {% endif %}
+
+    <script>
+    let orderTotal = document.getElementById('order_total')
+    document.ge
+    </script>
 {% endblock extra_js %}

@@ -98,11 +98,11 @@ class TestPage(TestCase):
 
         self.client.force_login(user1)
 
-        response = self.client.get(reverse("add-to-cart"), {"product_id": test_product.id})
-        response = self.client.get(reverse("add-to-cart"), {"product_id": test_product.id})
+        response = self.client.get(reverse("add-to-cart"), {"product": test_product.id})
+        response = self.client.get(reverse("add-to-cart"), {"product": test_product.id})
 
         self.assertEquals(models.CartLine.objects.filter(cart__user=user1).count(),1)
 
-        response = self.client.get(reverse("add-to-cart"), {"product_id": test_product2.id})
+        response = self.client.get(reverse("add-to-cart"), {"product": test_product2.id})
 
         self.assertEquals(models.CartLine.objects.filter(cart__user=user1).count(),2)
