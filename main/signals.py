@@ -1,7 +1,7 @@
 from django.contrib.auth.signals import user_logged_in
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
-from main.models import Cart, UserProfile, OrderLine, Order
+from main.models import Cart, UserProfile, OrderLine, Order, CartLine
 from django.contrib.auth import get_user_model
 
 from main.models import Cart
@@ -34,6 +34,7 @@ def create_user_profile(sender, instance, created, **kwargs):
 
 @receiver(post_save, sender=OrderLine)
 def orderline_to_order_status(sender, instance, **kwargs):
+
     if not instance.order.lines.filter(
         status__lt=OrderLine.SENT
     ).exists():

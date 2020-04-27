@@ -2,7 +2,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
 from .views import (ContactUsView, ProductListView, RegisterView,
-    logout_user, add_to_cart,
+    logout_user, add_to_cart, show_bestseller,
                     manage_cart, remove_one_from_cart, add_one_to_cart,
                     show_brewery, UserProfileView,remove_product_from_cart)
 from .models.product import Product
@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("about-us/",TemplateView.as_view(template_name="about_us.html"),name='about-us'),
     path('contact-us/', ContactUsView.as_view(),name='contact-us'),
-    path('', TemplateView.as_view(template_name='home.html'),name='home'),
+    path('', show_bestseller,name='home'),
     path('add_to_cart/', add_to_cart, name='add-to-cart'),
     path('cart/', manage_cart, name='cart'),
     path('remove/<slug:slug>', remove_product_from_cart, name='remove-product-from-cart' ),

@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load thumbnail %}
 {% block extra_head %}
     <style>
     .jumbotron-fluid {
@@ -19,7 +19,7 @@
 {% endblock extra_head %}
 
 {% block content %}
-
+<div>
    <div class="jumbotron-fluid  text-center pt-5 text-white bg-image">
 
         <div id='jumbo-text' class="pt-5 mt-5">
@@ -27,6 +27,36 @@
         <a href="{% url 'product-list' 'all' %}" class="btn btn-danger btn-lg text-white mt-3">Start Shopping</a>
       </div>
    </div>
+
+</div>
+
+    <div class="container mt-5">
+    <div class="row text-center">
+    <div class="col-6">
+
+        <h4>Brewery of the Month</h4>
+        <p class="mt-3">
+            {% thumbnail best_brewery.image '200x200' as im%}
+            <img src="{{ im.url }}">
+            {% endthumbnail %}
+        </p>
+    <p>
+        <a href="{% url 'brewery' brewery_slug=best_brewery.slug %}"> {{ best_brewery.name }}</a>
+    </p>
+    </div>
+    <div class="col-6">
+        <h4>Sake of the Month</h4>
+        <p class="mt-3">
+            {% thumbnail best_product.first_image.image '200x200' as im%}
+            <img src="{{ im.url }}">
+            {% endthumbnail %}
+        </p>
+    <p>
+        <a href="{{ best_product.get_absolute_url }}"> {{ best_product.name }}</a>
+    </p>
+    </div>
+        </div>
+    </div>
 
 
 

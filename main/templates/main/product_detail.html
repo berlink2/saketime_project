@@ -60,12 +60,12 @@
             <td>{{ product.volume }} ml</td>
         </tr>
         <tr>
-            <th>Description</th>
+            <th>Alcohol Percentage</th>
             <td>% {{ product.abv }}</td>
         </tr>
         <tr>
             <th>Tags</th>
-            <td>{{ object.tags.all|join:","|default:"" }}</td>
+            <td>{{ object.tags.all|join:", "|default:"" }}</td>
         </tr>
         <tr>
             <th>In stock</th>

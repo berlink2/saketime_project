@@ -27,4 +27,4 @@ class ProductListView(ListView):
         else:
             products = Product.objects.active()
 
-        return products.order_by("name")
+        return products.order_by("units_sold")

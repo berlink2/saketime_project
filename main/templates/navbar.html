@@ -19,7 +19,7 @@
                         <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
+                        <a class="nav-link text-dark" href="{% url 'product-list' 'all' %}">Products</a>
                     </li>
                 </ul>
 
@@ -61,7 +61,13 @@
                     <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="{% url 'contact-us' %}">Contact</a>
+                    <a class="nav-link text-dark" href="{% url 'product-list' 'all' %}">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Breweries</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Reviews</a>
                 </li>
             </ul>
 
@@ -109,6 +115,9 @@
                     <li class="nav-item col-auto pr-0 mr-0">
                         <a class="nav-link mt-2" href="{% url 'cart' %}">
                             <i class="fas fa-shopping-cart fa-2x"></i>
+
+    <span class="badge badge-danger ">{{ request.cart.count }}</span>
+
                         </a>
 
 
@@ -123,7 +132,7 @@
                     </li>
 
                     <li class="nav-item col-auto pr-0 mr-0 mt-0">
-                        <a class="nav-link mt-2" href="{% url 'cart' %}">
+                        <a class="nav-link mt-2" href="{% url 'cart' %}"><span class="badge badge-danger">{{ request.cart.count }}</span>
                             <i class="fas fa-shopping-cart fa-2x"></i>
                         </a>
 

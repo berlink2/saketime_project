@@ -34,12 +34,7 @@
 {% for message in messages %}
     <div class="alert alert-{{ message.tags }}">{{ message }}</div>
 {% endfor %}
-{% if request.cart %}
-<div>
-    {{ request.cart.count }}
-    items in cart
-</div>
-{% endif %}
+
 {% block content %}
 
 

@@ -7,6 +7,9 @@ from .cart import *
 from .order import *
 from .brewery import *
 from .userprofile import *
+from .homepage import *
+
+
 
 
 

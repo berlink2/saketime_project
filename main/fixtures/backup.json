@@ -135,6 +135,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "7skzyk2kveimj939zz3c2emtrhkj0ne4",
+  "fields": {
+    "session_data": "YmM0NWJmNWEzOTU3NWQ3YzgwMmYzNDUzYTNkNDFkMzJkMDMwMzUxZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmOGJkYzhjMTY4MWVmZGU1N2VjNjgzNzkxMWNmMGRiMDJlZmVhZDBjIn0=",
+    "expire_date": "2020-05-11T12:55:49.094Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "ky54jg92e1xjcfw7q93w0ex6dttwh29p",
   "fields": {
     "session_data": "MDFmMDM2YzJmMzJmMzY2MzQxMzAwNDhiMDdiNzQxMDg5ZjlhOTM5MDp7ImNhcnRfaWQiOjZ9",
@@ -344,12 +352,13 @@
     "slug": "daiginjo-shizuku",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:57:58.110Z",
+    "date_updated": "2020-04-27T12:57:29.530Z",
     "average_rating": 0.0,
     "abv": 17.0,
     "sake_type": "d",
     "brewery": 3,
     "volume": 720,
+    "units_sold": 34,
     "tags": [
       4,
       8,
@@ -367,12 +376,13 @@
     "slug": "tamajiman-daiginjo",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:57:53.989Z",
+    "date_updated": "2020-04-27T12:57:21.521Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "d",
     "brewery": 3,
     "volume": 720,
+    "units_sold": 27,
     "tags": [
       11,
       14
@@ -389,12 +399,13 @@
     "slug": "tama-no-yotokobi-junmai-daiginjo",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:58:19.827Z",
+    "date_updated": "2020-04-27T12:57:16.542Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "jg",
     "brewery": 3,
     "volume": 720,
+    "units_sold": 56,
     "tags": [
       1,
       3,
@@ -412,12 +423,13 @@
     "slug": "junmai-kumagawa-ichibanchi",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:58:35.007Z",
+    "date_updated": "2020-04-27T12:57:11.878Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "j",
     "brewery": 3,
     "volume": 720,
+    "units_sold": 25,
     "tags": [
       7,
       10,
@@ -435,12 +447,13 @@
     "slug": "dassai-23",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:56:55.350Z",
+    "date_updated": "2020-04-27T12:57:07.302Z",
     "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
     "volume": 720,
+    "units_sold": 14,
     "tags": [
       1,
       11
@@ -457,12 +470,13 @@
     "slug": "dassai-39",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:57:35.219Z",
+    "date_updated": "2020-04-27T12:57:03.375Z",
     "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
     "volume": 720,
+    "units_sold": 45,
     "tags": [
       5,
       6,
@@ -480,12 +494,13 @@
     "slug": "dassai-45",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:57:24.004Z",
+    "date_updated": "2020-04-27T12:56:58.345Z",
     "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
     "volume": 720,
+    "units_sold": 7,
     "tags": [
       3,
       5
@@ -502,12 +517,13 @@
     "slug": "dassai-sparkling-45",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:57:09.164Z",
+    "date_updated": "2020-04-27T12:56:54.616Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "jd",
     "brewery": 2,
     "volume": 360,
+    "units_sold": 8,
     "tags": [
       2,
       5
@@ -524,12 +540,13 @@
     "slug": "tedorigawa-mangekyo-junmai-daiginjo-kaleidoscope",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:56:44.665Z",
+    "date_updated": "2020-04-27T12:56:50.545Z",
     "average_rating": 0.0,
     "abv": 18.0,
     "sake_type": "jd",
     "brewery": 1,
     "volume": 720,
+    "units_sold": 6,
     "tags": [
       1,
       8,
@@ -547,12 +564,13 @@
     "slug": "tedorigawa-yamahai-junmai",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T01:29:22.069Z",
+    "date_updated": "2020-04-27T12:56:45.514Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "j",
     "brewery": 1,
     "volume": 720,
+    "units_sold": 5,
     "tags": [
       13,
       14
@@ -569,12 +587,13 @@
     "slug": "tedorigawa-iki-na-onna-daiginjo",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:56:30.796Z",
+    "date_updated": "2020-04-27T12:56:40.810Z",
     "average_rating": 0.0,
     "abv": 17.0,
     "sake_type": "d",
     "brewery": 1,
     "volume": 720,
+    "units_sold": 20,
     "tags": [
       9,
       11,
@@ -592,12 +611,13 @@
     "slug": "tedorigawa-yamahai-daiginjo",
     "active": true,
     "in_stock": true,
-    "date_updated": "2020-04-26T00:56:17.212Z",
+    "date_updated": "2020-04-27T12:56:34.612Z",
     "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "d",
     "brewery": 1,
     "volume": 720,
+    "units_sold": 10,
     "tags": [
       3,
       4
@@ -2081,7 +2101,7 @@
   "model": "users.user",
   "fields": {
     "password": "pbkdf2_sha256$150000$lYMkPODWPiXM$eJJZRSUa6mBQvZ6AbqFxeJo3IeYTsn18fJbpfQST/OE=",
-    "last_login": "2020-04-27T10:01:38.724Z",
+    "last_login": "2020-04-27T12:55:49.091Z",
     "is_superuser": true,
     "first_name": "",
     "last_name": "",
@@ -2711,6 +2731,162 @@
     "object_repr": "Order object (1)",
     "action_flag": 3,
     "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-04-27T12:56:34.616Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Tedorigawa Yamahai Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-04-27T12:56:40.812Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Tedorigawa Iki na Onna Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-04-27T12:56:45.516Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Tedorigawa Yamahai Junmai",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2020-04-27T12:56:50.548Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Tedorigawa Mangekyo Junmai Daiginjo 'Kaleidoscope'",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2020-04-27T12:56:54.618Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "DASSAI Sparkling 45",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2020-04-27T12:56:58.347Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "DASSAI 45",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2020-04-27T12:57:03.377Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "DASSAI 39",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2020-04-27T12:57:07.305Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "DASSAI 23",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2020-04-27T12:57:11.881Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Junmai Kumagawa Ichibanchi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2020-04-27T12:57:16.544Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Tama no Yotokobi Junmai Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2020-04-27T12:57:21.523Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Tamajiman Daiginjo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2020-04-27T12:57:29.533Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Daiginjo Shizuku",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
   }
 }
 ]

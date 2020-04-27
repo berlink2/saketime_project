@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0006_auto_20200427_1255.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0007_auto_20200427_1403.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views/homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/13/d9/13d9b110ca5dca27cd85387d181f1d7b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/13/e5/13e58f351023daf4d656ea4f7606669b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/51/ad/51ad32a3f9bf78a98916e8c2eda64ca7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/69/a7/69a7d29f896a8480f846f9bad43801aa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/8d/de/8dde968b03c696fce4f47af5e88c8abd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/a2/9f/a29f52e2c34e2c4e4ad7a26620019c5c.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +41,8 @@
         <option value="Python Unit Test" />
         <option value="package.json" />
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -122,7 +137,7 @@
       <workItem from="1587810571245" duration="31318000" />
       <workItem from="1587893397557" duration="25000" />
       <workItem from="1587959344057" duration="138000" />
-      <workItem from="1587959838568" duration="27698000" />
+      <workItem from="1587959838568" duration="34004000" />
     </task>
     <servers />
   </component>
@@ -143,5 +158,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="54" key="SettingsEditor" timestamp="1587994611930">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1587994611930" />
   </component>
 </project>

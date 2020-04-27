@@ -63,6 +63,7 @@ class Product(models.Model):
     sake_type = models.CharField(max_length=3, choices=SAKE_TYPES)
     brewery = models.ForeignKey(Brewery, null=True, blank=True, on_delete=models.CASCADE, related_name='products')
     volume = models.PositiveIntegerField(blank=True, null=True)
+    units_sold = models.PositiveIntegerField(blank=True,null=True,default=0)
 
     objects = ProductManager()
 

@@ -10,23 +10,16 @@ from main import models
 
 
 class TestPage(TestCase):
-    def test_home_page_works(self):
-        response = self.client.get("")
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'home.html')
-
     def test_about_us_page_works(self):
         response = self.client.get(reverse("about-us"))
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'about_us.html')
-
 
     def test_user_signup_page_loads_correctly(self):
         response = self.client.get(reverse("register"))
 
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, "register.html")
-
 
     def test_address_list_page_returns_only_owned(self):
         user1 = get_user_model().objects.create_user(

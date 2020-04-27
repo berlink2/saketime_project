@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.text import slugify
+from django.shortcuts import reverse
 
 
 class BreweryManager(models.Manager):
@@ -20,12 +21,13 @@ class Brewery(models.Model):
     long = models.FloatField(blank=True, null=True)
     website = models.CharField(max_length=100, blank=True)
     header = models.ImageField(upload_to='breweries',blank=True, null=True)
-
     objects = BreweryManager()
 
     class Meta:
         verbose_name_plural = 'Breweries'
 
+    def get_absolute_url(self):
+        return reverse('brewery')
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
         super(Brewery, self).save(*args, **kwargs)
@@ -35,5 +37,13 @@ class Brewery(models.Model):
 
     def natural_key(self):
         return (self.slug,)
+
+    def get_total_sales(self):
+        get_qs = self.products.all()
+        total_sales = 0
+        for product in get_qs:
+            total_sales += product.units_sold
+        return total_sales
+
 
 
