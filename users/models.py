@@ -49,6 +49,9 @@ class User(AbstractUser):
 
     objects = UserManager()
 
+    def get_user_profile(self):
+        return self.userprofile
+
     @property
     def is_employee(self):
         return self.is_active and (

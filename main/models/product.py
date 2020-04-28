@@ -3,6 +3,7 @@ from django.shortcuts import reverse
 # Create your models here.
 from django.utils.text import slugify
 from .brewery import Brewery
+import numpy as np
 
 SAKE_TYPES = (
     ('jd','Junmai Daiginjo'),
@@ -66,6 +67,10 @@ class Product(models.Model):
     units_sold = models.PositiveIntegerField(blank=True,null=True,default=0)
 
     objects = ProductManager()
+
+    def average_rating(self):
+        all_ratings = map(lambda x:x.rating, self.reviews.all())
+        return np.mean(all_ratings)
 
     def get_absolute_url(self):
         return reverse('product', kwargs={'slug':self.slug})

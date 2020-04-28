@@ -18,7 +18,7 @@ class UserProfileView(DetailView, LoginRequiredMixin):
 def account_settings(request):
     user = request.user
     userprofile = UserProfile.objects.get(user=user)
-    userprofileform = UserProfileForm(instance=user)
+    userprofileform = UserProfileForm(instance=userprofile)
     userform = UserForm(instance=user)
 
     if request.method == 'POST':

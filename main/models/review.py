@@ -1,6 +1,7 @@
 from django.db import models
 from .userprofile import UserProfile
 from .product import Product
+from django.contrib.auth import get_user_model
 import numpy as np
 
 """
@@ -11,8 +12,17 @@ Each user can only write one review about each gin
 
 
 class Review(models.Model):
-    date = models.DateField(blank=True, null=True)
-    rating = models.PositiveSmallIntegerField(blank=True, null=True)
+    RATING_CHOICES = (
+        (1,'1'),
+        (2, '2'),
+        (3, '3'),
+        (4, '4'),
+        (5, '5')
+    )
+
+
+    date = models.DateField('Date published',blank=True, null=True)
+    rating = models.IntegerField(choices=RATING_CHOICES, blank=True, null=True)
     content = models.TextField(blank=True)
     lat = models.FloatField(blank=True, null=True)
     long = models.FloatField(blank=True, null=True)
@@ -25,6 +35,6 @@ class Review(models.Model):
         unique_together = ('user', 'sake',)
 
     def __str__(self):
-        return self.user.user.name + ": " + self.sake.name
+        return self.user.user.username + ": " + self.sake.name
 
 

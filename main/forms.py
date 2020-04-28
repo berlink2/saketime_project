@@ -7,7 +7,7 @@ from django.contrib.auth.forms import (
 )
 from django.contrib.auth.forms import UsernameField
 from django.contrib.auth import authenticate
-from django.forms import inlineformset_factory, ModelForm
+from django.forms import inlineformset_factory, ModelForm, Textarea
 from .models import CartLine,Cart, UserProfile, Review
 from datetime import datetime, date
 from . import widgets
@@ -133,14 +133,17 @@ class AddressSelectionForm(forms.Form):
 
 class ReviewForm(ModelForm):
 
-    date = forms.DateField(widget=forms.HiddenInput(), initial=date.today, required=False)
-    rating = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
-    content = forms.TextInput()
-    lat = forms.FloatField(widget=forms.HiddenInput(), required=False)
-    lng = forms.FloatField(widget=forms.HiddenInput(), required=False)
-    postcode = forms.CharField(required=False)
-    sake = forms
+    # date = forms.DateField(widget=forms.HiddenInput(), initial=date.today, required=False)
+    # rating = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
+    # content = forms.TextInput()
+    # lat = forms.FloatField(widget=forms.HiddenInput(), required=False)
+    # lng = forms.FloatField(widget=forms.HiddenInput(), required=False)
+    # postcode = forms.CharField(required=False)
+    # sake = forms
 
     class Meta:
         model = Review
-
+        fields = ['rating', 'content']
+        widgets = {
+            'comment': Textarea(attrs={'cols': 40, 'rows': 15})
+        }

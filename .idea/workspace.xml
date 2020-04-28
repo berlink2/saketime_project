@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0008_auto_20200428_1503.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/migrations/0009_auto_20200428_1507.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/migrations/0010_auto_20200428_1551.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/accounts/account_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/38/25/3825cb1af836f2aa4c73ed4a71c63252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/39/28/39287e13eab0d79628700831a1d3e32e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/72/87/7287745adb338c438494f29b5ac7f002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/9e/c2/9ec2ca75f5cf00924d1c17e356688c96.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/c7/54/c75431ce16c58d5752ba91fc5db715a7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/c9/04/c9044f54fd148a3982a51e028ab4939b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/ea/cc/eacc16e4de919b8336426227dd3b0fae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/fb/d5/fbd531af5d574dedc4509209e56c88e9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_images/dassai_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_images/saketime.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0011_auto_20200428_1823.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0012_auto_20200428_1844.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0013_auto_20200428_1946.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0014_auto_20200428_1949.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/reviews/add_review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/reviews/review_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views/review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/userprofile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/userprofile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +133,7 @@
       <workItem from="1587893397557" duration="25000" />
       <workItem from="1587959344057" duration="138000" />
       <workItem from="1587959838568" duration="34058000" />
-      <workItem from="1588061742368" duration="16714000" />
+      <workItem from="1588061742368" duration="24567000" />
     </task>
     <servers />
   </component>

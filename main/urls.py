@@ -2,9 +2,10 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
 from .views import (ContactUsView, ProductListView, RegisterView,
-    logout_user, add_to_cart, show_bestseller, BreweryListView,
+    logout_user, add_to_cart, show_bestseller, BreweryListView, add_review,
     account_settings, manage_cart, remove_one_from_cart, add_one_to_cart,
-                    show_brewery, UserProfileView,remove_product_from_cart)
+    review_detail, review_list, show_brewery, UserProfileView,remove_product_from_cart)
+
 from .models.product import Product
 from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
@@ -56,6 +57,9 @@ urlpatterns = [
     path("order/done/", TemplateView.as_view(template_name="main/order_done.html"), name="checkout_done",),
     path("order/address_select/",views.AddressSelectionView.as_view(),name="address_select",),
     path('order-dashboard', views.OrderView.as_view(), name='order_dashboard'),
+    path('reviews/',review_list,name='review_list'),
+    path('reviews/<int:id>', review_detail, name='review_detail'),
+    path('product/<slug:slug>/add_review/', add_review, name='add_review'),
     path('api/', include(router.urls)),
 
 ]
