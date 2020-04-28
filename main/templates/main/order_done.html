@@ -1,4 +1,16 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-<p>Thanks for your order.</p>
+
+    <div class="container mt-5">
+        <div class="text-center">
+        <img src="{% static 'images/kanpai.jpeg' %}" width="400" height="200"/>
+        </div>
+        <div class="container mt-3">
+        <div class="text-center">
+    <h4>Thank you for your order!</h4>
+            <a class="btn btn-lg btn-danger" href="{% url "product-list" 'all' %}">Continue Shopping</a>
+        </div>
+        </div>
+</div>
 {% endblock content %}

@@ -1,20 +1,30 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>List of your addresses:</h1> {% for address in object_list %}
+    <div class="container">
+<h4>List of your addresses</h4>
+    <div class="row my-3">
+ {% for address in object_list %}
+<div class="col-auto">
+    {{ address.name }} </br>
+    {{ address.address1 }} </br>
+{{ address.address2 }} </br>
+{{ address.city }} </br>
+{{ address.get_country_display }} </br>
 <p>
-{{ address.name }}<br>
-{{ address.address1 }}<br>
-{{ address.address2 }}<br>
-{{ address.city }}<br>
-{{ address.get_country_display }}<br>
-</p> <p>
 <a href="{% url "address_update" address.id %}">Update
 address</a> </p>
 <p>
 <a href="{% url "address_delete" address.id %}">Delete address</a>
 </p>
-    {% if not forloop.last %}
+</div>
+   {% endfor %}
+
+
+
+    </div>
 <hr>
-{% endif %} {% endfor %} <p>
-<a href="{% url "address_create" %}">Add new address</a> </p>
+<a class="btn btn-danger" href="{% url "address_create" %}">Add new address</a>
+    <a class="btn btn-danger" href="{% url "cart" %}">Back to cart</a>
+
+    </div>
 {% endblock content %}

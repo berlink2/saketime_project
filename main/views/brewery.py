@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect, render_to_response
 from main.models import Brewery, Product
 from django.core.paginator import Paginator
+from django.views.generic.list import ListView
+from django.shortcuts import get_object_or_404
 from django.contrib import messages
 
 def show_brewery(request, brewery_slug):
@@ -30,3 +32,13 @@ def show_brewery(request, brewery_slug):
         messages.error(request, 'That brewery does not exist')
 
     return render(request, 'main/brewery_page.html', context=context)
+
+
+class BreweryListView(ListView):
+    template_name = "main/brewery_list.html"
+    paginate_by = 5
+
+    def get_queryset(self):
+        breweries = Brewery.objects.all()
+
+        return breweries.order_by('prefecture')

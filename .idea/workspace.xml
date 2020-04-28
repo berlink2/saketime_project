@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0006_auto_20200427_1255.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/migrations/0007_auto_20200427_1403.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/views/homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/13/d9/13d9b110ca5dca27cd85387d181f1d7b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/13/e5/13e58f351023daf4d656ea4f7606669b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/51/ad/51ad32a3f9bf78a98916e8c2eda64ca7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/69/a7/69a7d29f896a8480f846f9bad43801aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/8d/de/8dde968b03c696fce4f47af5e88c8abd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/a2/9f/a29f52e2c34e2c4e4ad7a26620019c5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/kanpai.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/brewery_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/59/ca/59caba5c99e29a32c9126c2a678dd363.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/ac/3d/ac3daeb972f7fa44c6a79dc9e785b932.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cache/ef/73/ef73ede6195820605eedd9a22280c0b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/kanpai.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/about_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_select.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/address_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/address_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/order_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/order_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/brewery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +34,9 @@
       <list>
         <option value="Python Unit Test" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +55,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/profile_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,16 +67,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/media/profile_images" />
-      <recent name="$PROJECT_DIR$/main/static/css" />
-      <recent name="$PROJECT_DIR$/main/static/images" />
-      <recent name="$PROJECT_DIR$/main/test_images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/main/data" />
       <recent name="$PROJECT_DIR$/main/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/static/images" />
+      <recent name="$PROJECT_DIR$/media/profile_images" />
+      <recent name="$PROJECT_DIR$/main/static/css" />
+      <recent name="$PROJECT_DIR$/main/test_images" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,7 +131,8 @@
       <workItem from="1587810571245" duration="31318000" />
       <workItem from="1587893397557" duration="25000" />
       <workItem from="1587959344057" duration="138000" />
-      <workItem from="1587959838568" duration="34004000" />
+      <workItem from="1587959838568" duration="34058000" />
+      <workItem from="1588061742368" duration="4854000" />
     </task>
     <servers />
   </component>
@@ -164,5 +159,16 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1587994611930" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/main/templates/main/address_form.html</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
