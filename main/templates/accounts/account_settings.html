@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block content %}
+
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-3">
+        <div class="card card-body">
+            <a class="btn btn-danger" href="{% url 'user_profile' pk=request.user.id %}">Back to profile</a>
+            <hr>
+            <h3 class="text-center">Account Settings</h3>
+            <hr>
+            {% thumbnail request.user.userprofile.profile_image "200x200" as im %}
+                                <img class="rounded-circle  z-depth-2" src="{{ im.url }}"/>
+
+                            {% endthumbnail %}
+        </div>
+    </div>
+
+    <div class="col-9">
+        <div class="card card-body">
+
+            <form method="POST" action="" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ userform.as_p }}
+                {{ userprofileform.as_p }}
+                <input class="btn btn-danger" type="submit" value="submit" name="Update Info">
+            </form>
+
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}

@@ -3,7 +3,7 @@ from django.urls import include, path
 from django.views.generic import TemplateView, DetailView
 from .views import (ContactUsView, ProductListView, RegisterView,
     logout_user, add_to_cart, show_bestseller, BreweryListView,
-                    manage_cart, remove_one_from_cart, add_one_to_cart,
+    account_settings, manage_cart, remove_one_from_cart, add_one_to_cart,
                     show_brewery, UserProfileView,remove_product_from_cart)
 from .models.product import Product
 from main import forms, views, endpoints
@@ -31,12 +31,11 @@ urlpatterns = [
     path('breweries/', BreweryListView.as_view(), name='breweries'),
     path('product/<slug:slug>/', DetailView.as_view(model=Product), name='product'),
     path('products/<slug:tag>/', ProductListView.as_view(), name='product-list'),
-    #path('products/all', TemplateView.as_view(template_name='main/product_list.html'),name='all'),
-
     path('register/', RegisterView.as_view(), name='register'),
     path("login/", auth_views.LoginView.as_view(redirect_authenticated_user=True, template_name="login.html", form_class=forms.AuthenticationForm), name="login",),
     path('logout/', logout_user, name='logout'),
     path('user/<int:pk>/', UserProfileView.as_view(), name='user_profile'),
+    path('settings/', account_settings, name='settings'),
     path(
             "address/",
             views.AddressListView.as_view(),

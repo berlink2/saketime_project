@@ -58,7 +58,7 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
+                    <a class="nav-link text-dark" href="{% url 'about-us' %}">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="{% url 'product-list' 'all' %}">Products</a>
@@ -102,6 +102,11 @@
                      <li >
                         <a  class="text-dark"  href="{% url 'user_profile' pk=request.user.id %}">
                             Profile
+                        </a>
+                    </li>
+                    <li >
+                        <a  class="text-dark"  href="{% url 'settings'  %}">
+                            Account settings
                         </a>
                     </li>
 

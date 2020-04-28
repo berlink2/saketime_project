@@ -138,7 +138,7 @@
   "pk": "7skzyk2kveimj939zz3c2emtrhkj0ne4",
   "fields": {
     "session_data": "YmM0NWJmNWEzOTU3NWQ3YzgwMmYzNDUzYTNkNDFkMzJkMDMwMzUxZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmOGJkYzhjMTY4MWVmZGU1N2VjNjgzNzkxMWNmMGRiMDJlZmVhZDBjIn0=",
-    "expire_date": "2020-05-11T12:55:49.094Z"
+    "expire_date": "2020-05-12T09:04:28.026Z"
   }
 },
 {
@@ -745,10 +745,44 @@
   }
 },
 {
+  "model": "main.orderline",
+  "pk": 9,
+  "fields": {
+    "order": 6,
+    "product": 10,
+    "status": 10
+  }
+},
+{
+  "model": "main.orderline",
+  "pk": 10,
+  "fields": {
+    "order": 6,
+    "product": 10,
+    "status": 10
+  }
+},
+{
+  "model": "main.cartline",
+  "pk": 1,
+  "fields": {
+    "cart": 17,
+    "product": 10,
+    "quantity": 2
+  }
+},
+{
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||008467232d615808bd177de8e9c33604",
   "fields": {
     "value": "{\"name\": \"cache/39/91/3991d685dc120c97627d4d4a99bd150c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0313efa4c4c462c26ba043271be0312e",
+  "fields": {
+    "value": "{\"name\": \"cache/ac/3d/ac3daeb972f7fa44c6a79dc9e785b932.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [128, 200]}"
   }
 },
 {
@@ -872,6 +906,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||36188b6deb9a8384d6c0a946a3c25657",
+  "fields": {
+    "value": "{\"name\": \"cache/59/ca/59caba5c99e29a32c9126c2a678dd363.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [218, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||3669ceac61268329873eb0d9174f34d9",
   "fields": {
     "value": "{\"name\": \"cache/42/2c/422cf3de16084b398e1fd8655f3e96c5.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 200]}"
@@ -882,6 +923,13 @@
   "pk": "sorl-thumbnail||image||3c862de0d77862bce8032acc585aa160",
   "fields": {
     "value": "{\"name\": \"breweries/tedorigawa_0GmddB1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [140, 218]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3e2f272235db7c9a01d1eece69ed2e3d",
+  "fields": {
+    "value": "{\"name\": \"cache/51/ad/51ad32a3f9bf78a98916e8c2eda64ca7.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [196, 250]}"
   }
 },
 {
@@ -1117,6 +1165,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9df7f0020568dbd359ee2063eac67313",
+  "fields": {
+    "value": "{\"name\": \"cache/13/d9/13d9b110ca5dca27cd85387d181f1d7b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [196, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||a1063425d7b94c2ac4747cd069f73fc8",
   "fields": {
     "value": "{\"name\": \"product-images/dassai23-2.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
@@ -1187,9 +1242,23 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b0f066f0739e9638363885e3813f51d8",
+  "fields": {
+    "value": "{\"name\": \"cache/13/e5/13e58f351023daf4d656ea4f7606669b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [59, 90]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||b1978af944ebe55cbb2002d57656a8ba",
   "fields": {
     "value": "{\"name\": \"cache/65/fd/65fd8333cab8e7cbffb37d5d656d7465.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [157, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b8e60c4b8445efc2d7e860fdcf0a386f",
+  "fields": {
+    "value": "{\"name\": \"cache/a2/9f/a29f52e2c34e2c4e4ad7a26620019c5c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [196, 250]}"
   }
 },
 {
@@ -1292,6 +1361,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d9b3f2b9200b25baa9f310287089f103",
+  "fields": {
+    "value": "{\"name\": \"cache/69/a7/69a7d29f896a8480f846f9bad43801aa.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [145, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||d9f9e18dcd1ced87f501661144caad4b",
   "fields": {
     "value": "{\"name\": \"product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 280]}"
@@ -1327,9 +1403,23 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e29ec0b5262a0f0ef906142135006584",
+  "fields": {
+    "value": "{\"name\": \"cache/8d/de/8dde968b03c696fce4f47af5e88c8abd.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [196, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||e3d419c0fb12f72e1b897ad073dd9417",
   "fields": {
     "value": "{\"name\": \"breweries/asahishuzo.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [508, 592]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f059a4942129ca5fce4a68da8450207d",
+  "fields": {
+    "value": "{\"name\": \"cache/ef/73/ef73ede6195820605eedd9a22280c0b3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [193, 300]}"
   }
 },
 {
@@ -1378,7 +1468,7 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||049fdfce371d6ef8f5fb4eb6e9496290",
   "fields": {
-    "value": "[\"4aa8d03172b496022d0071eb69568b22\", \"a2b3ef9bc1f3a2489d4bb743f5cc5fbc\", \"5ab24127ccc0ca1492f83d90a5fcc0e2\", \"fc59a8b5bc2a0ec8c8ecb601c62753d7\", \"d2105e46a53391a8b89a6a264637dfe2\"]"
+    "value": "[\"4aa8d03172b496022d0071eb69568b22\", \"d2105e46a53391a8b89a6a264637dfe2\", \"e29ec0b5262a0f0ef906142135006584\", \"a2b3ef9bc1f3a2489d4bb743f5cc5fbc\", \"5ab24127ccc0ca1492f83d90a5fcc0e2\", \"fc59a8b5bc2a0ec8c8ecb601c62753d7\"]"
   }
 },
 {
@@ -1406,7 +1496,7 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||234e41a21bc99269b8d608cdef353203",
   "fields": {
-    "value": "[\"a68d1488bba7cf7ae055805ad9a8f92b\", \"9de0450c8368609fce2405b2f93207ca\"]"
+    "value": "[\"b8e60c4b8445efc2d7e860fdcf0a386f\", \"9de0450c8368609fce2405b2f93207ca\", \"a68d1488bba7cf7ae055805ad9a8f92b\"]"
   }
 },
 {
@@ -1420,7 +1510,7 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||3c862de0d77862bce8032acc585aa160",
   "fields": {
-    "value": "[\"832c7a2051669de5d5dc34d86b03d6b1\"]"
+    "value": "[\"f059a4942129ca5fce4a68da8450207d\", \"832c7a2051669de5d5dc34d86b03d6b1\", \"0313efa4c4c462c26ba043271be0312e\"]"
   }
 },
 {
@@ -1490,21 +1580,21 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||c144638086c0ab3fa16ff21a07fb81bd",
   "fields": {
-    "value": "[\"9204c80f058b94c977737de8aeeaeda3\", \"ad0601cc1f4298f91fbfeb93770abb24\"]"
+    "value": "[\"ad0601cc1f4298f91fbfeb93770abb24\", \"3e2f272235db7c9a01d1eece69ed2e3d\", \"9204c80f058b94c977737de8aeeaeda3\"]"
   }
 },
 {
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||d04f3ab6ed72e647b0369330f9d44adc",
   "fields": {
-    "value": "[\"1b7d5ec1384980b30e3847f0f52ccb1c\", \"a66e726b5b2d6caa279ae7ea9d79f362\"]"
+    "value": "[\"a66e726b5b2d6caa279ae7ea9d79f362\", \"1b7d5ec1384980b30e3847f0f52ccb1c\", \"b0f066f0739e9638363885e3813f51d8\"]"
   }
 },
 {
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||d9f9e18dcd1ced87f501661144caad4b",
   "fields": {
-    "value": "[\"b1978af944ebe55cbb2002d57656a8ba\", \"fbb9a63f32dc96a17395be17b19dd74c\"]"
+    "value": "[\"b1978af944ebe55cbb2002d57656a8ba\", \"9df7f0020568dbd359ee2063eac67313\", \"fbb9a63f32dc96a17395be17b19dd74c\"]"
   }
 },
 {
@@ -1518,7 +1608,7 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||f65a8343526b48570da0fe8672e1019e",
   "fields": {
-    "value": "[\"98256372693a32eb98bc81014e5c7793\"]"
+    "value": "[\"98256372693a32eb98bc81014e5c7793\", \"d9b3f2b9200b25baa9f310287089f103\", \"36188b6deb9a8384d6c0a946a3c25657\"]"
   }
 },
 {
@@ -2123,8 +2213,38 @@
   }
 },
 {
+  "model": "main.cart",
+  "pk": 17,
+  "fields": {
+    "user": 1,
+    "status": 20
+  }
+},
+{
+  "model": "main.order",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "status": 10,
+    "billing_name": "Berlian Khatulistiwa",
+    "billing_address1": "0/1, 4",
+    "billing_address2": "WEST PRINCES STREET",
+    "billing_zip_code": "G49BP",
+    "billing_city": "Glasgow",
+    "billing_country": "uk",
+    "shipping_name": "Berlian Khatulistiwa",
+    "shipping_address1": "0/1, 4",
+    "shipping_address2": "WEST PRINCES STREET",
+    "shipping_zip_code": "G49BP",
+    "shipping_city": "Glasgow",
+    "shipping_country": "uk",
+    "date_updated": "2020-04-28T09:04:28.015Z",
+    "date_added": "2020-04-28T09:04:28.015Z"
+  }
+},
+{
   "model": "main.address",
-  "pk": 1,
+  "pk": 2,
   "fields": {
     "user": 1,
     "name": "Berlian Khatulistiwa",
@@ -2887,6 +3007,19 @@
     "object_repr": "Daiginjo Shizuku",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"units_sold\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2020-04-28T08:22:02.155Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Berlian Khatulistiwa, 0/1, 4, WEST PRINCES STREET, G49BP, Glasgow, uk",
+    "action_flag": 3,
+    "change_message": ""
   }
 }
 ]

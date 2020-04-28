@@ -1,6 +1,7 @@
 from django.db import models
 from .userprofile import UserProfile
 from .product import Product
+import numpy as np
 
 """
 Represents a Review, written by a User about a Gin

@@ -7,8 +7,9 @@ from django.contrib.auth.forms import (
 )
 from django.contrib.auth.forms import UsernameField
 from django.contrib.auth import authenticate
-from django.forms import inlineformset_factory
-from .models import CartLine,Cart
+from django.forms import inlineformset_factory, ModelForm
+from .models import CartLine,Cart, UserProfile, Review
+from datetime import datetime, date
 from . import widgets
 from . import models
 
@@ -90,6 +91,21 @@ class AuthenticationForm(forms.Form):
         return self.user
 
 
+class UserProfileForm(ModelForm):
+    class Meta:
+        model = UserProfile
+        fields = '__all__'
+        exclude = ['user']
+
+
+class UserForm(ModelForm):
+    class Meta:
+        model = get_user_model()
+        fields = ['username', 'email']
+        exclude = ['user']
+
+
+
 CartLineFormSet = inlineformset_factory(
     Cart,
     CartLine,
@@ -113,3 +129,18 @@ class AddressSelectionForm(forms.Form):
         queryset = models.Address.objects.filter(user=user)
         self.fields['billing_address'].queryset = queryset
         self.fields['shipping_address'].queryset = queryset
+
+
+class ReviewForm(ModelForm):
+
+    date = forms.DateField(widget=forms.HiddenInput(), initial=date.today, required=False)
+    rating = forms.IntegerField(widget=forms.HiddenInput(), initial=0)
+    content = forms.TextInput()
+    lat = forms.FloatField(widget=forms.HiddenInput(), required=False)
+    lng = forms.FloatField(widget=forms.HiddenInput(), required=False)
+    postcode = forms.CharField(required=False)
+    sake = forms
+
+    class Meta:
+        model = Review
+

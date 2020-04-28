@@ -16,12 +16,17 @@ i{
 
 
 </style>
+<h1 class="text-center">Products</h1>
+    <div class="container mt-5">
 
-    <div class="container">
+    <div class="row ml-5 mb-5">
 
-    <h1>Products</h1>
+        Sort by: &nbsp;<a href="{% url 'product-list' 'name'%}">Name</a> &nbsp;| &nbsp;
+        <a href="{% url 'product-list' 'price'%}">Price</a> &nbsp;| &nbsp;
+        <a href="{% url 'product-list' 'units_sold'%}"> Popularity</a>
+    </div>
 <div class="card">
-    {% for product in page_obj %}
+    {% for product in object_list  %}
         <div class="row">
         <div class="col-4">
             {% thumbnail product.first_image.image "300x300" as im %}
