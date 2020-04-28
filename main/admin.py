@@ -174,7 +174,7 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 class ReviewAdmin(admin.ModelAdmin):
     model = Review
-    list_display = ('sake', 'rating', 'user', 'content', 'date')
+    list_display = ('id','sake', 'rating', 'user', 'content', 'date')
     list_filter = ['date', 'user', 'sake']
     search_fields = ['content', 'sake']
 

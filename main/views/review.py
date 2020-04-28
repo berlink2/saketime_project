@@ -8,14 +8,14 @@ from main.models import Product, Review, UserProfile
 from django.contrib import messages
 
 def review_list(request):
-    recent_reviews =  Review.objects.order_by('-date')[:9]
+    recent_reviews = Review.objects.order_by('-date')[:9]
     context = {}
     context['recent_reviews'] = recent_reviews
     return render(request, 'reviews/review_list.html', context)
 
 
-def review_detail(request, review_id):
-    review = get_object_or_404(Review, pk=review_id)
+def review_detail(request, id):
+    review = get_object_or_404(Review, id=id)
     return render(request, 'reviews/review_detail.html', {'review':review})
 
 

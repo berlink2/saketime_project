@@ -57,8 +57,9 @@ urlpatterns = [
     path("order/done/", TemplateView.as_view(template_name="main/order_done.html"), name="checkout_done",),
     path("order/address_select/",views.AddressSelectionView.as_view(),name="address_select",),
     path('order-dashboard', views.OrderView.as_view(), name='order_dashboard'),
-    path('reviews/',review_list,name='review_list'),
     path('reviews/<int:id>', review_detail, name='review_detail'),
+    path('reviews/',review_list,name='review_list'),
+
     path('product/<slug:slug>/add_review/', add_review, name='add_review'),
     path('api/', include(router.urls)),
 

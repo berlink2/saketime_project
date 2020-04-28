@@ -1,18 +1,26 @@
 {% extends 'base.html' %}
 {% block content %}
-    {% if latest_review_list %}
-<div>
-    {% for review in latest_review_list %}
-    <div>
-        <h4><a href="{% url 'review_detail' review.id %}">
-        {{ review.wine.name }}
-        </a></h4>
-        <h6>rated {{ review.rating }} of 5 by {{ review.user_name }}</h6>
-        <p>{{ review.comment }}</p>
-    </div>
+    <div class="container">
+
+    <h2>Latest Reviews</h2>
+    {% if recent_reviews %}
+    {% for review in recent_reviews %}
+        <div class="row">
+        <div class="col">
+    <h5><a href="{% url 'review_detail' review.id %}"> {{ review.sake }}</a></h5>
+            <p>Reviewed by {{ review.user }}</p>
+        <p>{{ review.rating }} out of 5</p>
+            <p>Review:</p>
+        <p>{{ review.content }}</p>
+        </div>
+        </div>
+        <hr>
     {% endfor %}
-</div>
+
+        </div>
 {% else %}
+        <div class="text-center">
 <p>No reviews are available.</p>
+        </div>
 {% endif %}
 {% endblock %}
