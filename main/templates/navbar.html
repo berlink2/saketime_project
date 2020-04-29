@@ -16,7 +16,7 @@
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="{% url 'about-us' %}">About</a>
+                        <a class="nav-link text-dark" href="{% url 'news_list' %}">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="{% url 'product-list' 'all' %}">Products</a>
@@ -25,17 +25,21 @@
 
                 <ul class="navbar-nav ml-auto">
                     {% if request.user.is_authenticated %}
-
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" href="{% url 'order_dashboard' %}">Order History</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark " href="{% url 'logout' %}">Logout</a>
                         </li>
+
                     {% else %}
                         <li class="nav-item">
                             <a class="nav-link text-dark " href="{% url 'login' %}">Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="{% url 'register' %}">Sign Up</a>
-                        </li>
+
+
                     {% endif %}
 
                     <li class="nav-item ">
@@ -58,7 +62,7 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="{% url 'about-us' %}">News</a>
+                    <a class="nav-link text-dark" href="{% url 'news_list' %}">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="{% url 'product-list' 'all' %}">Products</a>
@@ -70,7 +74,7 @@
                     <a class="nav-link text-dark" href="{% url 'review_list' %}">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="{% url 'user_recommend_list' %}">Explore</a>
+                    <a class="nav-link text-dark" href="{% url 'user_recommend_list' %}">Suggestions</a>
                 </li>
             </ul>
 
@@ -109,6 +113,10 @@
                             Account settings
                         </a>
                     </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="{% url 'order_dashboard' %}">Order History</a>
+                        </li>
                     <hr>
                      <li >
                         <a  class="text-dark"  href="{% url 'logout' %}">

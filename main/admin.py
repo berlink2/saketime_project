@@ -165,7 +165,7 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Brewery)
-
+admin.site.register(Post)
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):

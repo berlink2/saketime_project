@@ -6,6 +6,7 @@ from .brewery import *
 from .review import *
 from .userprofile import *
 from .recommendations import *
+from .post import *
 
 
 

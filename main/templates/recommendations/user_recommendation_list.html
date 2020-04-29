@@ -3,7 +3,9 @@
 
 {% block content %}
     <style>
-
+.card {
+        border: none;
+    }
 
 i{
     color: black;
@@ -11,20 +13,56 @@ i{
 
 
 </style>
-    <div class="container">
+    <div class="container mt-5">
+    <h5 class="text-center">Based on your preferences and other customers with similar taste, we think you will enjoy these sake!</h5>
 
-    <h5>Based on your preferences, we think you will enjoy these sake!</h5>
-    {% if suggestions %}
+
+        {% if suggestions %}
+            <div class="card mt-5">
     {% for suggestion in suggestions %}
         <div class="row">
-        <div class="col">
-    {{suggestion}}
+        <div class="col-4">
+            {% thumbnail suggestion.first_image.image "300x300" as im %}
+            <img src="{{ im.url}}"/>
+            {% endthumbnail %}
+        </div>
+        <div class="col-8">
+            <table>
+                <tr>
+                   <h4> {{ suggestion.name }}</h4>
+                </tr>
+                <tr>
+                    <p> <small>{{ suggestion.volume }} ml </small></p>
+                </tr>
+                <tr>
+                    <p> <small>Grade: {{ suggestion.get_sake_type_display }}</small></p>
+                </tr>
+                <tr>
+                   <p> Rating:</p>
+                </tr>
+
+                <tr>
+                    <h5>$ {{ suggestion.price }}</h5>
+                </tr>
+                <tr>
+                    <p><small>Tags: {{ suggestion.tags.all|join:", "|default:"" }}</small></p>
+                </tr>
+                <tr>
+
+                    <a class="btn btn-outline-danger " href="{% url "product" suggestion.slug %}">Check it out</a>
+
+
+                </tr>
+
+            </table>
+
         </div>
         </div>
         <hr>
     {% endfor %}
 
         </div>
+            </div>
 
         <div class="row justify-content-center mt-5">
     <nav class="" id="pager">
@@ -63,7 +101,7 @@ i{
         </div>
 {% else %}
         <div class="text-center">
-<h2>No suggestions available yet. Please review more sake so we can give you sake suggestions!</h2>
+<h2>No suggestions available yet. Please review more sake so we can give you suggestions!</h2>
         </div>
 {% endif %}
 {% endblock %}

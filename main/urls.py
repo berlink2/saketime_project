@@ -4,7 +4,7 @@ from django.views.generic import TemplateView, DetailView
 from .views import (ContactUsView, ProductListView, RegisterView,
     logout_user, add_to_cart, show_bestseller, BreweryListView, add_review,user_recommend_list,
     account_settings, manage_cart, remove_one_from_cart, add_one_to_cart,
-    review_detail, review_list, show_brewery, UserProfileView,remove_product_from_cart)
+    review_detail, review_list, show_brewery, UserProfileView,remove_product_from_cart, PostDetailView, PostListView)
 
 from .models.product import Product
 from main import forms, views, endpoints
@@ -57,6 +57,10 @@ urlpatterns = [
 
     path('product/<slug:slug>/add_review/', add_review, name='add_review'),
     path('recommendations/', user_recommend_list, name='user_recommend_list'),
+    path('news/', PostListView.as_view(), name='news_list'),
+    path('news/<int:pk>/', PostDetailView.as_view(), name='news_post'),
+
+
 
 ]
 

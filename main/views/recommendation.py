@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 from scipy.sparse import dok_matrix, csr_matrix
 import numpy as np
 
+
 @login_required(login_url='login')
 def user_recommend_list(request):
     user = request.user

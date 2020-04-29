@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block content %}
+<div class="container">
+
+<div class="row">
+    <h4>{{ post.title }}</h4>
+
+
+    <div class="col-12 mt-3">
+        {% thumbnail post.image "300x300" as im %}
+        <p><img src="{{ im.url }}"></p>
+        {% endthumbnail %}
+        <p class="lead">by {{ post.author }}</p>
+        <p>{{ post.date }}</p>
+        <p>{{ post.body|linebreaks }}</p>
+
+    </div>
+
+</div>
+
+</div>
+
+
+{% endblock %}
