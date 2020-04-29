@@ -18,6 +18,9 @@ numpy = "*"
 pandas = "*"
 scipy = "*"
 scikit-learn = "*"
+psycopg2 = "*"
+whitenoise = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.7"

@@ -2,13 +2,401 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/brewery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/cluster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/productimage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/producttag.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/review.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/backup/userprofile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/fixtures/postgresbackup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/asahishuzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/dassai_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/ishikawa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/ishikawabanner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/tedorigawa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/tedorigawa_0GmddB1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/breweries/tedorigawabanner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/post-images/sakecup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/post-images/saketypes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai23-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai39-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai45_6SS6kr8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai45sparkling.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_J9PauFh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_cWYFqWK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_otemWMS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_45_nigori.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_45_nigori_je77HJ0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_50_sparkling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_50_sparkling_IaNBGrf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_beyond.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/dassai_beyond_TyhbyON.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/ozeki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamab_boasts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamab_boasts_LpiBXWo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_daiginjo_1800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_daiginjo_1800_ud1wVIr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_namahara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_namahara_B8o8IL9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/taman_kashiro_white_dry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/taman_kashiro_white_dry_OCu0RnW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_arabashiri.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_arabashiri_PKIRjW4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_dg_yamahai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_iki_na_onna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_mangekyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_0o15G2f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_1ICL2UK.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_HOA1Tpb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_TusfXkG.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_eMJ4UjT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_eQP3ryP.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_gGgwUD4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test1_rFMET1B.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_2wcM8rZ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_WvDLm8S.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_XbTB64Z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_hovHk1t.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_mMDidR0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_ne00Rdj.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_v1CE5zN.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/product-images/test2_wWUuS5t.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/profile_images/dassai_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/profile_images/masu_profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/profile_images/saketime.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/149da6eac81c61892e9ed0fcade824de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/6b38a7ee17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/bootstrap.min(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/free-v4-font-face.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/free-v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/free.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/masu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/SakeTime_files/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai23-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai39-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai45-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/dassai45sparkling.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_dg_yamahai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_iki_na_onna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_mangekyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_yamahai_junmai.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/kanpai.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/plusminusnumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/arrow-active-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/arrow-active-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/arrow-inactive-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/false.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/missing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/pagination-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/django_tables2/themes/paleblue/img/true.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/asahishuzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/dassai_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawabanner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa_0GmddB1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawabanner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/emptycart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/header2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/kanpai.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/masu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/masu_profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/post-images/sakecup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/post-images/saketypes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45_6SS6kr8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45sparkling.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_J9PauFh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_cWYFqWK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_otemWMS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori_je77HJ0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling_IaNBGrf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond_TyhbyON.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/ozeki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts_LpiBXWo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800_ud1wVIr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara_B8o8IL9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry_OCu0RnW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri_PKIRjW4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_dg_yamahai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_mangekyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_0o15G2f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_1ICL2UK.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_HOA1Tpb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_TusfXkG.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eMJ4UjT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eQP3ryP.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_gGgwUD4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test1_rFMET1B.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_2wcM8rZ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_WvDLm8S.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_XbTB64Z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_hovHk1t.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_mMDidR0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_ne00Rdj.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_v1CE5zN.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/product-images/test2_wWUuS5t.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/profile_images/dassai_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/profile_images/masu_profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/profile_images/saketime.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakecups.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/149da6eac81c61892e9ed0fcade824de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/6b38a7ee17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/bootstrap.min(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/free-v4-font-face.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/free-v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/free.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/masu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/SakeTime_files/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45-box.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45sparkling.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_daiginjo_shizuku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_junmai_kumagawa_ichibanchi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tama_no_yorokobi_jg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tamajiman_daiginjo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_dg_yamahai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_iki_na_onna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_mangekyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_yamahai_junmai.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/images/saketime.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/plusminusnumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/reconnecting-eventsource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/reconnecting-websocket.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/kanpai.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap-tweaks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/font-awesome-4.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/highlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/css/jquery.json-view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/docs/js/jquery.json-view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/img/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/coreapi-0.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/csrf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/rest_framework/js/prettify-min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/data/reviews.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/data/reviews.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/recommendations/user_recommendation_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/recommendations/user_recommendation_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/recommendation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +433,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,16 +445,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/main/data" />
-      <recent name="$PROJECT_DIR$/main/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/static" />
       <recent name="$PROJECT_DIR$/main/static/images" />
       <recent name="$PROJECT_DIR$/media/profile_images" />
       <recent name="$PROJECT_DIR$/main/static/css" />
       <recent name="$PROJECT_DIR$/main/test_images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main/data" />
+      <recent name="$PROJECT_DIR$/main/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,12 +515,16 @@
       <workItem from="1588159596673" duration="20668000" />
       <workItem from="1588183000636" duration="418000" />
       <workItem from="1588183466853" duration="25000" />
-      <workItem from="1588183642488" duration="8905000" />
+      <workItem from="1588183642488" duration="10483000" />
+      <workItem from="1588196539984" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -149,11 +542,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="128" y="54" key="SettingsEditor" timestamp="1588184013838">
+    <state x="128" y="54" key="SettingsEditor" timestamp="1588196570131">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1588196570131" />
+    <state x="128" y="54" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1588184013838" />
+    <state x="440" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588199795900">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1588183204259" />
-    <state x="128" y="54" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1588184013838" />
+    <state x="440" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.826@0.23.1440.826" timestamp="1588199795900" />
     <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1588192971868">
       <screen x="0" y="23" width="1440" height="826" />
     </state>

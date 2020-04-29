@@ -1,0 +1,1 @@
+[{"model": "main.cluster", "pk": 7, "fields": {"name": "0", "users": [1, 76, 77, 78, 79]}}, {"model": "main.cluster", "pk": 8, "fields": {"name": "1", "users": [80, 82, 83, 84, 85]}}, {"model": "main.cluster", "pk": 9, "fields": {"name": "2", "users": [81]}}]

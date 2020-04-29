@@ -14,10 +14,11 @@ i{
 
 </style>
     <div class="container mt-5">
+    {% if suggestions %}
     <h5 class="text-center">Based on your preferences and other customers with similar taste, we think you will enjoy these sake!</h5>
 
 
-        {% if suggestions %}
+
             <div class="card mt-5">
     {% for suggestion in suggestions %}
         <div class="row">
