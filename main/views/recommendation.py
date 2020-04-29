@@ -10,17 +10,15 @@ import numpy as np
 
 @login_required(login_url='login')
 def user_recommend_list(request):
-    user = request.user
-    userprofile = UserProfile.objects.get(user=user)
+    userprofile = UserProfile.objects.get(user=request.user)
 
     user_reviews = Review.objects.filter(user=userprofile).prefetch_related('sake')
     reviewed_sakes = set(map(lambda x:x.sake.id, user_reviews))
 
     try:
-        user_cluster_name = UserProfile.objects.get(userprofile=userprofile).cluster_set.first().name
-
-    except:
-        update_clusters()
+        user_cluster_name = UserProfile.objects.get(id=userprofile.id).cluster_set.first().name
+    except AttributeError:
+        update_clusters(is_new_user=True)
         user_cluster_name = UserProfile.objects.get(id=userprofile.id).cluster_set.first().name
 
     user_cluster_other_members = Cluster.objects.get(name=user_cluster_name).users.exclude(id=userprofile.id).all()
@@ -53,17 +51,21 @@ def user_recommend_list(request):
     return render(request, 'recommendations/user_recommendation_list.html', context)
 
 
-def update_clusters():
-    user_model = get_user_model()
+def update_clusters(is_new_user):
     num_reviews = Review.objects.count()
     update_step = ((num_reviews/100)+1) * 5
-    if num_reviews % update_step ==0:
-        all_user_names = map(lambda x: x.username, user_model.objects.only("username"))
+    if num_reviews % update_step == 0 or is_new_user:
+        #all_user_ids = map(lambda x: x.id, UserProfile.objects.only("user_id"))
+        all_user_ids = [x.id for x in UserProfile.objects.only('user_id')]
         all_sake_ids = set(map(lambda x: x.sake.id, Review.objects.only("sake")))
-        num_users = len(all_user_names)
+        #num_users = len(all_user_ids)
+        num_users = 0
+        for i in all_user_ids:
+            num_users +=1
+
         ratings_m = dok_matrix((num_users, max(all_sake_ids)+1), dtype=np.float32)
         for i in range(num_users):  # each user corresponds to a row, in the order of all_user_names
-            user_reviews = Review.objects.filter(user__username=all_user_names[i])
+            user_reviews = Review.objects.filter(user_id=all_user_ids[i])
             for user_review in user_reviews:
                 ratings_m[i, user_review.sake.id] = user_review.rating
 
@@ -72,11 +74,14 @@ def update_clusters():
         clustering = kmeans.fit(ratings_m.tocsr())
 
         Cluster.objects.all().delete()
+
         new_clusters = {i: Cluster(name=i) for i in range(k)}
         for cluster in new_clusters.values():
             cluster.save()
         for i, cluster_label in enumerate(clustering.labels_):
-            new_clusters[cluster_label].users.add(user_model.objects.get(username=all_user_names[i]))
+            new_clusters[cluster_label].users.add(UserProfile.objects.get(id=all_user_ids[i]))
+
+
 
 
 

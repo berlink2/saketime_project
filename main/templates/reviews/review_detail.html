@@ -1,10 +1,17 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="container">
-{{ review.user }}
-{{ review.sake }}
-{{ review.get_rating_display }}
-{{ review.content }}
+<div class="row">
+    <div class="col-12">
+    <p>{{ review.sake }}</p>
+<p>Reviewed by: <a href="{% url 'user_profile' review.user.id %}"> {{ review.user }}</a></p>
+
+<p>Rating: {{ review.get_rating_display }}</p>
+<p>Review: </p>
+        <p>{{ review.content }}</p>
+        <p><a href="{% url 'review_list' %}">Back to reviews</a> </p>
+    </div>
+    </div>
 
 
 </div>

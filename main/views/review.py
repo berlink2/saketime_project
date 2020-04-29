@@ -63,7 +63,7 @@ def add_review(request, slug):
             review.sake = sake
             review.save()
             form.save()
-            update_clusters()
+            update_clusters(is_new_user=False)
             messages.success(request, "Thank you for your review!")
             return HttpResponseRedirect(reverse('product', args=(slug,)))
 

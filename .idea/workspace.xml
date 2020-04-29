@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/cache/18/72/187241a502a05cb5f1f8973c3caaaaab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/29/ee/29eecf9c6c789c9a3a966a7275cba2fe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/54/a5/54a5a2cb84a08e641ea19108e8565f9c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/7c/45/7c4591a49ef52786bfb7454e8b32e3bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/97/42/9742c9bad558b68c02a69c0ea2356028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/99/47/99475a270c47237bd5806f885317ff85.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/9a/c4/9ac4dc1e7358cbb103f1a19fda1e5205.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/cache/c6/86/c68634396f7bbcca2395f9d552f69472.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_45_nigori.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_45_nigori_je77HJ0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_50_sparkling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_50_sparkling_IaNBGrf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_beyond.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/dassai_beyond_TyhbyON.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamab_boasts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamab_boasts_LpiBXWo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamajiman_daiginjo_1800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamajiman_daiginjo_1800_ud1wVIr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamajiman_namahara.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tamajiman_namahara_B8o8IL9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/taman_kashiro_white_dry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/taman_kashiro_white_dry_OCu0RnW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_arabashiri.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product-images/tedorigawa_arabashiri_PKIRjW4.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data/reviews.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/data/reviews.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/recommendation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/review.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +126,7 @@
       <workItem from="1588159596673" duration="20668000" />
       <workItem from="1588183000636" duration="418000" />
       <workItem from="1588183466853" duration="25000" />
-      <workItem from="1588183642488" duration="5625000" />
+      <workItem from="1588183642488" duration="8905000" />
     </task>
     <servers />
   </component>
@@ -174,10 +154,10 @@
     </state>
     <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1588183204259" />
     <state x="128" y="54" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1588184013838" />
-    <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1588089984519">
+    <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1588192971868">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1588089984519" />
+    <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1588192971868" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
