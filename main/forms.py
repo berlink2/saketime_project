@@ -105,7 +105,6 @@ class UserForm(ModelForm):
         exclude = ['user']
 
 
-
 CartLineFormSet = inlineformset_factory(
     Cart,
     CartLine,
@@ -115,7 +114,6 @@ CartLineFormSet = inlineformset_factory(
     widgets={'quantity': widgets.PlusMinusInput()}
 
 )
-
 
 
 class AddressSelectionForm(forms.Form):

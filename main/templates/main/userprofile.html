@@ -22,7 +22,16 @@
         <div class="card-body text-center">
             <h3>{{ userprofile.user.username }}</h3>
             <u>Reviews</u>
-            <p><small><a href="#">Write a review!</a> </small></p>
+        <ul class="list-group" style="list-style-type: none">
+            {% for review in userprofile.reviews.all %}
+                <li>
+            <small><a href="#">{{ review.sake }}</a> </small>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="mt-5">
+        <p><a href="{% url 'order_dashboard' %}">Order History</a> </p>
+            </div>
           </div>
 
         </div>

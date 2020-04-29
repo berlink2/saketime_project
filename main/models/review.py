@@ -22,8 +22,8 @@ class Review(models.Model):
 
 
     date = models.DateField('Date published',blank=True, null=True)
-    rating = models.IntegerField(choices=RATING_CHOICES, blank=True, null=True)
-    content = models.TextField(blank=True)
+    rating = models.IntegerField(choices=RATING_CHOICES, null=True)
+    content = models.TextField('Write your review here...')
     lat = models.FloatField(blank=True, null=True)
     long = models.FloatField(blank=True, null=True)
     user = models.ForeignKey(UserProfile, on_delete=models.CASCADE, related_name='reviews')

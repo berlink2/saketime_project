@@ -69,8 +69,17 @@ class Product(models.Model):
     objects = ProductManager()
 
     def average_rating(self):
-        all_ratings = map(lambda x:x.rating, self.reviews.all())
-        return np.mean(all_ratings)
+        if self.reviews.all():
+            all_ratings = map(lambda x:x.rating, self.reviews.all())
+            return np.mean(list(all_ratings))
+        else:
+            return None
+
+    def review_amount(self):
+        if self.reviews.all():
+            return len([self.reviews.all()])
+        else:
+            return 0.0
 
     def get_absolute_url(self):
         return reverse('product', kwargs={'slug':self.slug})

@@ -1,4 +1,6 @@
 from datetime import datetime
+
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
@@ -8,9 +10,18 @@ from main.models import Product, Review, UserProfile
 from django.contrib import messages
 
 def review_list(request):
-    recent_reviews = Review.objects.order_by('-date')[:9]
+    recent_reviews = Review.objects.order_by('-date')
+    page = request.GET.get('page', 1)
+    paginator = Paginator(recent_reviews, 5)
+    try:
+        reviews = paginator.page(page)
+    except PageNotAnInteger:
+        reviews = paginator.page(1)
+    except EmptyPage:
+        reviews = paginator.page(paginator.num_pages)
     context = {}
     context['recent_reviews'] = recent_reviews
+    context['reviews'] = reviews
     return render(request, 'reviews/review_list.html', context)
 
 

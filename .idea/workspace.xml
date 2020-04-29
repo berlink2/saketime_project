@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/migrations/0015_auto_20200429_1217.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/reviews/review_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/fixtures/backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/fixtures/backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/order_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/order_filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/reviews/add_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/reviews/add_review.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/reviews/review_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/reviews/review_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +130,8 @@
       <workItem from="1587893397557" duration="25000" />
       <workItem from="1587959344057" duration="138000" />
       <workItem from="1587959838568" duration="34058000" />
-      <workItem from="1588061742368" duration="26850000" />
+      <workItem from="1588061742368" duration="27190000" />
+      <workItem from="1588159596673" duration="4057000" />
     </task>
     <servers />
   </component>
@@ -144,10 +154,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="128" y="54" key="SettingsEditor" timestamp="1587994611930">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="128" y="54" key="SettingsEditor" timestamp="1588162017641">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="128" y="54" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1587994611930" />
+    <state x="128" y="54" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1588162017641" />
     <state x="-59" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1588089984519">
       <screen x="0" y="23" width="1440" height="826" />
     </state>

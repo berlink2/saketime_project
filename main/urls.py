@@ -10,11 +10,6 @@ from .models.product import Product
 from main import forms, views, endpoints
 from django.contrib.auth import views as auth_views
 from django.conf.urls import url
-from rest_framework import routers
-
-router = routers.DefaultRouter()
-router.register(r'orderlines', endpoints.PaidOrderLineViewSet)
-router.register(r'orders', endpoints.PaidOrderViewSet)
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -61,7 +56,6 @@ urlpatterns = [
     path('reviews/',review_list,name='review_list'),
 
     path('product/<slug:slug>/add_review/', add_review, name='add_review'),
-    path('api/', include(router.urls)),
 
 ]
 

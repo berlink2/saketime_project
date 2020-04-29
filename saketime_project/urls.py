@@ -2,6 +2,12 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from rest_framework import routers
+from main import endpoints
+
+router = routers.DefaultRouter()
+router.register(r'orderlines', endpoints.PaidOrderLineViewSet)
+router.register(r'orders', endpoints.PaidOrderViewSet)
 
 """saketime_project URL Configuration
 
@@ -22,7 +28,7 @@ Including another URLconf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    path('api/', include(router.urls)),
     path('', include('main.urls')),
-path("",include('rest_framework.urls')),
+    path("",include('rest_framework.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

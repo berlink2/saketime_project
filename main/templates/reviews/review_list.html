@@ -1,14 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
+    <style>
+
+
+i{
+    color: black;
+}
+
+
+</style>
     <div class="container">
 
     <h2>Latest Reviews</h2>
     {% if recent_reviews %}
-    {% for review in recent_reviews %}
+    {% for review in reviews %}
         <div class="row">
         <div class="col">
     <h5><a href="{% url 'review_detail' review.id %}"> {{ review.sake }}</a></h5>
-            <p>Reviewed by {{ review.user }}</p>
+            <p>Reviewed by {{ review.user }} on {{ review.date }}</p>
+
         <p>{{ review.rating }} out of 5</p>
             <p>Review:</p>
         <p>{{ review.content }}</p>
@@ -17,6 +27,42 @@
         <hr>
     {% endfor %}
 
+        </div>
+
+        <div class="row justify-content-center mt-5">
+    <nav class="" id="pager">
+
+        <ul class="pagination ">
+            {% if reviews.has_previous %}
+                <li class="">
+                    <a class="" href="?page={{ reviews.previous_page_number }}">
+                        <i class="fas fa-chevron-left  mr-3 fa-2x"></i>
+
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="" href="#"><i class="fas fa-chevron-left  mr-3 fa-2x"></i></a>
+                </li>
+            {% endif %}
+            {% for pagenum in reviews.paginator.page_range %}
+                <li class=" page-item{% if reviews.number == pagenum %} active text-white{% endif %}">
+                    <a class="page-link {% if reviews.number == pagenum %}bg-dark {% else %}text-dark{% endif %}" href="?page={{ pagenum }}">{{ pagenum }} </a>
+                </li>
+            {% endfor %}
+        {% if reviews.has_next %}
+            <li class="page-item">
+            <a class="" href="?page={{ reviews.next_page_number }}">
+                <i class="fas fa-chevron-right  ml-3 fa-2x"></i>
+            </a>
+            </li>
+        {% else %}
+            <li class="page-item disabled">
+                <a class="" href="#"><i class="fas fa-chevron-right  ml-3 fa-2x"></i></a>
+            </li>
+        {% endif %}
+        </ul>
+    </nav>
         </div>
 {% else %}
         <div class="text-center">

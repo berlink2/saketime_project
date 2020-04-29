@@ -67,7 +67,7 @@
                     <a class="nav-link text-dark" href="{% url 'breweries' %}">Breweries</a>
                 </li>
                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Reviews</a>
+                    <a class="nav-link text-dark" href="{% url 'review_list' %}">Reviews</a>
                 </li>
             </ul>
 
@@ -94,19 +94,22 @@
 
                         </a>
                 <ul class="dropdown-menu">
-                    <li >
-                        <a  class="text-dark"  href="{% url 'logout' %}">
-                            Logout
-                        </a>
-                    </li>
+
                      <li >
                         <a  class="text-dark"  href="{% url 'user_profile' pk=request.user.id %}">
                             Profile
                         </a>
                     </li>
                     <li >
+                        <hr>
                         <a  class="text-dark"  href="{% url 'settings'  %}">
                             Account settings
+                        </a>
+                    </li>
+                    <hr>
+                     <li >
+                        <a  class="text-dark"  href="{% url 'logout' %}">
+                            Logout
                         </a>
                     </li>
 

@@ -135,10 +135,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "7skzyk2kveimj939zz3c2emtrhkj0ne4",
+  "pk": "3r3x4a4i5w4zzlm93qlhc2qrqx6oq660",
   "fields": {
     "session_data": "YmM0NWJmNWEzOTU3NWQ3YzgwMmYzNDUzYTNkNDFkMzJkMDMwMzUxZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmOGJkYzhjMTY4MWVmZGU1N2VjNjgzNzkxMWNmMGRiMDJlZmVhZDBjIn0=",
-    "expire_date": "2020-05-12T09:04:28.026Z"
+    "expire_date": "2020-05-12T15:19:53.744Z"
   }
 },
 {
@@ -353,7 +353,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:29.530Z",
-    "average_rating": 0.0,
     "abv": 17.0,
     "sake_type": "d",
     "brewery": 3,
@@ -377,7 +376,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:21.521Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "d",
     "brewery": 3,
@@ -400,7 +398,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:16.542Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "jg",
     "brewery": 3,
@@ -424,7 +421,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:11.878Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "j",
     "brewery": 3,
@@ -448,7 +444,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:07.302Z",
-    "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
@@ -471,7 +466,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:57:03.375Z",
-    "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
@@ -495,7 +489,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:58.345Z",
-    "average_rating": 0.0,
     "abv": 16.0,
     "sake_type": "jd",
     "brewery": 2,
@@ -518,7 +511,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:54.616Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "jd",
     "brewery": 2,
@@ -541,7 +533,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:50.545Z",
-    "average_rating": 0.0,
     "abv": 18.0,
     "sake_type": "jd",
     "brewery": 1,
@@ -565,7 +556,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:45.514Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "j",
     "brewery": 1,
@@ -588,7 +578,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:40.810Z",
-    "average_rating": 0.0,
     "abv": 17.0,
     "sake_type": "d",
     "brewery": 1,
@@ -612,7 +601,6 @@
     "active": true,
     "in_stock": true,
     "date_updated": "2020-04-27T12:56:34.612Z",
-    "average_rating": 0.0,
     "abv": 15.0,
     "sake_type": "d",
     "brewery": 1,
@@ -772,6 +760,76 @@
   }
 },
 {
+  "model": "main.review",
+  "pk": 5,
+  "fields": {
+    "date": "2020-04-28",
+    "rating": 5,
+    "content": "Expensive, but worth it!",
+    "lat": null,
+    "long": null,
+    "user": 1,
+    "sake": 1,
+    "postcode": null
+  }
+},
+{
+  "model": "main.review",
+  "pk": 6,
+  "fields": {
+    "date": "2020-04-28",
+    "rating": 5,
+    "content": "As good as it gets.",
+    "lat": null,
+    "long": null,
+    "user": 1,
+    "sake": 5,
+    "postcode": null
+  }
+},
+{
+  "model": "main.review",
+  "pk": 7,
+  "fields": {
+    "date": "2020-04-28",
+    "rating": 4,
+    "content": "A decent starter sake.",
+    "lat": null,
+    "long": null,
+    "user": 1,
+    "sake": 2,
+    "postcode": null
+  }
+},
+{
+  "model": "main.review",
+  "pk": 8,
+  "fields": {
+    "date": "2020-04-28",
+    "rating": 3,
+    "content": "Not bad if you are on a budget.",
+    "lat": null,
+    "long": null,
+    "user": 1,
+    "sake": 3,
+    "postcode": null
+  }
+},
+{
+  "model": "main.review",
+  "pk": 9,
+  "fields": {
+    "date": "2020-04-28",
+    "rating": 2,
+    "content": "Overpriced in my opinion.",
+    "lat": null,
+    "long": null,
+    "user": 1,
+    "sake": 4,
+    "postcode": null
+  }
+},
+{
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||008467232d615808bd177de8e9c33604",
   "fields": {
@@ -832,6 +890,13 @@
   "pk": "sorl-thumbnail||image||1d918aa3c6f750231b4100b839b20849",
   "fields": {
     "value": "{\"name\": \"cache/3f/0e/3f0ee0c9a9090ac0270f9e2bf43454dd.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [118, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||21cd3294971e2681915b453ed8c328b2",
+  "fields": {
+    "value": "{\"name\": \"profile_images/dassai_23.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [1000, 1000]}"
   }
 },
 {
@@ -899,6 +964,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2b85f2dfd492c588174aaa58355de6d1",
+  "fields": {
+    "value": "{\"name\": \"cache/ea/cc/eacc16e4de919b8336426227dd3b0fae.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||34549cef6a7dd1a45e1506c34a3b6159",
   "fields": {
     "value": "{\"name\": \"cache/f1/b1/f1b1995b2291cc7e8aabd5a5c739a4b2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
@@ -941,6 +1013,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||41a49554b08b65cbfec5f5e99a3984c9",
+  "fields": {
+    "value": "{\"name\": \"cache/38/25/3825cb1af836f2aa4c73ed4a71c63252.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||453d4d733d587e88ec244133ec6c8b76",
   "fields": {
     "value": "{\"name\": \"breweries/tedorigawabanner2.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [700, 421]}"
@@ -962,9 +1041,23 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||4b1a157ed1b64777b7cd57c67ef79e6f",
+  "fields": {
+    "value": "{\"name\": \"cache/39/28/39287e13eab0d79628700831a1d3e32e.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [75, 75]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||4ff35af2e37f3a7699ec2945133b9338",
   "fields": {
     "value": "{\"name\": \"cache/94/70/94707ac3cdc8b9b4be7aac9b0e9aa444.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [499, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||547e0de24b78fb5c62af892cec36e2c1",
+  "fields": {
+    "value": "{\"name\": \"cache/c7/54/c75431ce16c58d5752ba91fc5db715a7.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [75, 75]}"
   }
 },
 {
@@ -979,6 +1072,13 @@
   "pk": "sorl-thumbnail||image||56b0f6b6b11ea97e642b5e4dabb0c5dc",
   "fields": {
     "value": "{\"name\": \"product-images/dassai39.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5a0547240c7f875b8c8212e4388b7093",
+  "fields": {
+    "value": "{\"name\": \"cache/fb/d5/fbd531af5d574dedc4509209e56c88e9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 67]}"
   }
 },
 {
@@ -1074,9 +1174,30 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7d3f8f9b7f37a6956300e0148bd2c825",
+  "fields": {
+    "value": "{\"name\": \"profile_images/saketime.jpeg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [225, 225]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||832c7a2051669de5d5dc34d86b03d6b1",
   "fields": {
     "value": "{\"name\": \"cache/b1/7b/b17bf958c2e0289f18d7f23d8c092f04.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [161, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||83c538c63d43618104b475a3d5a30367",
+  "fields": {
+    "value": "{\"name\": \"cache/9e/c2/9ec2ca75f5cf00924d1c17e356688c96.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||8e09e6b8a83042e44a74b319e68a0475",
+  "fields": {
+    "value": "{\"name\": \"cache/72/87/7287745adb338c438494f29b5ac7f002.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 133]}"
   }
 },
 {
@@ -1389,6 +1510,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||dcd6b3b33ebb32765bdddbb6286ea88b",
+  "fields": {
+    "value": "{\"name\": \"cache/c9/04/c9044f54fd148a3982a51e028ab4939b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||image||de9f992d71836e6a32a9e411a3666f3c",
   "fields": {
     "value": "{\"name\": \"cache/a8/32/a8322564aa1b1e609b4a25ee0a16b9c3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
@@ -1487,6 +1615,13 @@
 },
 {
   "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||21cd3294971e2681915b453ed8c328b2",
+  "fields": {
+    "value": "[\"4b1a157ed1b64777b7cd57c67ef79e6f\", \"dcd6b3b33ebb32765bdddbb6286ea88b\", \"41a49554b08b65cbfec5f5e99a3984c9\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||21e9e428f5b86074962bd78e0b79d056",
   "fields": {
     "value": "[\"1d918aa3c6f750231b4100b839b20849\", \"f61992d1d49056aaea46148d33ba54b9\"]"
@@ -1545,7 +1680,14 @@
   "model": "thumbnail.kvstore",
   "pk": "sorl-thumbnail||thumbnails||67e8fb63a7ee5669e877a93b043b9bab",
   "fields": {
-    "value": "[\"be0f414195f7e41715893bc11f66e813\", \"5e92a6a0d107af2e24e38f11cc3e2e02\", \"91f7d3e876c1c141cd229d3aa73d9807\", \"3669ceac61268329873eb0d9174f34d9\", \"9cf4f791d1af8593da603d5b73c40c71\"]"
+    "value": "[\"91f7d3e876c1c141cd229d3aa73d9807\", \"9cf4f791d1af8593da603d5b73c40c71\", \"3669ceac61268329873eb0d9174f34d9\", \"be0f414195f7e41715893bc11f66e813\", \"5a0547240c7f875b8c8212e4388b7093\", \"5e92a6a0d107af2e24e38f11cc3e2e02\", \"8e09e6b8a83042e44a74b319e68a0475\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||7d3f8f9b7f37a6956300e0148bd2c825",
+  "fields": {
+    "value": "[\"547e0de24b78fb5c62af892cec36e2c1\", \"83c538c63d43618104b475a3d5a30367\", \"2b85f2dfd492c588174aaa58355de6d1\"]"
   }
 },
 {
@@ -2191,7 +2333,7 @@
   "model": "users.user",
   "fields": {
     "password": "pbkdf2_sha256$150000$lYMkPODWPiXM$eJJZRSUa6mBQvZ6AbqFxeJo3IeYTsn18fJbpfQST/OE=",
-    "last_login": "2020-04-27T12:55:49.091Z",
+    "last_login": "2020-04-28T15:19:53.741Z",
     "is_superuser": true,
     "first_name": "",
     "last_name": "",
@@ -2205,11 +2347,61 @@
   }
 },
 {
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$150000$FhXU1zbSMDOr$ppAPccbYJu2QPxLw3zqN7sVu73NlPZXxK4nwdp7SJ2I=",
+    "last_login": "2020-04-28T14:27:25.273Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-04-28T14:27:25.065Z",
+    "username": "sakelover",
+    "email": "test@test.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$150000$UDAF40s9XEfo$5iq03SFOz6Bb8dbL2cq4ba1Np8t2cMr7+9ZfehZKm7A=",
+    "last_login": "2020-04-28T15:19:28.681Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-04-28T15:19:28.469Z",
+    "username": "test1",
+    "email": "test1@test.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "main.userprofile",
   "pk": 1,
   "fields": {
     "user": 1,
+    "profile_image": "profile_images/dassai_23.jpg"
+  }
+},
+{
+  "model": "main.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
     "profile_image": "profile_images/masu_profile.jpg"
+  }
+},
+{
+  "model": "main.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "profile_image": ""
   }
 },
 {
@@ -3018,6 +3210,84 @@
     "content_type": 6,
     "object_id": "1",
     "object_repr": "Berlian Khatulistiwa, 0/1, 4, WEST PRINCES STREET, G49BP, Glasgow, uk",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2020-04-28T15:05:17.358Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "berlink2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"profile_image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2020-04-28T20:06:24.383Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "berlink: Daiginjo Shizuku",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2020-04-28T20:11:42.453Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "berlink: Daiginjo Shizuku",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2020-04-28T20:22:14.196Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "berlink: Daiginjo Shizuku",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2020-04-28T20:28:00.621Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "berlink: Daiginjo Shizuku",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2020-04-28T20:30:42.772Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "berlink: Daiginjo Shizuku",
     "action_flag": 3,
     "change_message": ""
   }
