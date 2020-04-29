@@ -21,6 +21,7 @@ scikit-learn = "*"
 psycopg2 = "*"
 whitenoise = "*"
 django-environ = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"

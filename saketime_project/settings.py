@@ -42,7 +42,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://saketime.herokuapp.com/', '127.0.0.1']
 
 # Application definition
 
@@ -119,6 +119,18 @@ WSGI_APPLICATION = 'saketime_project.wsgi.application'
 #     }
 # }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'saketime_db',
+        'USER': 'postgres',
+        'PASSWORD': 'deadp00l',
+        'HOST': 'localhost',
+        'POST': '5432',
+
+
+    }
+}
 
 
 
@@ -165,12 +177,12 @@ MEDIA_URL = '/media/'
 if not DEBUG:
     STATICFILES_STORAGE = 'whitenoise.storage. CompressedManifestStaticFilesStorage'
 
-    # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    # EMAIL_HOST_USER = "username"
-    # EMAIL_HOST = 'smtp.domain.com'
-    # EMAIL_PORT = 587
-    # EMAIL_USE_TLS = True
-    # EMAIL_HOST_PASSWORD = "password"
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST_USER = "username"
+    EMAIL_HOST = 'smtp.domain.com'
+    EMAIL_PORT = 587
+    EMAIL_USE_TLS = True
+    EMAIL_HOST_PASSWORD = "password"
 else:
     EMAIL_BACKEND = (
         "django.core.mail.backends.console.EmailBackend"
