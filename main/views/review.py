@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
@@ -8,6 +7,8 @@ from django.contrib.auth.decorators import login_required
 from main.forms import ReviewForm
 from main.models import Product, Review, UserProfile
 from django.contrib import messages
+from .recommendation import update_clusters
+
 
 def review_list(request):
     recent_reviews = Review.objects.order_by('-date')
@@ -62,6 +63,7 @@ def add_review(request, slug):
             review.sake = sake
             review.save()
             form.save()
+            update_clusters()
             messages.success(request, "Thank you for your review!")
             return HttpResponseRedirect(reverse('product', args=(slug,)))
 

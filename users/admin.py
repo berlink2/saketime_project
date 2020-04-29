@@ -35,6 +35,7 @@ class UserAdmin(DjangoUserAdmin):
             },
         ),)
     list_display = (
+        "id",
         "email",
         'username',
         "first_name",

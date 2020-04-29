@@ -169,7 +169,7 @@ admin.site.register(Brewery)
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ('id', )
+    list_display = ('id', 'get_username')
 
 
 class ReviewAdmin(admin.ModelAdmin):
@@ -178,9 +178,16 @@ class ReviewAdmin(admin.ModelAdmin):
     list_filter = ['date', 'user', 'sake']
     search_fields = ['content', 'sake']
 
+
 admin.site.register(Review, ReviewAdmin)
 
 
+class ClusterAdmin(admin.ModelAdmin):
+    model = Cluster
+    list_display = ['name', 'get_members']
+
+
+admin.site.register(Cluster, ClusterAdmin)
 
 
 

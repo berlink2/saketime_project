@@ -17,7 +17,7 @@
          <div class="row">
          <p>Rating:
              {% if product.average_rating  %}
-             {{ product.average_rating }} ({{ product.review_amount }} Reviews)
+             {{ product.average_rating }} out of 5 ({{ product.review_amount }} Reviews)
              {% else %}
                  <small>No reviews yet! <a href="{% url 'add_review' product.slug  %}">Would you like to write the first review?</a> </small>
              {% endif %}

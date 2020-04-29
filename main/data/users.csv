@@ -1,0 +1,10 @@
+id,email,username,is_superuser,is_staff,password
+2, test1@test.com, test1, False, False,deadp00l
+3, test2@test.com, test2, False, False,deadp00l
+4, test3@test.com, test3, False, False,deadp00l
+5, test4@test.com, test4, False, False,deadp00l
+6, test5@test.com, test5, False, False,deadp00l
+7, test6@test.com, test6, False, False,deadp00l
+8, test7@test.com, test7, False, False,deadp00l
+9, test8@test.com, test8, False, False,deadp00l
+10, test9@test.com, test9, False, False,deadp00l

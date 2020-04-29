@@ -76,10 +76,10 @@ class Product(models.Model):
             return None
 
     def review_amount(self):
-        if self.reviews.all():
-            return len([self.reviews.all()])
+        if self.reviews.exists():
+            return self.reviews.count()
         else:
-            return 0.0
+            return 0
 
     def get_absolute_url(self):
         return reverse('product', kwargs={'slug':self.slug})

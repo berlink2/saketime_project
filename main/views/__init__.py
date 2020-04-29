@@ -9,6 +9,9 @@ from .brewery import *
 from .userprofile import *
 from .homepage import *
 from .review import *
+from .recommendation import *
+
+
 
 
 

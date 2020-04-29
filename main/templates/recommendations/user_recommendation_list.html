@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+
+{% block content %}
+    <style>
+
+
+i{
+    color: black;
+}
+
+
+</style>
+    <div class="container">
+
+    <h5>Based on your preferences, we think you will enjoy these sake!</h5>
+    {% if suggestions %}
+    {% for suggestion in suggestions %}
+        <div class="row">
+        <div class="col">
+    {{suggestion}}
+        </div>
+        </div>
+        <hr>
+    {% endfor %}
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+    <nav class="" id="pager">
+
+        <ul class="pagination ">
+            {% if suggestions.has_previous %}
+                <li class="">
+                    <a class="" href="?page={{ suggestions.previous_page_number }}">
+                        <i class="fas fa-chevron-left  mr-3 fa-2x"></i>
+
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="" href="#"><i class="fas fa-chevron-left  mr-3 fa-2x"></i></a>
+                </li>
+            {% endif %}
+            {% for pagenum in suggestions.paginator.page_range %}
+                <li class=" page-item{% if suggestions.number == pagenum %} active text-white{% endif %}">
+                    <a class="page-link {% if suggestions.number == pagenum %}bg-dark {% else %}text-dark{% endif %}" href="?page={{ pagenum }}">{{ pagenum }} </a>
+                </li>
+            {% endfor %}
+        {% if suggestions.has_next %}
+            <li class="page-item">
+            <a class="" href="?page={{ suggestions.next_page_number }}">
+                <i class="fas fa-chevron-right  ml-3 fa-2x"></i>
+            </a>
+            </li>
+        {% else %}
+            <li class="page-item disabled">
+                <a class="" href="#"><i class="fas fa-chevron-right  ml-3 fa-2x"></i></a>
+            </li>
+        {% endif %}
+        </ul>
+    </nav>
+        </div>
+{% else %}
+        <div class="text-center">
+<h2>No suggestions available yet. Please review more sake so we can give you sake suggestions!</h2>
+        </div>
+{% endif %}
+{% endblock %}

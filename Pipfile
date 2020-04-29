@@ -15,6 +15,9 @@ django-filter = "*"
 weasyprint = "*"
 djangorestframework = "*"
 numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.7"

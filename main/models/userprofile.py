@@ -10,6 +10,9 @@ class UserProfile(models.Model):
     #email = models.EmailField(userprofile.email, blank=True, null=True)
     #Phone = models.IntegerField(blank=True, null=True)
 
+    def get_username(self):
+        return self.user.username
+
     def __str__(self):
         return self.user.username
 

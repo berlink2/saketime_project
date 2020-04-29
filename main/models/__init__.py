@@ -5,6 +5,10 @@ from .cart import *
 from .brewery import *
 from .review import *
 from .userprofile import *
+from .recommendations import *
+
+
+
 
 
 
