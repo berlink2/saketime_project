@@ -41,7 +41,7 @@ SECRET_KEY = 'sp_0ixd&d2@l=_-powca4uo5_0rp$98uk6lzxcx41b!_ylgp&3'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['warm-anchorage-76492.herokuapp.com', '127.0.0.1']
 
