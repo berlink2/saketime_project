@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/userprofile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/images/profile_images/dassai_23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/images/profile_images/saketime.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,7 @@
       <workItem from="1588183000636" duration="418000" />
       <workItem from="1588183466853" duration="25000" />
       <workItem from="1588183642488" duration="10483000" />
-      <workItem from="1588196539984" duration="9481000" />
+      <workItem from="1588196539984" duration="10064000" />
     </task>
     <servers />
   </component>
