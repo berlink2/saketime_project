@@ -12,20 +12,20 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os, environ
 
-env = environ.Env(
-    # set casting, default value
-    DEBUG=(bool, False)
-)
+# env = environ.Env(
+#     # set casting, default value
+#     DEBUG=(bool, False)
+# )
 
-env.read_env('.env')
-DEBUG = env('DEBUG')
-REDIS_URL = env('REDIS_URL')
-
-CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {"hosts": [REDIS_URL]},
-} }
+# env.read_env('.env')
+# DEBUG = env('DEBUG')
+# REDIS_URL = env('REDIS_URL')
+#
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisChannelLayer",
+#         "CONFIG": {"hosts": [REDIS_URL]},
+# } }
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -34,9 +34,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-EMAIL_CONFIG = env.email_url('EMAIL_URL')
-vars().update(EMAIL_CONFIG)
-SECRET_KEY = env('SECRET_KEY')
+# EMAIL_CONFIG = env.email_url('EMAIL_URL')
+# vars().update(EMAIL_CONFIG)
+# SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'sp_0ixd&d2@l=_-powca4uo5_0rp$98uk6lzxcx41b!_ylgp&3'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -109,28 +110,29 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'saketime_project.wsgi.application'
 
+
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'saketime_db',
-        'USER': 'postgres',
-        'PASSWORD': 'deadp00l',
-        'HOST': 'localhost',
-        'POST': '5432',
-
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'saketime_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'deadp00l',
+#         'HOST': 'localhost',
+#         'POST': '5432',
+#
+#
+#     }
+# }
 
 
 
@@ -175,7 +177,7 @@ MEDIA_URL = '/media/'
 
 
 if not DEBUG:
-    STATICFILES_STORAGE = 'whitenoise.storage. CompressedManifestStaticFilesStorage'
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_HOST_USER = "username"
