@@ -43,7 +43,7 @@ SECRET_KEY = 'sp_0ixd&d2@l=_-powca4uo5_0rp$98uk6lzxcx41b!_ylgp&3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://saketime.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['pure-oasis-47543.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
