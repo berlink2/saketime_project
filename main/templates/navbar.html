@@ -94,13 +94,13 @@
                 {% if request.user.is_authenticated %}
                     <li class="nav-item col-auto pr-0">
                         <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                                {% if request.user.userprofile.profile_image %}
+                                {% if request.user.userprofile.profile_image.exists %}
                             {% thumbnail request.user.userprofile.profile_image "75x75" as im %}
                                 <img class="rounded-circle border border-dark z-depth-2" src="{{ im.url }}"/>
 
                             {% endthumbnail %}
                                     {% else %}
-                                   <img src="{% static 'images/profile_images/masu_profile.jpg' %}" height="75" width="75" />
+                                   <img class="rounded-circle border border-dark z-depth-2" src="{% static 'images/profile_images/masu_profile.jpg' %}" height="75" width="75" />
                                     {% endif %}
                         </a>
                 <ul class="dropdown-menu">

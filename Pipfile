@@ -22,6 +22,7 @@ psycopg2 = "*"
 whitenoise = "*"
 django-environ = "*"
 gunicorn = "*"
+cloudinary = "*"
 
 [requires]
 python_version = "3.7"

@@ -12,12 +12,12 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os, environ
 
-# env = environ.Env(
-#     # set casting, default value
-#     DEBUG=(bool, False)
-# )
+env = environ.Env(
+    # set casting, default value
+    DEBUG=(bool, False)
+)
 
-# env.read_env('.env')
+env.read_env('.env')
 # DEBUG = env('DEBUG')
 # REDIS_URL = env('REDIS_URL')
 #
@@ -36,12 +36,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 # EMAIL_CONFIG = env.email_url('EMAIL_URL')
 # vars().update(EMAIL_CONFIG)
-# SECRET_KEY = env('SECRET_KEY')
-SECRET_KEY = 'sp_0ixd&d2@l=_-powca4uo5_0rp$98uk6lzxcx41b!_ylgp&3'
+SECRET_KEY = env('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['warm-anchorage-76492.herokuapp.com', '127.0.0.1']
 
@@ -60,6 +59,7 @@ INSTALLED_APPS = [
     'sorl.thumbnail',
     'users.apps.UsersConfig',
     'rest_framework',
+    'cloudinary',
 
 ]
 
