@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0020_auto_20200503_1525.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/accounts/account_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/accounts/account_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +129,7 @@
       <workItem from="1588196539984" duration="13316000" />
       <workItem from="1588410633563" duration="223000" />
       <workItem from="1588412483813" duration="2833000" />
-      <workItem from="1588507050364" duration="11725000" />
+      <workItem from="1588507050364" duration="12256000" />
     </task>
     <servers />
   </component>
