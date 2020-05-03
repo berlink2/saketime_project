@@ -40,7 +40,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['warm-anchorage-76492.herokuapp.com', '127.0.0.1']
 
@@ -64,19 +64,19 @@ INSTALLED_APPS = [
 
 
 
-cloudinary.config(
-    cloud_name = "dw9ogqqqh",
-    api_key = '455919288359572',
-    api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
-    secure = True
-)
-
 # cloudinary.config(
-#     cloud_name = env('cloud_name'),
-#     api_key = env('api_key'),
-#     api_secret = env('api_secret'),
+#     cloud_name = "dw9ogqqqh",
+#     api_key = '455919288359572',
+#     api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
 #     secure = True
 # )
+
+cloudinary.config(
+    cloud_name = env('cloud_name'),
+    api_key = env('api_key'),
+    api_secret = env('api_secret'),
+    secure = True
+)
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':
