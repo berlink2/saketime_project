@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.31bb92a42818.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.31bb92a42818.html.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.html.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/profile_images/masu_profile.c3f627641295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/images/profile_images/masu_profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.33ecbe6885ad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.33ecbe6885ad.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.7e0188f5baff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.7e0188f5baff.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.7c40367b00f7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.7c40367b00f7.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.840f65232eaf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.840f65232eaf.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.a144e6149c89.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.a144e6149c89.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.4bfd85460689.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.4bfd85460689.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.f371e8d9f573.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.f371e8d9f573.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.3d0f0f5ca5d8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.3d0f0f5ca5d8.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.c4cdadc311ce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.c4cdadc311ce.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +128,7 @@
       <workItem from="1588196539984" duration="13316000" />
       <workItem from="1588410633563" duration="223000" />
       <workItem from="1588412483813" duration="2833000" />
-      <workItem from="1588507050364" duration="12325000" />
+      <workItem from="1588507050364" duration="12532000" />
     </task>
     <servers />
   </component>
