@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/brewery_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/brewery_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +130,7 @@
       <workItem from="1588196539984" duration="13316000" />
       <workItem from="1588410633563" duration="223000" />
       <workItem from="1588412483813" duration="2833000" />
-      <workItem from="1588507050364" duration="12532000" />
+      <workItem from="1588507050364" duration="13737000" />
     </task>
     <servers />
   </component>

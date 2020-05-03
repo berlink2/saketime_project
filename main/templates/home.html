@@ -47,8 +47,7 @@
     <div class="col-6">
         <h4>Sake of the Month</h4>
         <p class="mt-3">
-
-        <img src="{{ best_product.image.url }}" height="200" width="200"/>
+        <img src="{{ best_product.first_image.image.url }}" height="200" width="200"/>
         </p>
     <p>
         <a href="{{ best_product.get_absolute_url }}"> {{ best_product.name }}</a>
