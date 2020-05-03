@@ -14,12 +14,12 @@
         <div class="card my-5 rounded">
           <div class="row justify-content-center mt-4">
 
-          {% if request.user.userprofile.profile_image %}
+          {% if request.user.userprofile.profile_image.exists %}
 <img class="rounded-circle" src="{{ request.user.userprofile.profile_image.url }}" height="250" width="250" />
 
 
                                     {% else %}
-                                   <img class="rounded-circle" src="{% static 'images/profile_images/masu_profile.jpg' %}" height="250" width="250" />
+                                   <img class="rounded-circle" src="{% static 'images/masu_profile.jpg' %}" height="250" width="250" />
                                     {% endif %}
           </div>
         <div class="card-body text-center">

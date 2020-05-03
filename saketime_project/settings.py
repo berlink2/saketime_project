@@ -64,19 +64,19 @@ INSTALLED_APPS = [
 
 
 
-cloudinary.config(
-    cloud_name = "dw9ogqqqh",
-    api_key = '455919288359572',
-    api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
-    secure = True
-)
-
 # cloudinary.config(
-#     cloud_name = env('cloud_name'),
-#     api_key = env('cloud_api_key'),
-#     api_secret = env('cloud_secret_key'),
+#     cloud_name = "dw9ogqqqh",
+#     api_key = '455919288359572',
+#     api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
 #     secure = True
 # )
+
+cloudinary.config(
+    cloud_name = env('cloud_name'),
+    api_key = env('cloud_api_key'),
+    api_secret = env('cloud_secret_key'),
+    secure = True
+)
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':
@@ -148,10 +148,11 @@ DATABASES = {
 
     }
 }
-import dj_database_url
 
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+# import dj_database_url
+#
+# db_from_env = dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(db_from_env)
 
 
 # Password validation
