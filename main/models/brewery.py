@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
 from django.shortcuts import reverse
+from cloudinary.models import CloudinaryField
 
 
 class BreweryManager(models.Manager):
@@ -16,11 +17,13 @@ class Brewery(models.Model):
     email = models.EmailField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     slug = models.SlugField(unique=True, blank=True)
-    image = models.ImageField(upload_to='breweries', blank=True)
+    #image = models.ImageField(upload_to='breweries', blank=True)
+    image = CloudinaryField('image')
     lat = models.FloatField(blank=True, null=True)
     long = models.FloatField(blank=True, null=True)
     website = models.CharField(max_length=100, blank=True)
-    header = models.ImageField(upload_to='breweries',blank=True, null=True)
+    #header = models.ImageField(upload_to='breweries',blank=True, null=True)
+    header = CloudinaryField('header')
     objects = BreweryManager()
 
     class Meta:

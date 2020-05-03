@@ -1,14 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
-{% load thumbnail %}
 <style>
     img {
         margin-right: 100vh;
     }
-
-
     </style>
-
 {% block content %}
     {% if formset %}
 
@@ -35,9 +31,8 @@
                 <td>
                     <div class="row">
                     <div class="col-2 mr-auto">
-                    {% thumbnail form.instance.product.first_image.image '100x90' as im %}
-                    <img class="img-sm img-responsive" src="{{ im.url }}"/>
-                    {% endthumbnail %}
+
+                    <img class="img-sm img-responsive" src="{{ form.instance.product.first_image.image.url }} " height="100" width="50"/>
                     </div>
 
                     <div class="col-10">
@@ -107,13 +102,3 @@ class="btn btn-danger btn-lg">Login</a>
 {% endif %}
 {% endblock content %}
 
-{% block extra_js %}
-    {% if formset %}
-    {{ formset.media }}
-    {% endif %}
-
-    <script>
-    let orderTotal = document.getElementById('order_total')
-    document.ge
-    </script>
-{% endblock extra_js %}

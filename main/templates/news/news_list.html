@@ -1,7 +1,4 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
-
-
 {% block content %}
 
 <style>
@@ -23,9 +20,8 @@ i{
     {% for post in object_list  %}
         <div class="row">
         <div class="col-4">
-            {% thumbnail post.image "200x200" as im %}
-            <img src="{{ im.url}}"/>
-            {% endthumbnail %}
+
+        <img src="{{ post.image.url }}" height="200" width="200"/>
         </div>
         <div class="col-8">
             <table>

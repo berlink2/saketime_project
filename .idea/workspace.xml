@@ -2,8 +2,281 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/brewery.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/brewery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models/userprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models/userprofile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/asahishuzo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/dassai_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/ishikawa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/ishikawabanner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/tedorigawa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/tedorigawa_0GmddB1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/breweries/tedorigawabanner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/header2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/post-images/sakecup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/post-images/saketypes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai23-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai39-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai45_6SS6kr8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai45sparkling.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_J9PauFh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_cWYFqWK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_23_otemWMS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_45_nigori.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_45_nigori_je77HJ0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_50_sparkling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_50_sparkling_IaNBGrf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_beyond.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/dassai_beyond_TyhbyON.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_daiginjo_shizuku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_tama_no_yorokobi_jg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/ishikawa_tamajiman_daiginjo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/ozeki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamab_boasts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamab_boasts_LpiBXWo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_daiginjo_1800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_daiginjo_1800_ud1wVIr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_namahara.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tamajiman_namahara_B8o8IL9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/taman_kashiro_white_dry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/taman_kashiro_white_dry_OCu0RnW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_arabashiri.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_arabashiri_PKIRjW4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_dg_yamahai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_iki_na_onna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/tedorigawa_mangekyo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_0o15G2f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_1ICL2UK.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_HOA1Tpb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_TusfXkG.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_eMJ4UjT.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_eQP3ryP.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_gGgwUD4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test1_rFMET1B.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_2wcM8rZ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_WvDLm8S.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_XbTB64Z.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_hovHk1t.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_mMDidR0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_ne00Rdj.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_v1CE5zN.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/product-images/test2_wWUuS5t.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/profile_images/masu_profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai23-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai39-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai45-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/dassai45sparkling.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_daiginjo_shizuku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_junmai_kumagawa_ichibanchi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_tama_no_yorokobi_jg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/ishikawa_tamajiman_daiginjo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_dg_yamahai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_iki_na_onna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/sakes/tedorigawa_mangekyo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/images/saketime.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/accounts/account_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/accounts/account_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/brewery_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/brewery_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/brewery_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/brewery_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/news/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/news/news_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/news/news_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/news/news_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/recommendations/user_recommendation_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/recommendations/user_recommendation_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/asahishuzo.ef8379d95615.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/asahishuzo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/dassai_banner.a754a4109eb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/dassai_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawa.bde5bfa65dda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawabanner1.111d26b35f9c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/ishikawabanner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa.e6b5095658dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa_0GmddB1.e6b5095658dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawa_0GmddB1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawabanner2.ab9e04f2787e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/breweries/tedorigawabanner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/header2.aa8a2c4c8836.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/header2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/post-images/sakecup.1db79ec65705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/post-images/sakecup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/post-images/saketypes.af5010b9c7a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/post-images/saketypes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23-2.00263b215574.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23.bf69fa3dbcb2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39-box.1cdb2da65f67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39.39eb4f0c35a1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45.b6b197337fd9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45_6SS6kr8.b6b197337fd9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45_6SS6kr8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45sparkling.7b13ff560b10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai45sparkling.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23.cccc26e5c81c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_J9PauFh.cccc26e5c81c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_J9PauFh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_cWYFqWK.cccc26e5c81c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_cWYFqWK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_otemWMS.cccc26e5c81c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_23_otemWMS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori.87efbceca336.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori_je77HJ0.87efbceca336.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_45_nigori_je77HJ0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling.174fc2196b4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling_IaNBGrf.174fc2196b4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_50_sparkling_IaNBGrf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond.4a6ba1cd1de8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond_TyhbyON.4a6ba1cd1de8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/dassai_beyond_TyhbyON.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_daiginjo_shizuku.e8cae09d4bf7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_daiginjo_shizuku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_junmai_kumagawa_ichibanchi.8d85804e16d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_junmai_kumagawa_ichibanchi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tama_no_yorokobi_jg.f16071be6719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tama_no_yorokobi_jg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tamajiman_daiginjo.c487e470a39a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ishikawa_tamajiman_daiginjo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ozeki.70cd7072baf1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/ozeki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts.db3b57b64930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts_LpiBXWo.db3b57b64930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamab_boasts_LpiBXWo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800.86d8d33c7593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800_ud1wVIr.86d8d33c7593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_daiginjo_1800_ud1wVIr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara.c5abdbd23a47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara_B8o8IL9.c5abdbd23a47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tamajiman_namahara_B8o8IL9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry.bb507d3826ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry_OCu0RnW.bb507d3826ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/taman_kashiro_white_dry_OCu0RnW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri.ee11f99bc553.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri_PKIRjW4.ee11f99bc553.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_arabashiri_PKIRjW4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_dg_yamahai.52fc33690f2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_dg_yamahai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna.8d955dfa50be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna_xeRl7IY.8d955dfa50be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_iki_na_onna_xeRl7IY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_mangekyo.6457fb80b61c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/tedorigawa_mangekyo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_0o15G2f.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_0o15G2f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_1ICL2UK.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_1ICL2UK.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_HOA1Tpb.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_HOA1Tpb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_TusfXkG.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_TusfXkG.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eMJ4UjT.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eMJ4UjT.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eQP3ryP.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_eQP3ryP.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_gGgwUD4.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_gGgwUD4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_rFMET1B.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test1_rFMET1B.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_2wcM8rZ.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_2wcM8rZ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_WvDLm8S.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_WvDLm8S.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_XbTB64Z.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_XbTB64Z.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_hovHk1t.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_hovHk1t.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_mMDidR0.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_mMDidR0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_ne00Rdj.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_ne00Rdj.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_v1CE5zN.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_v1CE5zN.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_wWUuS5t.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/product-images/test2_wWUuS5t.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/dassai_23.cccc26e5c81c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/dassai_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/masu_profile.c3f627641295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/masu_profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/saketime.a417d4aa9786.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/profile_images/saketime.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23-2.00263b215574.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23.bf69fa3dbcb2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39-box.1cdb2da65f67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39.39eb4f0c35a1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45-box.571b5c77402e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45-box.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45.b6b197337fd9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45sparkling.7b13ff560b10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/dassai45sparkling.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_daiginjo_shizuku.e8cae09d4bf7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_daiginjo_shizuku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_junmai_kumagawa_ichibanchi.8d85804e16d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_junmai_kumagawa_ichibanchi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tama_no_yorokobi_jg.f16071be6719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tama_no_yorokobi_jg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tamajiman_daiginjo.c487e470a39a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/ishikawa_tamajiman_daiginjo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_dg_yamahai.52fc33690f2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_dg_yamahai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_iki_na_onna.8d955dfa50be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_iki_na_onna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_mangekyo.6457fb80b61c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/sakes/tedorigawa_mangekyo.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +400,8 @@
       <workItem from="1588183642488" duration="10483000" />
       <workItem from="1588196539984" duration="13316000" />
       <workItem from="1588410633563" duration="223000" />
-      <workItem from="1588412483813" duration="2324000" />
+      <workItem from="1588412483813" duration="2833000" />
+      <workItem from="1588507050364" duration="9973000" />
     </task>
     <servers />
   </component>

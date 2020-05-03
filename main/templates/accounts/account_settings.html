@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
+{% load staticfiles %}
 {% block content %}
 
 <br>
@@ -11,10 +11,11 @@
             <hr>
             <h3 class="text-center">Account Settings</h3>
             <hr>
-            {% thumbnail request.user.userprofile.profile_image "200x200" as im %}
-                                <img class="rounded-circle  z-depth-2" src="{{ im.url }}"/>
-
-                            {% endthumbnail %}
+            {% if request.user.userprofile.profile_image %}
+                            <img class="rounded-circle" src="{{ request.user.userprofile.profile_image.url }}" height="200" width="200"  />
+                                    {% else %}
+                                   <img class="rounded-circle" src="{% static 'images/profile_images/masu_profile.jpg' %}" height="200" width="200" />
+                                    {% endif %}
         </div>
     </div>
 

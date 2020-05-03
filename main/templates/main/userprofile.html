@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
-{% load thumbnail %}
 
 {% block content %}
     <style>
@@ -15,11 +14,10 @@
         <div class="card my-5 rounded">
           <div class="row justify-content-center mt-4">
 
-          {% if request.user.userprofile.profile_image.exists %}
-                            {% thumbnail request.user.userprofile.profile_image "300x300" as im %}
-                                <img class="rounded-circle" src="{{ im.url }}" />
+          {% if request.user.userprofile.profile_image %}
+<img class="rounded-circle" src="{{ request.user.userprofile.profile_image.url }}" height="250" width="250" />
 
-                            {% endthumbnail %}
+
                                     {% else %}
                                    <img class="rounded-circle" src="{% static 'images/profile_images/masu_profile.jpg' %}" height="250" width="250" />
                                     {% endif %}
@@ -30,7 +28,7 @@
         <ul class="list-group" style="list-style-type: none">
             {% for review in userprofile.reviews.all %}
                 <li>
-            <small><a href="#">{{ review.sake }}</a> </small>
+            <small><a href="#">{{ review.sake }}</a></small>
                 </li>
             {% endfor %}
         </ul>

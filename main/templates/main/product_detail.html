@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
 {% block content %}
     <div class="container">
     <div class="row">
@@ -49,7 +48,7 @@
     <table class="table">
         <tr>
             <th>Brewer</th>
-            <td><a href="#">{{ product.brewery }}</a></td>
+            <td><a href="{% url 'brewery' product.brewery.slug %}">{{ product.brewery }}</a></td>
         </tr>
         <tr>
             <th>Prefecture</th>
@@ -136,12 +135,10 @@
         document.addEventListener("DOMContentLoaded", function (event) {
             var images = [
                 {% for image in object.image_all %}
-                {% thumbnail image.image "300x300" as im %}
                     {
-                        "image": "{{ im.url |safe }}",
-                        "thumbnail": "{{ im.url|safe }}"
+                        "image": "{{ image.image.url |safe }}",
+                        "thumbnail": "{{ image.image.url|safe }}"
                     },
-                    {% endthumbnail %}
                 {% endfor %}
 
             ]

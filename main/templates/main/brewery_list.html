@@ -1,15 +1,12 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
-
 {% block content %}
     <div class="container mt-5 text-center">
     <div class="row">
         {% for brewery in page_obj %}
         <div class="col">
 <p>
-        {% thumbnail brewery.image '200x200' as im %}
-        <img src="{{ im.url }}"/>
-        {% endthumbnail %}
+
+        <img src="{{ brewery.image.url }}" height="200" width="200"/>
         </p>
         <p><a href="{% url 'brewery' brewery.slug%}"> {{ brewery.name }}</a></p>
         Prefecture: {{ brewery.prefecture }}

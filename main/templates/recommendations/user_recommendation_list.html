@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
 
 {% block content %}
     <style>
@@ -23,9 +22,8 @@ i{
     {% for suggestion in suggestions %}
         <div class="row">
         <div class="col-4">
-            {% thumbnail suggestion.first_image.image "300x300" as im %}
-            <img src="{{ im.url}}"/>
-            {% endthumbnail %}
+
+        <img src="{{ suggestion.first_image.image.url }}" height="300" width="300"/>
         </div>
         <div class="col-8">
             <table>

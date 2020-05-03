@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-
 {% block content %}
 <style>
     .card {
@@ -11,9 +10,8 @@
 <div class="row">
     <div class="col-4 pl-5">
         <div class="mt-5">
-            {% thumbnail brewery.image "250x250" as im %}
-    <img src="{{ im.url }} "/>
-    {% endthumbnail %}
+
+        <img src="{{ brewery.image.url }}" height="200" width="200"/>
             </div>
     </div>
     <div class="col-8 ">
@@ -37,10 +35,9 @@
         <p>Email: {{ brewery.email }}</p>
         <p>Website: <a href="{{ brewery.website }}">{{ brewery.website }}</a> </p>
         </div>
-<div class="col-6">
-    {% thumbnail brewery.header "400x300" as im %}
-    <img src="{{ im.url }} "/>
-    {% endthumbnail %}
+<div class="col-6 mb-5 ">
+
+<img src="{{ brewery.header.url }}" height="300" width="400"/>
 </div>
 
 
@@ -50,13 +47,12 @@
 
     <div class="container mt-5 text-center">
 <h4>Products</h4>
-    <div class="row mt-5 justify-content-center">
+    <div class="card-columns mt-5">
+
     {% for product in products %}
     <div class="card" style="width: 20rem;">
     <div class="card-header text-center">
-        {% thumbnail product.first_image.image "250x250" as im %}
-    <img src="{{ im.url }} "/>
-    {% endthumbnail %}
+            <img src="{{ product.first_image.image.url }}" height="300" width="250"} />
     </div>
     <div class="card-body text-center">
         <div class="row justify-content-center"><small>{{ product.name }}</small></div>
@@ -66,6 +62,7 @@
         </div>
     </div>
     </div>
+
     {% endfor %}
     </div>
     </div>

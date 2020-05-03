@@ -1,10 +1,13 @@
 from django.contrib import admin
+from django.forms import ModelForm
+
 from .models import *
 from django.urls import path
 from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponse
 from django.template.loader import render_to_string
 from weasyprint import HTML
+from cloudinary.forms import CloudinaryFileField
 import tempfile
 
 # Register your models here.
@@ -24,6 +27,7 @@ def make_inactive(self,request, queryset):
 make_inactive.short_description = (
     "Mark selected items as inactive"
 )
+
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'slug', 'in_stock', 'price')
@@ -76,9 +80,22 @@ class ProductTagAdmin(admin.ModelAdmin):
 admin.site.register(ProductTag, ProductTagAdmin)
 
 
+class ProductImageForm(ModelForm):
+    image = CloudinaryFileField(
+        options={
+            'folder': 'sake_time/products'
+        }
+    )
+
+    class Meta:
+        model = ProductImage
+        fields = '__all__'
+
+
 class ProductImageAdmin(admin.ModelAdmin):
     list_display = ('image_tag', 'image', 'product_name',)
     search_fields = ('product_name', 'product__name',)
+    form = ProductImageForm
 
     def image_tag(self, obj):
         if obj.image:
@@ -163,9 +180,43 @@ class OrderAdmin(admin.ModelAdmin):
         ),
     )
 
+class BreweryForm(ModelForm):
+    image = CloudinaryFileField(
+        options={
+            'folder': 'sake_time/breweries'
+        }
+    )
 
-admin.site.register(Brewery)
-admin.site.register(Post)
+    header = CloudinaryFileField(
+        options={
+            'folder': 'sake_time/breweries'
+        }
+    )
+
+    class Meta:
+        model = Brewery
+        fields = '__all__'
+
+
+@admin.register(Brewery)
+class BreweryAdmin(admin.ModelAdmin):
+    form =  BreweryForm
+    list_display = ('id', 'name')
+
+class PostForm(ModelForm):
+    image = CloudinaryFileField(
+        options={
+            'folder': 'sake_time/posts'
+        }
+    )
+    class Meta:
+        model = Post
+        fields = '__all__'
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    form = PostForm
+    list_display = ('id', 'title')
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):

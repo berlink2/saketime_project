@@ -8,7 +8,6 @@ verify_ssl = true
 [packages]
 django = "==2.2.12"
 pillow = "*"
-sorl-thumbnail = "*"
 factory-boy = "*"
 django-tables2 = "*"
 django-filter = "*"
@@ -23,6 +22,7 @@ whitenoise = "*"
 django-environ = "*"
 gunicorn = "*"
 cloudinary = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.7"

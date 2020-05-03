@@ -1,11 +1,10 @@
 {% load staticfiles %}
-{% load thumbnail %}
-
 <div class="container">
     <nav class="navbar py-0 navbar-expand-lg navbar-light bg-white">
 
         <a class="navbar-brand" href="{% url 'home' %}">
             <img src="{% static 'images/masu.jpeg' %}" width="90" height="90" alt="logo"> SakeTime
+
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2">
@@ -73,9 +72,12 @@
                  <li class="nav-item">
                     <a class="nav-link text-dark" href="{% url 'review_list' %}">Reviews</a>
                 </li>
+                {% if request.user.is_authenticated %}
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="{% url 'user_recommend_list' %}">Suggestions</a>
                 </li>
+
+                {% endif %}
             </ul>
 
             {#    <form class="form-inline text-center my-2 my-lg-0">#}
@@ -94,11 +96,8 @@
                 {% if request.user.is_authenticated %}
                     <li class="nav-item col-auto pr-0">
                         <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                                {% if request.user.userprofile.profile_image.exists %}
-                            {% thumbnail request.user.userprofile.profile_image "75x75" as im %}
-                                <img class="rounded-circle border border-dark z-depth-2" src="{{ im.url }}"/>
-
-                            {% endthumbnail %}
+                                {% if request.user.userprofile.profile_image %}
+                            <img class="rounded-circle" src="{{ request.user.userprofile.profile_image.url }}" height="75" width="75" />
                                     {% else %}
                                    <img class="rounded-circle border border-dark z-depth-2" src="{% static 'images/profile_images/masu_profile.jpg' %}" height="75" width="75" />
                                     {% endif %}

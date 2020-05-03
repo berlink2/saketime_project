@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% load thumbnail %}
 {% block content %}
 <div class="container">
 
@@ -8,9 +7,8 @@
 
 
     <div class="col-12 mt-3">
-        {% thumbnail post.image "300x300" as im %}
-        <p><img src="{{ im.url }}"></p>
-        {% endthumbnail %}
+
+    <img src="{{ post.image.url }}" height="300" width="300"/>
         <p class="lead">by {{ post.author }}</p>
         <p>{{ post.date }}</p>
         <p>{{ post.body|linebreaks }}</p>

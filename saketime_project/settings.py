@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import os, environ
+import os, environ, cloudinary
 
 env = environ.Env(
     # set casting, default value
@@ -18,6 +18,7 @@ env = environ.Env(
 )
 
 env.read_env('.env')
+
 # DEBUG = env('DEBUG')
 # REDIS_URL = env('REDIS_URL')
 #
@@ -38,7 +39,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # vars().update(EMAIL_CONFIG)
 SECRET_KEY = env('SECRET_KEY')
 
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -56,12 +56,27 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'django_tables2',
-    'sorl.thumbnail',
     'users.apps.UsersConfig',
     'rest_framework',
     'cloudinary',
 
 ]
+
+
+
+cloudinary.config(
+    cloud_name = "dw9ogqqqh",
+    api_key = '455919288359572',
+    api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
+    secure = True
+)
+
+# cloudinary.config(
+#     cloud_name = env('cloud_name'),
+#     api_key = env('cloud_api_key'),
+#     api_secret = env('cloud_secret_key'),
+#     secure = True
+# )
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':
@@ -114,26 +129,29 @@ WSGI_APPLICATION = 'saketime_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'saketime_db',
-#         'USER': 'postgres',
-#         'PASSWORD': 'deadp00l',
-#         'HOST': 'localhost',
-#         'POST': '5432',
-#
-#
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'saketime_db',
+        'USER': 'postgres',
+        'PASSWORD': 'deadp00l',
+        'HOST': 'localhost',
+        'POST': '5432',
+
+
+    }
+}
+import dj_database_url
+
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
