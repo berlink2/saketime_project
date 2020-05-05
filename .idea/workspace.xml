@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cedc93-98aa-48f2-9f86-467f89cef1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brewerybackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postbackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productbackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productimagebackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producttagbackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviewbackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userbackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofilebackup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_auto_20200425_2015.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0002_auto_20200505_0902.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0003_brewery_prefecture.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0004_brewery_header.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0005_auto_20200426_0445.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0006_auto_20200427_1255.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0007_auto_20200427_1403.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0008_auto_20200428_1503.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0009_auto_20200428_1507.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0010_auto_20200428_1551.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0011_auto_20200428_1823.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0012_auto_20200428_1844.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0013_auto_20200428_1946.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0014_auto_20200428_1949.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0015_auto_20200429_1217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0016_cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0017_auto_20200429_1717.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0018_post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0019_post_lede.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0020_auto_20200503_1525.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/userprofile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saketime_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saketime_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +135,7 @@
       <workItem from="1588536392697" duration="63000" />
       <workItem from="1588586432373" duration="674000" />
       <workItem from="1588587227039" duration="298000" />
-      <workItem from="1588668355797" duration="3053000" />
+      <workItem from="1588668355797" duration="3492000" />
     </task>
     <servers />
   </component>

@@ -64,14 +64,19 @@ INSTALLED_APPS = [
 
 
 
-
-
 cloudinary.config(
-    cloud_name = env('cloud_name'),
-    api_key = env('api_key'),
-    api_secret = env('api_secret'),
+    cloud_name = "dw9ogqqqh",
+    api_key = '455919288359572',
+    api_secret = '4UxHdABpZXms85D3uvF6Xfy95GA',
     secure = True
 )
+
+# cloudinary.config(
+#     cloud_name = env('cloud_name'),
+#     api_key = env('api_key'),
+#     api_secret = env('api_secret'),
+#     secure = True
+# )
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':
@@ -131,23 +136,24 @@ WSGI_APPLICATION = 'saketime_project.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'saketime_db',
-        'USER': 'postgres',
-        'PASSWORD': 'deadp00l',
-        'HOST': 'localhost',
-        'POST': '5432',
-
-
-    }
-}
-
-# import dj_database_url
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'saketime_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'deadp00l',
+#         'HOST': 'localhost',
+#         'POST': '5432',
 #
-# db_from_env = dj_database_url.config(conn_max_age=600)
-# DATABASES['default'].update(db_from_env)
+#
+#     }
+# }
+
+import dj_database_url
+DATABASES = {}
+#db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+#DATABASES['default'].update(db_from_env)
 
 
 # Password validation
