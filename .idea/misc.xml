@@ -3,5 +3,27 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/main/migrations/0001_initial.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0002_auto_20200425_2015.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0003_brewery_prefecture.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0004_brewery_header.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0005_auto_20200426_0445.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0006_auto_20200427_1255.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0007_auto_20200427_1403.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0008_auto_20200428_1503.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0009_auto_20200428_1507.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0010_auto_20200428_1551.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0011_auto_20200428_1823.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0012_auto_20200428_1844.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0013_auto_20200428_1946.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0014_auto_20200428_1949.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0015_auto_20200429_1217.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0016_cluster.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0017_auto_20200429_1717.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0018_post.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0019_post_lede.py" />
+    <file url="file://$PROJECT_DIR$/main/migrations/0020_auto_20200503_1525.py" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (saketime_root)" project-jdk-type="Python SDK" />
 </project>
